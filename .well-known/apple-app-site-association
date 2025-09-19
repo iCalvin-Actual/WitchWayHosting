@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["G9LCFVC8QK.com.icalvin.Witch-Way"],
+        "components": [{ "/": "/*" }]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": ["G9LCFVC8QK.com.icalvin.Witch-Way.Clip"]
+  }
+}
