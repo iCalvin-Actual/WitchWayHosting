@@ -1,5 +1,81 @@
 [
-  {
+    {
+      "name": "South Harbor Garage",
+      "coordinate": {
+          "latitude": 42.52040,
+          "longitude": -70.89054
+      },
+      "categories": [
+          "parking",
+          "publicRestroom"
+      ],
+      "address" : "245 Derby St, Salem MA",
+      "website": null,
+      "phoneNumber": null
+    },
+    {
+      "name": "Central Wharf",
+      "coordinate": {
+          "latitude": 42.52075,
+          "longitude": -70.88777
+      },
+      "categories": [
+          "pointOfInterest",
+          "publicRestroom"
+      ],
+      "address": "193 Derby St, Salem MA",
+      "website": null,
+      "phoneNumber": null
+    },
+    {
+      "name": "Salem Visitor's Center",
+      "coordinate": {
+          "latitude": 42.52246,
+          "longitude": -70.89205
+      },
+      "categories": [
+          "museum",
+          "souvenierShop",
+          "publicRestroom"
+      ],
+      "address": "2 New Liberty St, Salem MA",
+      "website": null,
+      "phoneNumber": null
+    },
+    {
+      "name": "Visitor Center Potties",
+      "coordinate": {
+          "latitude": 42.52261,
+          "longitude": -70.89217
+      },
+      "categories": ["portAPotty"],
+      "address": null,
+      "website": null,
+      "phoneNumber": null
+    },
+    {
+      "name": "Salem Common Potties",
+      "coordinate": {
+          "latitude": 42.52443,
+          "longitude": -70.88969
+      },
+      "categories": ["portAPotty"],
+      "address": null,
+      "website": null,
+      "phoneNumber": null
+    },
+    {
+      "name": "Lynde Street Lot Potties",
+      "coordinate": {
+          "latitude": 42.52226,
+          "longitude": -70.89768
+      },
+      "categories": ["portAPotty"],
+      "address": null,
+      "website": null,
+      "phoneNumber": null
+    },
+    {
     "address" : "150 Main St, Peabody",
     "categories" : [
       "atm"
@@ -3342,32 +3418,6 @@
     "name" : "Salem State University School of Social Work",
     "phoneNumber" : "+1 (978) 542-6650",
     "website" : "https:\/\/www.salemstate.edu\/academics\/maguire-meservey-college-health-and-human-services\/school-social-work"
-  },
-  {
-    "address" : "27 Congress St, Ste 502, Salem",
-    "categories" : [
-      "wineBar"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5176972,
-      "longitude" : -70.8863921
-    },
-    "id" : "92BD253F-4120-41BA-90B6-58313B76F1EC",
-    "name" : "Mount Ida Reserve",
-    "website" : "https:\/\/turkeyruncville.com"
-  },
-  {
-    "address" : "4 Florence St, Unit 3, Salem",
-    "categories" : [
-      "wineBar"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5156947,
-      "longitude" : -70.8952056
-    },
-    "id" : "DE7A08C2-BDFF-4B49-9DDD-7F40001C4C44",
-    "name" : "Rumson's Rum",
-    "phoneNumber" : "+1 (978) 745-4786"
   },
   {
     "address" : "266 Essex St, Salem",
