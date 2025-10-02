@@ -106,19 +106,6 @@
     "website" : "https:\/\/locators.bankofamerica.com\/ma\/salem\/atm-salem-102919.html"
   },
   {
-    "address" : "200 Essex St, Salem",
-    "categories" : [
-      "atm"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5218494,
-      "longitude" : -70.8945128
-    },
-    "name" : "LibertyX Bitcoin ATM",
-    "phoneNumber" : "+1 (800) 511-8940",
-    "website" : "https:\/\/libertyx.com"
-  },
-  {
     "address" : "35 Main St, Peabody",
     "categories" : [
       "atm"
@@ -206,7 +193,7 @@
       "latitude" : 42.5200151,
       "longitude" : -70.8913467
     },
-    "name" : "Lulu’s Bakery & Pantry ",
+    "name" : "Lulu’s Bakery & Pantry",
     "phoneNumber" : "+1 (978) 594-4531",
     "website" : "https:\/\/lulusbakeryandpantry.com"
   },
@@ -1284,7 +1271,7 @@
   {
     "address" : "204 Derby St, Salem",
     "categories" : [
-      "market"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5209629,
@@ -1349,7 +1336,7 @@
   {
     "address" : "32 Church St, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5226158,
@@ -1388,7 +1375,7 @@
   {
     "address" : "5 Gedney St, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5191771,
@@ -1437,7 +1424,7 @@
   {
     "address" : "128 North St, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5274446,
@@ -1979,7 +1966,7 @@
   {
     "address" : "194 3\/4 Essex Street, Salem",
     "categories" : [
-      "museum"
+      "attraction"
     ],
     "coordinate" : {
       "latitude" : 42.521818,
@@ -2724,7 +2711,7 @@
   {
     "address" : "43 Church St, Salem",
     "categories" : [
-      "foodRestaurant",
+      "seafood",
       "customerRestroom"
     ],
     "coordinate" : {
@@ -2738,7 +2725,7 @@
   {
     "address" : "122 Washington St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "diner"
     ],
     "coordinate" : {
       "latitude" : 42.5209837,
@@ -2809,7 +2796,7 @@
   {
     "address" : "15 Central St, Salem",
     "categories" : [
-      "foodRestaurant",
+      "diner",
       "customerRestroom"
     ],
     "coordinate" : {
@@ -2823,7 +2810,7 @@
   {
     "address" : "94 Lafayette St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "eastAsian"
     ],
     "coordinate" : {
       "latitude" : 42.518368,
@@ -2895,7 +2882,8 @@
   {
     "address" : "118 Washington St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "foodRestaurant",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5212062,
@@ -2908,9 +2896,9 @@
   {
     "address" : "118 Washington St, Salem",
     "categories" : [
-      "foodRestaurant",
-      "customerRestroom",
-      "eastAsian"
+      "eastAsian",
+      "seafood",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.52112421774527,
@@ -2923,7 +2911,9 @@
   {
     "address" : "86 Wharf St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "seafood",
+      "bar",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5196492,
@@ -2977,7 +2967,9 @@
   {
     "address" : "288 Derby St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "italian",
+      "eastAsian",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.52022685945796,
@@ -3018,7 +3010,7 @@
   {
     "address" : "94 Wharf St, Salem",
     "categories" : [
-      "foodRestaurant",
+      "seafood",
       "bar",
       "customerRestroom"
     ],
@@ -3087,7 +3079,7 @@
   {
     "address" : "1 Water St, Beverly",
     "categories" : [
-      "foodRestaurant",
+      "seafood",
       "pub"
     ],
     "coordinate" : {
@@ -3127,7 +3119,7 @@
   {
     "address" : "102 Webb St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "italian"
     ],
     "coordinate" : {
       "latitude" : 42.5276263,
@@ -3204,7 +3196,7 @@
   {
     "address" : "96 North St, Salem",
     "categories" : [
-      "foodRestaurant",
+      "diner",
       "customerRestroom"
     ],
     "coordinate" : {
@@ -3244,7 +3236,8 @@
   {
     "address" : "4 Boston St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "diner",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.518097,
@@ -3257,7 +3250,8 @@
   {
     "address" : "145 North St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "foodRestaurant",
+      "seafood"
     ],
     "coordinate" : {
       "latitude" : 42.5288176,
@@ -3270,7 +3264,7 @@
   {
     "address" : "408 Essex St, Salem",
     "categories" : [
-      "foodRestaurant"
+        "italian"
     ],
     "coordinate" : {
       "latitude" : 42.5180015,
@@ -3296,7 +3290,8 @@
   {
     "address" : "299 Essex St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "eastAsian",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5213507,
@@ -3322,7 +3317,7 @@
   {
     "address" : "107 Essex St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "italian"
     ],
     "coordinate" : {
       "latitude" : 42.5224801,
@@ -3826,7 +3821,7 @@
   {
     "address" : "186-3 Essex St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5224312,
@@ -3839,7 +3834,7 @@
   {
     "address" : "266 Essex St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5215294,
@@ -3852,7 +3847,7 @@
   {
     "address" : "96 Washington St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5218738,
@@ -3865,7 +3860,7 @@
   {
     "address" : "302B Essex Street, Salem",
     "categories" : [
-      "salon"
+      "hairSalon"
     ],
     "coordinate" : {
       "latitude" : 42.521531,
@@ -3878,7 +3873,7 @@
   {
     "address" : "20 New Derby St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.51963,
@@ -3891,7 +3886,7 @@
   {
     "address" : "17 Canal St, Ste C, Salem",
     "categories" : [
-      "unknown"
+      "shop"
     ],
     "coordinate" : {
       "latitude" : 42.5173768,
@@ -3904,7 +3899,7 @@
   {
     "address" : "13 Gedney St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5191823,
@@ -3917,7 +3912,7 @@
   {
     "address" : "201 Derby St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5207147,
@@ -3930,7 +3925,7 @@
   {
     "address" : "172 Lafayette St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5153624,
@@ -3943,7 +3938,7 @@
   {
     "address" : "73 Harbor St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5177587,
@@ -3955,7 +3950,7 @@
   {
     "address" : "2 Derby Square, Ste 120, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.521327,
@@ -3968,7 +3963,7 @@
   {
     "address" : "282 Washington St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5169368,
@@ -3980,7 +3975,7 @@
   {
     "address" : "110 Lafayette St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5179781,
@@ -3992,7 +3987,7 @@
   {
     "address" : "137 Boston St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5215384,
@@ -4005,7 +4000,7 @@
   {
     "address" : "248 Essex St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5215253,
@@ -4018,7 +4013,7 @@
   {
     "address" : "260 Washington St, Salem",
     "categories" : [
-      "salon"
+      "hairSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5176968,
@@ -4031,7 +4026,7 @@
   {
     "address" : "1 Derby Square, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.52134095010291,
@@ -4044,7 +4039,7 @@
   {
     "address" : "80 Wharf St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5196219,
@@ -4057,7 +4052,7 @@
   {
     "address" : "274 Essex St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5215332,
@@ -4070,7 +4065,7 @@
   {
     "address" : "33 New Derby St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.519476,
@@ -4083,7 +4078,7 @@
   {
     "address" : "94 Boston St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5204097,
@@ -4096,7 +4091,7 @@
   {
     "address" : "158 North St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5290156,
@@ -4109,7 +4104,7 @@
   {
     "address" : "69 Washington St, Peabody",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5212958,
@@ -4122,7 +4117,7 @@
   {
     "address" : "125 Canal St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5096228,
@@ -4135,7 +4130,7 @@
   {
     "address" : "135 Canal St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5088582,
@@ -4148,7 +4143,7 @@
   {
     "address" : "83 Hale St, Beverly",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5499487,
@@ -4161,7 +4156,7 @@
   {
     "address" : "116 Rantoul St, Unit 102, Beverly",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5460468,
@@ -4174,7 +4169,7 @@
   {
     "address" : "324 Rantoul St, Beverly",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5517281,
@@ -4187,7 +4182,7 @@
   {
     "address" : "125 Cabot St, Beverly",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.546138,
@@ -4200,7 +4195,7 @@
   {
     "address" : "160 Cabot St, Beverly",
     "categories" : [
-      "salon"
+      "hairSalon"
     ],
     "coordinate" : {
       "latitude" : 42.5470326,
@@ -4213,7 +4208,7 @@
   {
     "address" : "283 Cabot St, Beverly",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.551114,
@@ -4226,7 +4221,7 @@
   {
     "address" : "197 Cabot St, Beverly",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5479956,
@@ -4239,7 +4234,7 @@
   {
     "address" : "149 Cabot St, Beverly",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5465617,
@@ -4252,7 +4247,7 @@
   {
     "address" : "122 Boston St, Salem",
     "categories" : [
-      "salon"
+      "barber"
     ],
     "coordinate" : {
       "latitude" : 42.5215098,
@@ -4264,7 +4259,7 @@
   {
     "address" : "108 Boston St, Salem",
     "categories" : [
-      "salon"
+      "nailSalon"
     ],
     "coordinate" : {
       "latitude" : 42.520874,
@@ -4277,7 +4272,7 @@
   {
     "address" : "116 North St, Salem",
     "categories" : [
-      "salon"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5268298,
@@ -4315,7 +4310,7 @@
   {
     "address" : "318 Essex St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5211858,
@@ -4328,7 +4323,7 @@
   {
     "address" : "24 Liberty St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5208181,
@@ -4354,7 +4349,7 @@
   {
     "address" : "9 Brown St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5229571,
@@ -4366,7 +4361,7 @@
   {
     "address" : "235 Essex St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.521331,
@@ -4379,7 +4374,7 @@
   {
     "address" : "178 Derby St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5215812,
@@ -4391,7 +4386,7 @@
   {
     "address" : "7 Pope St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5176105,
@@ -4403,7 +4398,7 @@
   {
     "address" : "2 Brown St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5234355,
@@ -4416,7 +4411,7 @@
   {
     "address" : "1 Sewall St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5218454,
@@ -4440,7 +4435,7 @@
   {
     "address" : "20 Hawthorne Blvd, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.521966542625314,
@@ -4473,7 +4468,7 @@
   {
     "address" : "128 Essex St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5225337,
@@ -4485,7 +4480,7 @@
   {
     "address" : "73 Commercial St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "historicalMarker"
     ],
     "coordinate" : {
       "latitude" : 42.5247593,
@@ -4688,7 +4683,7 @@
   {
     "address" : "53 Hanson St, Salem",
     "categories" : [
-      "skatePark"
+      "park"
     ],
     "coordinate" : {
       "latitude" : 42.5165045,
@@ -5017,9 +5012,8 @@
   {
     "address" : "121 Essex St, Salem",
     "categories" : [
-      "customerRestroom",
       "pub",
-      "foodRestaurant"
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5223478,
@@ -5032,7 +5026,6 @@
   {
     "address" : "120 Washington St, Salem",
     "categories" : [
-      "unknown",
       "pub",
       "customerRestroom"
     ],
@@ -5047,7 +5040,6 @@
   {
     "address" : "148 Derby St, Salem",
     "categories" : [
-      "unknown",
       "foodRestaurant",
       "pub",
       "customerRestroom"
@@ -5078,7 +5070,6 @@
   {
     "address" : "76 Lafayette St, Salem",
     "categories" : [
-      "unknown",
       "brewery",
       "customerRestroom"
     ],
@@ -5106,7 +5097,6 @@
   {
     "address" : "20 Cabot St, Beverly",
     "categories" : [
-      "unknown",
       "foodRestaurant",
       "bar",
       "customerRestroom"
@@ -5122,8 +5112,8 @@
   {
     "address" : "10 Lowell St, Peabody",
     "categories" : [
-      "unknown",
-      "pub"
+      "pub",
+      "customerRestroom",
     ],
     "coordinate" : {
       "latitude" : 42.5260649,
@@ -5178,7 +5168,9 @@
   {
     "address" : "241 Jefferson Ave, Salem",
     "categories" : [
-      "unknown"
+      "bar",
+      "foodRestaurant",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5066188,
@@ -5191,7 +5183,8 @@
   {
     "address" : "102 Cabot St, Beverly",
     "categories" : [
-      "unknown"
+      "pub",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5455061,
@@ -5204,7 +5197,9 @@
   {
     "address" : "168 Essex St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "foodRestaurant",
+      "bar",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5222375,
@@ -5261,7 +5256,6 @@
   {
     "address" : "221 Washington St, Salem",
     "categories" : [
-      "unknown",
       "bar",
       "foodRestaurant",
       "customerRestroom"
@@ -5277,7 +5271,6 @@
   {
     "address" : "72 Wharf St, Salem",
     "categories" : [
-      "unknown",
       "foodRestaurant",
       "bar",
       "customerRestroom"
@@ -5347,7 +5340,7 @@
   {
     "address" : "186-1 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "attraction"
     ],
     "coordinate" : {
       "latitude" : 42.5218254,
@@ -5360,7 +5353,7 @@
   {
     "address" : "172 Essex St, Salem",
     "categories" : [
-      "unknown"
+        "attraction"
     ],
     "coordinate" : {
       "latitude" : 42.5219206,
@@ -5397,21 +5390,8 @@
     "website" : "http:\/\/www.witchwaygifts.com\/"
   },
   {
-    "address" : "408 Essex St, Salem",
-    "categories" : [
-      "unknown"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5180715,
-      "longitude" : -70.9054913
-    },
-    "name" : "Witch City Computers",
-    "phoneNumber" : "+1 (978) 744-7222"
-  },
-  {
     "address" : "32 Derby Square, Salem",
     "categories" : [
-      "unknown",
       "attraction"
     ],
     "coordinate" : {
@@ -5705,7 +5685,7 @@
   {
     "address" : "184 Essex St, Salem",
     "categories" : [
-      "unknown"
+        "paganStore"
     ],
     "coordinate" : {
       "latitude" : 42.5218541,
@@ -5718,7 +5698,7 @@
   {
     "address" : "6 Hawthorne Blvd, Salem",
     "categories" : [
-      "unknown"
+      "psychicReading"
     ],
     "coordinate" : {
       "latitude" : 42.522084,
@@ -5730,7 +5710,7 @@
   {
     "address" : "184 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "paganStore"
     ],
     "coordinate" : {
       "latitude" : 42.5218541,
@@ -5756,7 +5736,7 @@
   {
     "address" : "19 Front St, Salem",
     "categories" : [
-      "unknown"
+      "attraction"
     ],
     "coordinate" : {
       "latitude" : 42.5203755,
@@ -5767,7 +5747,7 @@
   {
     "address" : "272 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "paganStore"
     ],
     "coordinate" : {
       "latitude" : 42.5215331,
@@ -5792,7 +5772,8 @@
   {
     "address" : "231 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "psychicReading",
+      "paganStore"
     ],
     "coordinate" : {
       "latitude" : 42.5213597383973,
@@ -5805,7 +5786,6 @@
   {
     "address" : "8 Front St, #216, Salem",
     "categories" : [
-      "unknown",
       "paganStore",
       "clothingStore"
     ],
@@ -5819,7 +5799,7 @@
   {
     "address" : "5 Washington St, Beverly",
     "categories" : [
-      "unknown"
+      "psychicReading"
     ],
     "coordinate" : {
       "latitude" : 42.5465158,
@@ -5844,7 +5824,8 @@
   {
     "address" : "1 Derby Square, Salem",
     "categories" : [
-      "unknown"
+      "psychicReading",
+      "souvenierShop"
     ],
     "coordinate" : {
       "latitude" : 42.5213694497936,
@@ -5869,7 +5850,7 @@
   {
     "address" : "190 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "paganStore"
     ],
     "coordinate" : {
       "latitude" : 42.521804,
@@ -5881,7 +5862,7 @@
   {
     "address" : "3 Dodge St, Salem",
     "categories" : [
-      "unknown"
+      "cannabisDispensary"
     ],
     "coordinate" : {
       "latitude" : 42.5188611,
@@ -5894,7 +5875,7 @@
   {
     "address" : "50 Grove St, Salem",
     "categories" : [
-      "unknown"
+      "cannabisDispensary"
     ],
     "coordinate" : {
       "latitude" : 42.52232933249809,
@@ -5907,7 +5888,7 @@
   {
     "address" : "350 Rantoul St, Beverly",
     "categories" : [
-      "unknown"
+      "cannabisDispensary"
     ],
     "coordinate" : {
       "latitude" : 42.5523413,
@@ -5919,7 +5900,7 @@
   {
     "address" : "2 Bridge St, Salem",
     "categories" : [
-      "unknown"
+      "cannabisDispensary"
     ],
     "coordinate" : {
       "latitude" : 42.5365205,
@@ -5932,7 +5913,7 @@
   {
     "address" : "15 Hawthorne Blvd, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5213479,
@@ -5945,7 +5926,7 @@
   {
     "address" : "24 St Peter St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5230347,
@@ -5958,7 +5939,7 @@
   {
     "address" : "316 Essex St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5214944,
@@ -5971,7 +5952,7 @@
   {
     "address" : "50 Washington St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5227884,
@@ -5984,7 +5965,7 @@
   {
     "address" : "28 St Peter St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.52337,
@@ -5997,7 +5978,7 @@
   {
     "address" : "17 Chestnut St, Peabody",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.525942,
@@ -6010,7 +5991,7 @@
   {
     "address" : "64 Forrester St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5258297,
@@ -6023,7 +6004,7 @@
   {
     "address" : "8 North St, Salem",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5221644,
@@ -6036,7 +6017,7 @@
   {
     "address" : "5 Paleologos St, Peabody",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5266468,
@@ -6049,7 +6030,7 @@
   {
     "address" : "1 Margin St, Peabody",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.532872,
@@ -6062,7 +6043,7 @@
   {
     "address" : "253 Cabot St, Beverly",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5498788,
@@ -6075,7 +6056,7 @@
   {
     "address" : "24 Washington St, Peabody",
     "categories" : [
-      "unknown"
+      "placeOfWorship"
     ],
     "coordinate" : {
       "latitude" : 42.5227556,
@@ -6136,18 +6117,6 @@
     "name" : "Derby Wharf Light Station",
     "phoneNumber" : "+1 (978) 740-1650",
     "website" : "https:\/\/www.nps.gov\/places\/derby-light.htm"
-  },
-  {
-    "address" : "19 Front St, Ste 202, Salem",
-    "categories" : [
-      "unknown"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5203755,
-      "longitude" : -70.8943733
-    },
-    "name" : "Lighthouse Counseling of Salem",
-    "website" : "https:\/\/www.lighthousecounselingsalem.com\/"
   },
   {
     "address" : "59 Wharf St, Salem",
@@ -6244,7 +6213,7 @@
   {
     "address" : "28 Norman St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5202949,
@@ -6282,7 +6251,7 @@
   {
     "address" : "172 Lafayette St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5153604,
@@ -6291,18 +6260,6 @@
     "name" : "9th Realm Gallery and Tattoo",
     "phoneNumber" : "+1 (978) 594-1488",
     "website" : "https:\/\/www.9threalmgallery.com"
-  },
-  {
-    "address" : "178 Essex St, Salem",
-    "categories" : [
-      "unknown"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5218874,
-      "longitude" : -70.8932894
-    },
-    "name" : "Salem Oriental Gallery",
-    "phoneNumber" : "+1 (978) 744-8746"
   },
   {
     "address" : "186 Cabot St, Beverly",
@@ -6332,7 +6289,6 @@
   {
     "address" : "135 Essex St, Salem",
     "categories" : [
-      "unknown",
       "souvenierShop"
     ],
     "coordinate" : {
@@ -6371,7 +6327,7 @@
   {
     "address" : "29 Bridge St, Salem",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.5341739,
@@ -6384,7 +6340,7 @@
   {
     "address" : "20 Central St, Ste 108, Salem",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.520919136173816,
@@ -6397,7 +6353,7 @@
   {
     "address" : "142 Canal St, Salem",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.5084423,
@@ -6407,22 +6363,9 @@
     "website" : "https:\/\/www.dochashouseofyoga.com\/"
   },
   {
-    "address" : "201 Washington St, Ste 206, Salem",
-    "categories" : [
-      "unknown"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5194056,
-      "longitude" : -70.8949381
-    },
-    "name" : "Mills 58",
-    "phoneNumber" : "+1 (978) 414-5097",
-    "website" : "https:\/\/thesaltybuddha.com"
-  },
-  {
     "address" : "110 Cabot St, Beverly",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.5460463,
@@ -6434,7 +6377,7 @@
   {
     "address" : "240 Rantoul St, Beverly",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.5495828,
@@ -6446,7 +6389,7 @@
   {
     "address" : "6 Federal St, Beverly",
     "categories" : [
-      "unknown"
+      "yogaStudio"
     ],
     "coordinate" : {
       "latitude" : 42.5487767,
@@ -6472,7 +6415,7 @@
   {
     "address" : "28 Norman St Rte 114, Salem",
     "categories" : [
-      "italian"
+        "italian"
     ],
     "coordinate" : {
       "latitude" : 42.5203311,
@@ -6498,7 +6441,7 @@
   {
     "address" : "4 Boston St, Salem",
     "categories" : [
-      "foodRestaurant"
+      "diner"
     ],
     "coordinate" : {
       "latitude" : 42.5180718,
@@ -6820,7 +6763,7 @@
   {
     "address" : "311 Cabot St, Beverly",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5530617,
@@ -6872,7 +6815,7 @@
   {
     "address" : "330 Rantoul St, Beverly",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5518497,
@@ -6883,21 +6826,9 @@
     "website" : "http:\/\/www.gardencitytattoo.com"
   },
   {
-    "address" : "96 Wharf St, Salem",
-    "categories" : [
-      "salon"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5204056,
-      "longitude" : -70.8879422
-    },
-    "name" : "Hemlock",
-    "website" : "https:\/\/www.instagram.com\/hemlock____\/?hl=en"
-  },
-  {
     "address" : "99 Bridge St, Salem",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5292342,
@@ -6907,21 +6838,9 @@
     "website" : "https:\/\/www.instagram.com\/beyond.ink.studio\/"
   },
   {
-    "address" : "27 Congress St, Bldg 1, Salem",
-    "categories" : [
-      "unknown"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5176972,
-      "longitude" : -70.8863921
-    },
-    "name" : "Mycelium Tattoos",
-    "phoneNumber" : "+1 (978) 594-5937"
-  },
-  {
     "address" : "150 Main St, Peabody",
     "categories" : [
-      "unknown"
+      "tattooParlor"
     ],
     "coordinate" : {
       "latitude" : 42.5239345,
@@ -6934,7 +6853,7 @@
   {
     "address" : "79 Lowell St, Peabody",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5273581,
@@ -6946,7 +6865,7 @@
   {
     "address" : "125 Canal St, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.510082590399996,
@@ -6958,7 +6877,7 @@
   {
     "address" : "26 Bridge St, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.534386,
@@ -6984,7 +6903,7 @@
   {
     "address" : "70A Loring Ave, Salem",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5013084,
@@ -6997,7 +6916,7 @@
   {
     "address" : "18 Boston St, Salem",
     "categories" : [
-      "market"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.518359,
@@ -7009,7 +6928,7 @@
   {
     "address" : "174 Rantoul St, Beverly",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5476453,
@@ -7022,7 +6941,7 @@
   {
     "address" : "12 Foster St, Peabody",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5252993,
@@ -7047,7 +6966,7 @@
   {
     "address" : "112 Rantoul St, Beverly",
     "categories" : [
-      "unknown"
+      "liquorStore"
     ],
     "coordinate" : {
       "latitude" : 42.5456371,
@@ -7086,9 +7005,9 @@
   {
     "address" : "105 Canal St, Salem",
     "categories" : [
-      "unknown",
       "bar",
-      "foodRestaurant"
+      "foodRestaurant",
+      "customerRestroom"
     ],
     "coordinate" : {
       "latitude" : 42.5103946,
@@ -7129,7 +7048,7 @@
   {
     "address" : "1 Kosciusko St, Salem",
     "categories" : [
-      "pointOfInterest"
+      "attraction"
     ],
     "coordinate" : {
       "latitude" : 42.5201855,
