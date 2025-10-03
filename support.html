@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Witch Way — Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Get help with Witch Way: FAQ, troubleshooting, and privacy details." />
+
+    <!-- Social metadata -->
+    <meta property="og:title" content="Witch Way — Support" />
+    <meta property="og:description" content="FAQ, troubleshooting, privacy details, and how to contact us." />
+    <meta property="og:url" content="https://www.witchway.app/support.html" />
+    <meta property="og:image" content="/images/banner.png" />
+    <meta property="og:type" content="website" />
+
+    <style>
+      :root {
+        --bg1: #2b1d35;
+        --bg2: #0d0d0d;
+        --accent: #7d4cc7;
+        --accentHover: #5e35a8;
+        --text: #f5f5f5;
+        --muted: #ccc;
+      }
+      body {
+        font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        color: var(--text);
+        background: radial-gradient(circle at top, var(--bg1), var(--bg2));
+      }
+      .wrap { max-width: 800px; margin: 0 auto; padding: 2rem; }
+      h1 { margin-top: 8vh; font-size: clamp(2rem, 4vw, 3rem); }
+      h2 { margin-top: 2rem; font-size: 1.25rem; }
+      a { color: #c9a7ff; }
+      .button {
+        display:inline-block; background: var(--accent); color: white;
+        padding: 0.6rem 1rem; border-radius: 10px; text-decoration: none; font-weight: 600;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      }
+      .button:hover { background: var(--accentHover); }
+      .box {
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 16px;
+        padding: 1rem;
+      }
+      footer { color: var(--muted); margin: 3rem 0 2rem; display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <h1>Support</h1>
+      <p>If you need help with Witch Way, email <a href="mailto:support@witchway.app">support@witchway.app</a>.</p>
+
+      <div class="box">
+        <p><a class="button" href="/download.html">Join the TestFlight beta</a></p>
+        <p><a class="button" href="https://apps.apple.com/us/app/witch-way-salem-navigation/id6752743686">Get it on the App Store</a></p>
+      </div>
+
+      <h2>FAQ</h2>
+      <p><strong>Which areas does Witch Way cover?</strong><br/>Salem, Massachusetts.</p>
+
+      <p><strong>What iOS versions are supported?</strong><br/>iOS 17 or later.</p>
+
+      <p><strong>Why do you need my location?</strong><br/>Witch Way uses your location to show accurate distances and directions. Your location data stays on your device.</p>
+
+      <p><strong>Does it work offline?</strong><br/>Yes. Recently viewed places and essential data are cached so you can keep going when service is spotty.</p>
+
+      <p><strong>Is there an App Clip?</strong><br/>Yes — available at select landmarks (generic coverage).</p>
+
+      <p><strong>How do I send feedback or suggest a place?</strong><br/>Email <a href="mailto:support@witchway.app">support@witchway.app</a> with details. Screenshots help.</p>
+
+      <h2>Troubleshooting</h2>
+      <p><strong>Location isn’t updating.</strong><br/>Open Settings → Privacy &amp; Security → Location Services → Witch Way, and set to “While Using the App.” Ensure Low Power Mode or cellular restrictions aren’t blocking updates.</p>
+
+      <p><strong>Universal links or App Clip aren’t opening.</strong><br/>Confirm you have a data connection. If using a password manager or private browsing, try opening the link in Safari first.</p>
+
+      <h2>Privacy</h2>
+      <p>We do not use third-party SDKs. We only use Apple’s built-in analytics tools to understand general usage. We don’t sell your data or build behavioral profiles.</p>
+
+      <footer>
+        <a href="/">Home</a>
+        <span>iCalvin, LLC 2025</span>
+      </footer>
+    </main>
+  </body>
+</html>
