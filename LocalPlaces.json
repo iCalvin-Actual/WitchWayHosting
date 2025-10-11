@@ -54,8 +54,8 @@
       "portAPotty"
     ],
     "coordinate" : {
-      "latitude" : 42.52443,
-      "longitude" : -70.88969
+      "latitude" : 42.523853204050646,
+      "longitude" : -70.89037532105283
     },
     "name" : "Salem Common Potties"
   },
@@ -6643,5 +6643,35 @@
     "phoneNumber" : "+1 (978) 740-1650",
     "placeId" : "IE1E6C01431270E6B",
     "website" : "https:\/\/www.nps.gov\/sama\/"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.521747599936845,
+      "longitude" : -70.89493835368893
+    },
+    "name" : "Essex Street Potties"
+  },
+  {
+    "categories" : [
+
+    ],
+    "coordinate" : {
+      "latitude" : 42.52320589948807,
+      "longitude" : -70.88897862418726
+    },
+    "name" : "Salem Common Potties South"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.52005136420707,
+      "longitude" : -70.89197276001057
+    },
+    "name" : "Derby Street Potties"
   }
 ]
