@@ -6,6 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Witch Way is a simple, fast guide to Salem, MA. Find landmarks, bathrooms, and your next turn—quickly." />
+    <meta name="apple-itunes-app" content="app-id=6752743686">
 
     <!-- Social metadata -->
     <meta property="og:title" content="Witch Way — Salem Navigation" />
@@ -17,74 +18,8 @@
 
     <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/images/icon.png" />
-
-    <style>
-      :root {
-        --bg1: #2b1d35;
-        --bg2: #0d0d0d;
-        --accent: #7d4cc7;
-        --accentHover: #5e35a8;
-        --text: #f5f5f5;
-        --muted: #ccc;
-      }
-      html, body { height: 100%; }
-      body {
-        font-family: -apple-system, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        margin: 0;
-        color: var(--text);
-        background: radial-gradient(circle at 20% -10%, var(--bg1), var(--bg2));
-      }
-      .wrap { max-width: 960px; margin: 0 auto; padding: 2rem; }
-      header { display:flex; align-items:center; gap:1rem; padding-top: 8vh; }
-      .logo {
-        width: 88px; height: 88px; border-radius: 20%;
-        background: url('/images/icon.png') no-repeat center/cover;
-        flex: 0 0 auto;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-      }
-      h1 { font-size: clamp(2rem, 4vw, 3rem); margin: 0.25rem 0 0.25rem; }
-      .tagline { color: var(--muted); margin: 0.25rem 0 1rem; }
-      .cta { display:flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0 2rem; }
-      a.button {
-        display: inline-block;
-        background: var(--accent);
-        color: white;
-        padding: 0.75rem 1.25rem;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: 600;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-        transition: background 0.2s, transform 0.04s ease-in-out;
-      }
-      a.button:hover { background: var(--accentHover); transform: translateY(-1px); }
-      .ghost { background: transparent; border: 1px solid rgba(255,255,255,0.2); }
-      .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
-      .card {
-        background: rgba(255,255,255,0.03);
-        border: 1px solid rgba(255,255,255,0.08);
-        border-radius: 16px;
-        padding: 1rem;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      }
-      h2 { margin: 0.25rem 0 0.5rem; font-size: 1.25rem; }
-      footer {
-        margin: 3rem 0 2rem;
-        color: var(--muted);
-        font-size: 0.95rem;
-        display:flex; flex-wrap:wrap; gap:1rem; justify-content: space-between; align-items:center;
-        border-top: 1px solid rgba(255,255,255,0.08);
-        padding-top: 1rem;
-      }
-      nav a, footer a { color: #c9a7ff; text-decoration: none; }
-      nav { margin-left:auto; display:flex; gap:1rem; }
-      .hero { margin-bottom: 2rem; }
-      .screens {
-        display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 0;
-      }
-      .screen { aspect-ratio: 9/19.5; background: rgba(255,255,255,0.06); border-radius: 24px; border:1px solid rgba(255,255,255,0.1); }
-      .notice { color: var(--muted); font-size: 0.9rem; margin-top: .25rem; }
-    </style>
+    <!-- Shared stylesheet for common styles -->
+    <link rel="stylesheet" href="site.css" />
   </head>
   <body>
     <div class="wrap">
@@ -96,7 +31,6 @@
           <div class="cta">
             <a class="button" href="https://apps.apple.com/us/app/witch-way-salem-navigation/id6752743686" aria-label="View Witch Way on the App Store">App Store</a>
             <a class="button ghost" href="/download.html" aria-label="Join the Witch Way beta on TestFlight">TestFlight</a>
-            <a class="button ghost" href="/support.html" aria-label="Get help with Witch Way">Support</a>
           </div>
           <p class="notice">iOS 17+. App Clip available at select landmarks. No account required.</p>
         </div>
@@ -123,12 +57,6 @@
             <h2>Works offline</h2>
             <p>Key info caches locally so you can keep going when service is spotty.</p>
           </div>
-        </div>
-
-        <div class="screens" aria-hidden="true">
-          <div class="screen"></div>
-          <div class="screen"></div>
-          <div class="screen"></div>
         </div>
       </section>
 
