@@ -6662,7 +6662,7 @@
       "latitude" : 42.52320589948807,
       "longitude" : -70.88897862418726
     },
-    "name" : "Salem Common Potties South"
+    "name" : "Common Potties South"
   },
   {
     "categories" : [
@@ -6673,5 +6673,15 @@
       "longitude" : -70.89197276001057
     },
     "name" : "Derby Street Potties"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.52224523381499,
+      "longitude" : -70.89567999707653
+    },
+    "name" : "Washington Street Potties"
   }
 ]
