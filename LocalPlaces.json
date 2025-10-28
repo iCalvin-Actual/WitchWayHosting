@@ -6683,5 +6683,45 @@
       "longitude" : -70.89567999707653
     },
     "name" : "Washington Street Potties"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.520985500915636,
+      "longitude" : -70.89002375732267
+    },
+    "name" : "Hawthorne Potties"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.52421006069155,
+      "longitude" : -70.89828066591643
+    },
+    "name" : "MBTA Lot Potties"
+  },
+  {
+    "categories" : [
+      "portAPotty"
+    ],
+    "coordinate" : {
+      "latitude" : 42.520325195962535,
+      "longitude" : -70.89404580540786
+    },
+    "name" : "Klop Potties"
+  },
+  {
+    "categories" : [
+      "publicRestroom"
+    ],
+    "coordinate" : {
+      "latitude" : 42.51983423777408,
+      "longitude" : -70.8944608530754
+    },
+    "name" : "Artist’s Row Restrooms"
   }
 ]
