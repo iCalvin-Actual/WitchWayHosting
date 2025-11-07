@@ -40,36 +40,6 @@
     "name" : "Salem Visitor's Center"
   },
   {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.52261,
-      "longitude" : -70.89217
-    },
-    "name" : "Visitor Center Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.523853204050646,
-      "longitude" : -70.89037532105283
-    },
-    "name" : "Salem Common Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.52226,
-      "longitude" : -70.89768
-    },
-    "name" : "Lynde Street Lot Potties"
-  },
-  {
     "address" : "150 Main St, Peabody",
     "categories" : [
       "atm"
@@ -6646,16 +6616,6 @@
   },
   {
     "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.521747599936845,
-      "longitude" : -70.89493835368893
-    },
-    "name" : "Essex Street Potties"
-  },
-  {
-    "categories" : [
 
     ],
     "coordinate" : {
@@ -6663,56 +6623,6 @@
       "longitude" : -70.88897862418726
     },
     "name" : "Common Potties South"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.52005136420707,
-      "longitude" : -70.89197276001057
-    },
-    "name" : "Derby Street Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.52224523381499,
-      "longitude" : -70.89567999707653
-    },
-    "name" : "Washington Street Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.520985500915636,
-      "longitude" : -70.89002375732267
-    },
-    "name" : "Hawthorne Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.52421006069155,
-      "longitude" : -70.89828066591643
-    },
-    "name" : "MBTA Lot Potties"
-  },
-  {
-    "categories" : [
-      "portAPotty"
-    ],
-    "coordinate" : {
-      "latitude" : 42.520325195962535,
-      "longitude" : -70.89404580540786
-    },
-    "name" : "Klop Potties"
   },
   {
     "categories" : [
