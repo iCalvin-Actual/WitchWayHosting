@@ -617,17 +617,6 @@
     "website" : "http:\/\/www.honeydewdonuts.com"
   },
   {
-    "address" : "7 Liberty St, Salem",
-    "categories" : [
-      "foodRestaurant"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5216603,
-      "longitude" : -70.8917016
-    },
-    "name" : "Mac n' Cheese Box"
-  },
-  {
     "address" : "211 Washington St, Salem",
     "categories" : [
       "coffeeChain"
@@ -3475,7 +3464,7 @@
     "address" : "253 Essex St, Salem",
     "categories" : [
       "clothingStore",
-      "coffeeLocals"
+      "coffeeChain"
     ],
     "coordinate" : {
       "latitude" : 42.521336656058935,
@@ -6613,16 +6602,6 @@
     "phoneNumber" : "+1 (978) 740-1650",
     "placeId" : "IE1E6C01431270E6B",
     "website" : "https:\/\/www.nps.gov\/sama\/"
-  },
-  {
-    "categories" : [
-
-    ],
-    "coordinate" : {
-      "latitude" : 42.52320589948807,
-      "longitude" : -70.88897862418726
-    },
-    "name" : "Common Potties South"
   },
   {
     "categories" : [
