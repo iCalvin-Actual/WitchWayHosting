@@ -158,8 +158,8 @@
       "coffeeLocals"
     ],
     "coordinate" : {
-      "latitude" : 42.5213847,
-      "longitude" : -70.8973632
+      "latitude" : 42.52136844781189,
+      "longitude" : -70.89744836016932
     },
     "name" : "Caramel French Patisserie",
     "phoneNumber" : "+1 (978) 594-0244",
@@ -4641,19 +4641,6 @@
     "website" : "https:\/\/www.rashasbeautyskinandlaser.com\/"
   },
   {
-    "address" : "10 Colonial Rd, Salem",
-    "categories" : [
-      "spa"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5094639,
-      "longitude" : -70.9005788
-    },
-    "name" : "Cerave Spa",
-    "phoneNumber" : "+1 (781) 469-3505",
-    "placeId" : "IF14E7A37B9FFF3DC"
-  },
-  {
     "address" : "50 Grove St, Salem",
     "categories" : [
       "spa"
@@ -4742,8 +4729,8 @@
       "souvenierShop"
     ],
     "coordinate" : {
-      "latitude" : 42.5218254,
-      "longitude" : -70.8936818
+      "latitude" : 42.521807171174856,
+      "longitude" : -70.89362077972126
     },
     "name" : "Village Silversmith",
     "phoneNumber" : "+1 (978) 594-1347",
@@ -5452,8 +5439,8 @@
       "souvenierShop"
     ],
     "coordinate" : {
-      "latitude" : 42.5218541,
-      "longitude" : -70.8935437
+      "latitude" : 42.52181208722108,
+      "longitude" : -70.89346397223103
     },
     "name" : "Hex Old World Witchery",
     "phoneNumber" : "+1 (978) 666-0765",
@@ -5467,8 +5454,8 @@
       "souvenierShop"
     ],
     "coordinate" : {
-      "latitude" : 42.5218541,
-      "longitude" : -70.8935437
+      "latitude" : 42.521839330662544,
+      "longitude" : -70.89356292250538
     },
     "name" : "Omen - Psychic Parlor and Witchcraft",
     "phoneNumber" : "+1 (978) 666-0763",
@@ -5569,20 +5556,6 @@
     "name" : "Practical Magic",
     "phoneNumber" : "+1 (978) 745-8883",
     "placeId" : "IE5D0EDF01C000272"
-  },
-  {
-    "address" : "81 Wharf St, Salem",
-    "categories" : [
-      "psychicReading"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5203284,
-      "longitude" : -70.8883928
-    },
-    "name" : "Salem Psychics",
-    "phoneNumber" : "+1 (978) 401-8019",
-    "placeId" : "ICB6496ACB382B2F5",
-    "website" : "http:\/\/www.salempsychics.com"
   },
   {
     "address" : "81 Wharf St, Salem",
@@ -6097,20 +6070,6 @@
     "website" : "https:\/\/thesaltybuddha.com"
   },
   {
-    "address" : "27 Congress St, Ste 203, Salem",
-    "categories" : [
-      "yogaStudio"
-    ],
-    "coordinate" : {
-      "latitude" : 42.5176972,
-      "longitude" : -70.8863921
-    },
-    "name" : "Healing Creative",
-    "phoneNumber" : "+1 (781) 308-2209",
-    "placeId" : "ID1675918A9CF7167",
-    "website" : "http:\/\/www.healingcreative.com"
-  },
-  {
     "address" : "7 Bay View Cir, Salem",
     "categories" : [
       "yogaStudio"
@@ -6532,8 +6491,8 @@
       "shop"
     ],
     "coordinate" : {
-      "latitude" : 42.5216496,
-      "longitude" : -70.8952938
+      "latitude" : 42.52153837619919,
+      "longitude" : -70.89523730903576
     },
     "name" : "Penelope's Pet Boutique",
     "phoneNumber" : "+1 (978) 744-5884",
