@@ -6602,15 +6602,5 @@
     "phoneNumber" : "+1 (978) 740-1650",
     "placeId" : "IE1E6C01431270E6B",
     "website" : "https:\/\/www.nps.gov\/sama\/"
-  },
-  {
-    "categories" : [
-      "publicRestroom"
-    ],
-    "coordinate" : {
-      "latitude" : 42.51983423777408,
-      "longitude" : -70.8944608530754
-    },
-    "name" : "Artist’s Row Restrooms"
   }
 ]
