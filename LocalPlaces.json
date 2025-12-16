@@ -2990,8 +2990,8 @@
       "customerRestroom"
     ],
     "coordinate" : {
-      "latitude" : 42.5228654,
-      "longitude" : -70.8904352
+      "latitude" : 42.52280796495055,
+      "longitude" : -70.89038915539408
     },
     "name" : "The Tavern",
     "phoneNumber" : "+1 (978) 744-4080",
@@ -3092,8 +3092,8 @@
       "foodRestaurant"
     ],
     "coordinate" : {
-      "latitude" : 42.52262338351807,
-      "longitude" : -70.89027476069772
+      "latitude" : 42.522633489470174,
+      "longitude" : -70.89017663651316
     },
     "name" : "Nathaniel's",
     "phoneNumber" : "+1 (978) 744-4080",
@@ -4869,8 +4869,8 @@
       "customerRestroom"
     ],
     "coordinate" : {
-      "latitude" : 42.5223478,
-      "longitude" : -70.8906892
+      "latitude" : 42.522322652542876,
+      "longitude" : -70.89072429224822
     },
     "name" : "Olde Main Street Pub",
     "phoneNumber" : "+1 (978) 594-8188",
@@ -5173,8 +5173,8 @@
       "souvenierShop"
     ],
     "coordinate" : {
-      "latitude" : 42.5223315,
-      "longitude" : -70.8907773
+      "latitude" : 42.52230788343867,
+      "longitude" : -70.89079462272792
     },
     "name" : "Crow Haven Corner",
     "phoneNumber" : "+1 (978) 745-8763",
