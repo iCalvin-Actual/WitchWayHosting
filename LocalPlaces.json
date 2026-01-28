@@ -704,20 +704,6 @@
     "website": "https://jahocoffee.square.site/s/order?location=11ea775c1f48873da1470cc47a2aeaec"
   },
   {
-    "address": "130 North St, Salem",
-    "categories": [
-      "coffeeLocals"
-    ],
-    "coordinate": {
-      "latitude": 42.5275773,
-      "longitude": -70.9019697
-    },
-    "name": "Spells Coffee Shop & Market",
-    "phoneNumber": "+1 (978) 594-8259",
-    "placeId": "I155E29BEEDD5BFE2",
-    "website": "https://spellsofsalem.com"
-  },
-  {
     "address": "96 Bridge St, Salem",
     "categories": [
       "coffeeLocals"
