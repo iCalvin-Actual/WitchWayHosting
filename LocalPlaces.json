@@ -2772,22 +2772,6 @@
     "website": "https://www.direwolfsalem.com/"
   },
   {
-    "address": "87 Washington St, Salem",
-    "categories": [
-      "foodRestaurant",
-      "bar",
-      "customerRestroom"
-    ],
-    "coordinate": {
-      "latitude": 42.521988570080765,
-      "longitude": -70.89560803335328
-    },
-    "name": "Dire Wolf Tavern",
-    "phoneNumber": "+1 (978) 744-9600",
-    "placeId": "I85E0BA98DED6E0F4",
-    "website": "https://www.direwolfsalem.com/"
-  },
-  {
     "address": "155 Washington St, Salem",
     "categories": [
       "seafood",
@@ -7016,7 +7000,7 @@
     "address": "282 Derby St, Salem",
     "categories": [
       "bar",
-      "northAmerican",
+      "foodRestaurant",
       "customerRestroom"
     ],
     "coordinate": {
@@ -7032,13 +7016,13 @@
     "address": "87 Washington St, Salem",
     "categories": [
       "bar",
-      "northAmerican",
+      "foodRestaurant",
       "customerRestroom",
       "venue"
     ],
     "coordinate": {
-      "latitude": 42.5220049,
-      "longitude": -70.8955115
+      "latitude": 42.52194,
+      "longitude": -70.89551
     },
     "name": "Hallowed Ground",
     "phoneNumber": "+1 (978) 744-9600",
@@ -7118,7 +7102,7 @@
     "address": "209 Essex St, Salem",
     "categories": [
       "bar",
-      "northAmerican",
+      "foodRestaurant",
       "customerRestroom"
     ],
     "coordinate": {
@@ -7134,7 +7118,7 @@
     "address": "221 Washington St, Salem",
     "categories": [
       "bar",
-      "northAmerican",
+      "foodRestaurant",
       "customerRestroom"
     ],
     "coordinate": {
