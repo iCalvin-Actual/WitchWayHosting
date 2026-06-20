@@ -1,6 +1,10 @@
 [
   {
     "address": "10 Congress St, Salem",
+    "availability": {
+      "openFrom": "earlyMorning",
+      "openThrough": "evening"
+    },
     "categories": [
       "parking",
       "publicRestroom"
@@ -16,6 +20,20 @@
   },
   {
     "address": "193 Derby St, Salem MA",
+    "availability": {
+      "season": {
+        "start": {
+          "month": 4,
+          "day": 1
+        },
+        "end": {
+          "month": 11,
+          "day": 30
+        }
+      },
+      "openFrom": "morning",
+      "openThrough": "afternoon"
+    },
     "categories": [
       "pointOfInterest",
       "publicRestroom"
@@ -24,10 +42,14 @@
       "latitude": 42.52075,
       "longitude": -70.88777
     },
-    "name": "Central Wharf"
+    "name": "Central Wharf Visitor's Center"
   },
   {
     "address": "2 New Liberty St, Salem MA",
+    "availability": {
+      "openFrom": "morning",
+      "openThrough": "afternoon"
+    },
     "categories": [
       "museum",
       "souvenierShop",
@@ -40,7 +62,8 @@
     "name": "Salem Visitor's Center",
     "phoneNumber": "+1 (978) 740-1650",
     "placeId": "I54C4B635D3531B8F",
-    "website": "http://www.salemweb.com/guide/tour/#NPS"
+    "website": "http://www.salemweb.com/guide/tour/#NPS",
+    "description": "The National Park Service's regional visitor center, set in an 1890s armory drill shed. Exhibits and an orientation film introduce Salem Maritime and the wider Essex Heritage area."
   },
   {
     "address": "150 Main St, Peabody",
@@ -129,7 +152,7 @@
   {
     "address": "48 Central St, Salem",
     "categories": [
-      "coffeeLocals",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -139,16 +162,19 @@
     "name": "A&J King Artisan Bakers",
     "phoneNumber": "+1 (978) 744-4881",
     "placeId": "I8A8B1AF9F8BCFCCF",
-    "website": "https://ajkingbakery.com"
+    "website": "https://ajkingbakery.com",
+    "description": "An acclaimed Central Street bakery and café since 2006, turning out sourdough and country breads, pastries, and breakfast and lunch sandwiches."
   },
   {
     "address": "285 Derby St, Salem",
     "categories": [
-      "coffeeLocals"
+      "coffeeLocals",
+      "unknown",
+      "unknown"
     ],
     "coordinate": {
-      "latitude": 42.5200151,
-      "longitude": -70.8913467
+      "latitude": 42.52003025151335,
+      "longitude": -70.89139439273538
     },
     "name": "Lulu’s Bakery & Pantry",
     "phoneNumber": "+1 (978) 594-4531",
@@ -158,7 +184,7 @@
   {
     "address": "281 Essex St, Salem",
     "categories": [
-      "coffeeLocals"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.52136844781189,
@@ -172,7 +198,7 @@
   {
     "address": "139 Boston St, Salem",
     "categories": [
-      "coffeeLocals"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.521476,
@@ -181,7 +207,8 @@
     "name": "A&J King Artisan Bakers",
     "phoneNumber": "+1 (978) 674-5387",
     "placeId": "I6AA14F60D68441E3",
-    "website": "http://ajkingbakery.com"
+    "website": "http://ajkingbakery.com",
+    "description": "An acclaimed Central Street bakery and café since 2006, turning out sourdough and country breads, pastries, and breakfast and lunch sandwiches."
   },
   {
     "address": "1 Boston St, Salem",
@@ -202,8 +229,8 @@
       "bank"
     ],
     "coordinate": {
-      "latitude": 42.5216076,
-      "longitude": -70.8946993
+      "latitude": 42.52166396361093,
+      "longitude": -70.89431610377298
     },
     "name": "Salem Five Bank",
     "phoneNumber": "+1 (800) 850-5000",
@@ -347,7 +374,8 @@
     },
     "name": "Dead Horse Beach",
     "placeId": "IEA2DEA28301FD762",
-    "website": "http://salem.patch.com/articles/video-salem-welcomes-2012-at-dead-horse-beach-bonfire#video-8849603"
+    "website": "http://salem.patch.com/articles/video-salem-welcomes-2012-at-dead-horse-beach-bonfire#video-8849603",
+    "description": "A restored crescent of sand along Salem Willows facing Beverly Harbor. Its grim name dates to the 1850s, when the remote shore was used to dispose of dead horses."
   },
   {
     "address": "98 Collins St, Salem",
@@ -359,7 +387,8 @@
       "longitude": -70.8876461
     },
     "name": "Collins Cove Beach",
-    "placeId": "IC2C7D2C0EC77C1E9"
+    "placeId": "IC2C7D2C0EC77C1E9",
+    "description": "A small, calm neighborhood beach on Collins Cove with views across the water to Beverly. Sheltered shallows and an adjoining playground make it an easygoing local spot for families."
   },
   {
     "address": "93 Lothrop St, Beverly",
@@ -399,7 +428,8 @@
     "name": "Salem Willows Beach",
     "phoneNumber": "+1 (978) 745-0251",
     "placeId": "I9792A9939A81C203",
-    "website": "http://www.willowsarcade.com"
+    "website": "http://www.willowsarcade.com",
+    "description": "A small sandy-and-pebble beach tucked into Salem Willows Park, with calm, clear water and harbor views. Swimming is unguarded but it's a beloved warm-weather spot."
   },
   {
     "address": "28 Porter St, Beverly",
@@ -474,12 +504,15 @@
     "name": "Notch Brewing",
     "phoneNumber": "+1 (978) 412-7674",
     "placeId": "I5403339F8ED3139B",
-    "website": "http://www.notchbrewing.com/"
+    "website": "http://www.notchbrewing.com/",
+    "description": "A brewery and waterfront beer garden on the South River specializing in Czech- and German-style session lagers, poured from North America's first Czech side-pour taps."
   },
   {
     "address": "108 Jackson St, Salem",
     "categories": [
-      "brewery"
+      "brewery",
+      "unknown",
+      "customerRestroom"
     ],
     "coordinate": {
       "latitude": 42.5147507,
@@ -488,35 +521,25 @@
     "name": "Far From The Tree Cider",
     "phoneNumber": "+1 (978) 224-2904",
     "placeId": "I3E30D323F4052D16",
-    "website": "http://www.farfromthetreecider.com/"
-  },
-  {
-    "address": "95 Rantoul St, Beverly",
-    "categories": [
-      "brewery"
-    ],
-    "coordinate": {
-      "latitude": 42.5448199,
-      "longitude": -70.8845921
-    },
-    "name": "Coastal Mass. Brewing",
-    "phoneNumber": "+1 (978) 969-3071",
-    "placeId": "IF846AE6B2601CC63",
-    "website": "https://www.coastalmassbrewing.com"
+    "website": "http://www.farfromthetreecider.com/",
+    "description": "Salem's hard-cider taproom near the train station, pouring flights of locally pressed apple cider in a family- and dog-friendly room."
   },
   {
     "address": "188 Essex St, Salem",
     "categories": [
-      "coffeeLocals"
+      "coffeeLocals",
+      "unknown",
+      "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.5218136,
-      "longitude": -70.8937603
+      "latitude": 42.5217493897883,
+      "longitude": -70.89374782790836
     },
     "name": "The Red Line Cafe",
     "phoneNumber": "+1 (978) 744-2235",
     "placeId": "I5A84C26EAA4F23D0",
-    "website": "http://www.redlinecafesalem.com"
+    "website": "http://www.redlinecafesalem.com",
+    "description": "A cozy downtown breakfast-and-lunch café known for pressed paninis, savory crepes, salads, and good coffee, with free Wi-Fi for lingering."
   },
   {
     "address": "60 Washington St, Salem",
@@ -530,13 +553,16 @@
     },
     "name": "Odd Meter Coffee Co.",
     "placeId": "I2469F98DC56E62E1",
-    "website": "https://www.oddmetercoffee.com"
+    "website": "https://www.oddmetercoffee.com",
+    "description": "A small, serious downtown coffee bar run by a father-and-son team, pouring single-origin batch brew and craft espresso for the specialty-coffee crowd."
   },
   {
     "address": "247 Essex St, Salem",
     "categories": [
       "coffeeLocals",
       "foodRestaurant",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -546,11 +572,14 @@
     "name": "Gulu-Gulu Cafe",
     "phoneNumber": "+1 (978) 740-8882",
     "placeId": "I93796AD759049AB9",
-    "website": "http://www.gulugulucafe.com"
+    "website": "http://www.gulugulucafe.com",
+    "description": "A European-style café and bar on the Essex Street pedestrian mall, pouring Belgian beers and serving crepes and paninis, with live music most nights of the week."
   },
   {
     "address": "281 Essex St, Salem",
     "categories": [
+      "unknown",
+      "unknown",
       "coffeeLocals"
     ],
     "coordinate": {
@@ -560,7 +589,8 @@
     "name": "Life Alive Organic Cafe",
     "phoneNumber": "+1 (978) 594-4644",
     "placeId": "I518590B1D13B1D41",
-    "website": "https://www.lifealive.com/location/salem"
+    "website": "https://www.lifealive.com/location/salem",
+    "description": "The original location of a beloved New England vegetarian café, serving organic grain-and-veggie bowls, wraps, and smoothies on Essex Street."
   },
   {
     "address": "20 Front St, Salem",
@@ -575,12 +605,15 @@
     "name": "Front Street Coffeehouse",
     "phoneNumber": "+1 (978) 740-6697",
     "placeId": "I17314B62AA857D66",
-    "website": "https://www.fscsalem.com"
+    "website": "https://www.fscsalem.com",
+    "description": "A snug downtown coffeehouse since 1996 — organic espresso, teas, and sandwiches in what regulars fondly call 'Salem's living room.'"
   },
   {
     "address": "101 Lafayette St, Salem",
     "categories": [
-      "coffeeChain"
+      "coffeeChain",
+      "unknown",
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.518343,
@@ -597,13 +630,14 @@
       "coffeeLocals"
     ],
     "coordinate": {
-      "latitude": 42.5221635,
-      "longitude": -70.8913643
+      "latitude": 42.5221216818042,
+      "longitude": -70.8914169282762
     },
     "name": "Brew Box",
     "phoneNumber": "+1 (978) 594-5164",
     "placeId": "I4F3B8B181C4B2707",
-    "website": "http://www.brewboxsalem.com"
+    "website": "http://www.brewboxsalem.com",
+    "description": "A tiny downtown café known for seasonal lattes and house-made treats — breakfast burritos, pop-tarts, and cinnamon rolls — to fuel a morning of sightseeing."
   },
   {
     "address": "99 Washington St, Salem",
@@ -645,7 +679,8 @@
     "name": "Wolf Next Door Coffee",
     "phoneNumber": "+1 (978) 594-1540",
     "placeId": "I9F9DA8E781F88385",
-    "website": "https://www.wolfnextdoorcoffee.com"
+    "website": "https://www.wolfnextdoorcoffee.com",
+    "description": "An earth-minded neighborhood coffee shop in the historic Derby Street district, with organic coffee, pastries, and breakfast sandwiches, indoors or out."
   },
   {
     "address": "36 Jefferson Ave, Salem",
@@ -673,7 +708,8 @@
     "name": "Jaho",
     "phoneNumber": "+1 (978) 744-4300",
     "placeId": "IBE94923FD2E8EBC1",
-    "website": "https://www.jaho.com"
+    "website": "https://www.jaho.com",
+    "description": "A Salem-born specialty coffee roaster and café — espresso and tea by day, wine and cocktails by night, with beans roasted just up the road."
   },
   {
     "address": "152 Washington St, Salem",
@@ -701,12 +737,13 @@
     "name": "Jaho",
     "phoneNumber": "+1 (978) 594-1485",
     "placeId": "ID9710159029710D2",
-    "website": "https://jahocoffee.square.site/s/order?location=11ea775c1f48873da1470cc47a2aeaec"
+    "website": "https://jahocoffee.square.site/s/order?location=11ea775c1f48873da1470cc47a2aeaec",
+    "description": "A Salem-born specialty coffee roaster and café — espresso and tea by day, wine and cocktails by night, with beans roasted just up the road."
   },
   {
     "address": "96 Bridge St, Salem",
     "categories": [
-      "coffeeLocals"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5294412,
@@ -756,35 +793,8 @@
     "name": "Jaho",
     "phoneNumber": "+1 (978) 594-4743",
     "placeId": "I422255CE9AAE5992",
-    "website": "https://jahocoffee.square.site/s/order?location=11ea775c1f48873da1470cc47a2aeaec"
-  },
-  {
-    "address": "198 Cabot St, Beverly",
-    "categories": [
-      "coffeeLocals"
-    ],
-    "coordinate": {
-      "latitude": 42.5481086,
-      "longitude": -70.8789903
-    },
-    "name": "What's Brewin' Cafe",
-    "phoneNumber": "+1 (978) 998-6889",
-    "placeId": "I9495B3A93645D211",
-    "website": "http://whatsbrewincafe198.com"
-  },
-  {
-    "address": "140 Rantoul St, Beverly",
-    "categories": [
-      "coffeeLocals"
-    ],
-    "coordinate": {
-      "latitude": 42.546654,
-      "longitude": -70.88498
-    },
-    "name": "The Castle: A Board Game Cafe",
-    "phoneNumber": "+1 (978) 969-1719",
-    "placeId": "IAF83DE7F74B4A3C2",
-    "website": "http://thecastlebeverly.com"
+    "website": "https://jahocoffee.square.site/s/order?location=11ea775c1f48873da1470cc47a2aeaec",
+    "description": "A Salem-born specialty coffee roaster and café — espresso and tea by day, wine and cocktails by night, with beans roasted just up the road."
   },
   {
     "address": "68 Boston St, Salem",
@@ -806,8 +816,8 @@
       "carCharger"
     ],
     "coordinate": {
-      "latitude": 42.520405,
-      "longitude": -70.88989
+      "latitude": 42.52015873531016,
+      "longitude": -70.89017610038064
     },
     "name": "ChargePoint",
     "phoneNumber": "+1 (888) 758-4389",
@@ -897,20 +907,6 @@
     "phoneNumber": "+1 (800) 636-0986",
     "placeId": "I953313B480BFA894",
     "website": "https://chargelab.co"
-  },
-  {
-    "address": "1 New Liberty St, Salem",
-    "categories": [
-      "carCharger"
-    ],
-    "coordinate": {
-      "latitude": 42.522297,
-      "longitude": -70.89335
-    },
-    "name": "ChargePoint",
-    "phoneNumber": "+1 (888) 758-4389",
-    "placeId": "I432B07A9B969B7B7",
-    "website": "http://www.chargepoint.com"
   },
   {
     "address": "1 Sewall St, Salem",
@@ -1016,8 +1012,8 @@
       "fireStation"
     ],
     "coordinate": {
-      "latitude": 42.528368,
-      "longitude": -70.902796
+      "latitude": 42.52831648482728,
+      "longitude": -70.90288975342787
     },
     "name": "Salem Fire Department Station 2",
     "placeId": "IB397A5BA4BD1CEA7"
@@ -1049,11 +1045,13 @@
   {
     "address": "26 Front St, Salem",
     "categories": [
+      "souvenierShop",
+      "unknown",
       "market"
     ],
     "coordinate": {
-      "latitude": 42.5206883,
-      "longitude": -70.8944606
+      "latitude": 42.52062526966519,
+      "longitude": -70.89445402162072
     },
     "name": "Whimsy's",
     "phoneNumber": "+1 (978) 825-9111",
@@ -1066,8 +1064,8 @@
       "market"
     ],
     "coordinate": {
-      "latitude": 42.5218995,
-      "longitude": -70.8960878
+      "latitude": 42.5218322272365,
+      "longitude": -70.89590031255808
     },
     "name": "Annie Asian Mart",
     "phoneNumber": "+1 (978) 594-0862",
@@ -1080,8 +1078,8 @@
       "market"
     ],
     "coordinate": {
-      "latitude": 42.5207127,
-      "longitude": -70.8958191
+      "latitude": 42.52072785151329,
+      "longitude": -70.89582732297721
     },
     "name": "Curly Girl Candy Shop",
     "phoneNumber": "+1 (978) 594-1553",
@@ -1092,7 +1090,8 @@
     "address": "173 Essex St, Salem",
     "categories": [
       "coffeeLocals",
-      "customerRestroom"
+      "customerRestroom",
+      "market"
     ],
     "coordinate": {
       "latitude": 42.521678879992706,
@@ -1101,7 +1100,8 @@
     "name": "Kakawa Chocolate House",
     "phoneNumber": "+1 (617) 548-4567",
     "placeId": "IC3E3B50EABB50142",
-    "website": "https://kakawachocolates.com"
+    "website": "https://kakawachocolates.com",
+    "description": "A chocolate house beside the Peabody Essex pouring historical drinking-chocolate 'elixirs,' from Mesoamerican to colonial recipes, alongside artisan truffles. Hours are limited."
   },
   {
     "address": "36 Margin St, Salem",
@@ -1120,13 +1120,14 @@
   {
     "address": "185 Essex St, Salem",
     "categories": [
-      "market"
+      "market",
+      "liquorStore"
     ],
     "coordinate": {
-      "latitude": 42.5215861,
-      "longitude": -70.8935501
+      "latitude": 42.52161701274459,
+      "longitude": -70.89365519105571
     },
-    "name": "Pamplemousse - Salem",
+    "name": "Pamplemousse",
     "phoneNumber": "+1 (978) 745-2900",
     "placeId": "IA075A2573DBF2F18",
     "website": "http://pmousse.com"
@@ -1259,6 +1260,7 @@
   {
     "address": "85 Leavitt St, Salem",
     "categories": [
+      "unknown",
       "market"
     ],
     "coordinate": {
@@ -1289,8 +1291,8 @@
       "liquorStore"
     ],
     "coordinate": {
-      "latitude": 42.5274446,
-      "longitude": -70.9017982
+      "latitude": 42.527377327236465,
+      "longitude": -70.90171513898032
     },
     "name": "Salem Liquors",
     "phoneNumber": "+1 (978) 744-1480",
@@ -1400,8 +1402,8 @@
       "hotel"
     ],
     "coordinate": {
-      "latitude": 42.5214445,
-      "longitude": -70.8942691
+      "latitude": 42.52150170813096,
+      "longitude": -70.89431889901715
     },
     "name": "The Hotel Salem",
     "phoneNumber": "+1 (978) 451-4950",
@@ -1411,6 +1413,7 @@
   {
     "address": "7 Summer St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -1425,13 +1428,15 @@
   {
     "address": "148 Washington St, Salem",
     "categories": [
+      "unknown",
+      "historicalMarker",
       "hotel"
     ],
     "coordinate": {
       "latitude": 42.5204398,
       "longitude": -70.8958292
     },
-    "name": "The Merchant",
+    "name": "The Merchant at Joshua Ward House",
     "phoneNumber": "+1 (978) 745-8100",
     "placeId": "I7D0F9A51C5A84407",
     "website": "http://www.themerchantsalem.com"
@@ -1439,6 +1444,7 @@
   {
     "address": "16 Winter St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -1480,6 +1486,7 @@
   {
     "address": "22 Hardy St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -1494,6 +1501,7 @@
   {
     "address": "284 Lafayette St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -1506,22 +1514,9 @@
     "website": "http://www.coachhousesalem.com"
   },
   {
-    "address": "148 Washington St, Salem",
-    "categories": [
-      "hotel"
-    ],
-    "coordinate": {
-      "latitude": 42.520459,
-      "longitude": -70.895946
-    },
-    "name": "Joshua Ward House",
-    "phoneNumber": "+1 (978) 745-0300",
-    "placeId": "I42F61BB2A14A0E2F",
-    "website": "http://en.wikipedia.org/wiki/index.html?curid=18750022"
-  },
-  {
     "address": "98 Essex St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -1534,27 +1529,14 @@
     "website": "http://www.hawthornehotel.com/%E2%80%8Bdocuments/%E2%80%8BSuzannahFlintHousebrochur%E2%80%A6"
   },
   {
-    "address": "40 Bridge St, Salem",
-    "categories": [
-      "hotel"
-    ],
-    "coordinate": {
-      "latitude": 42.5343027,
-      "longitude": -70.8886655
-    },
-    "name": "Clipper Ship Inn",
-    "phoneNumber": "+1 (978) 745-8022",
-    "placeId": "IDAFDBBDD7E3C3599",
-    "website": "http://clippershipinn.com"
-  },
-  {
     "address": "132 Essex St, Salem",
     "categories": [
-      "museum"
+      "museum",
+      "library"
     ],
     "coordinate": {
-      "latitude": 42.522489,
-      "longitude": -70.891505
+      "latitude": 42.52232718160862,
+      "longitude": -70.89139809825696
     },
     "name": "Phillips Library",
     "phoneNumber": "+1 (978) 745-1876",
@@ -1573,7 +1555,8 @@
     "name": "Salem Public Library",
     "phoneNumber": "+1 (978) 744-0860",
     "placeId": "ID6348B574E3419F9",
-    "website": "https://www.salempl.org/"
+    "website": "https://www.salempl.org/",
+    "description": "Salem's public library since 1889, housed in the elegant Italianate mansion of sea captain John Bertram, whose family gave their grand Essex Street home to the city."
   },
   {
     "address": "337 Essex St, Salem",
@@ -1601,7 +1584,8 @@
     "name": "Pickering Wharf Marina",
     "phoneNumber": "+1 (978) 744-2727",
     "placeId": "I8F4A313223BB63CC",
-    "website": "https://www.pickeringwharfmarina.com"
+    "website": "https://www.pickeringwharfmarina.com",
+    "description": "A waterfront village of shops, restaurants, and a working marina, built in the 1970s in eighteenth-century style at the gateway to Salem's historic harbor."
   },
   {
     "address": "43 Water St, Beverly",
@@ -1623,8 +1607,8 @@
       "marina"
     ],
     "coordinate": {
-      "latitude": 42.5198208,
-      "longitude": -70.8901524
+      "latitude": 42.51967186119579,
+      "longitude": -70.88902643708718
     },
     "name": "Mahi Mahi Harbor Cruises & Private Events",
     "phoneNumber": "+1 (978) 825-0001",
@@ -1673,20 +1657,6 @@
     "website": "http://www.schoonerfame.com"
   },
   {
-    "address": "23 Glendale St, Salem",
-    "categories": [
-      "marina"
-    ],
-    "coordinate": {
-      "latitude": 42.5095502,
-      "longitude": -70.8883302
-    },
-    "name": "North Sails",
-    "phoneNumber": "+1 (978) 745-1400",
-    "placeId": "I6F699054F346DB8D",
-    "website": "http://www.northsails.com"
-  },
-  {
     "address": "10 Blaney St, Salem",
     "categories": [
       "marina"
@@ -1726,7 +1696,8 @@
     "name": "Halloween Museum",
     "phoneNumber": "+1 (978) 741-1170",
     "placeId": "I28A890AF9CF4A5FB",
-    "website": "https://www.facebook.com/Hallaweenmuseumsalem/"
+    "website": "https://www.facebook.com/Hallaweenmuseumsalem/",
+    "description": "A year-round, family-friendly museum tracing Halloween's history and pop culture, complete with blacklit 3D rooms and photo-ready tributes to favorite spooky films."
   },
   {
     "address": "217 Essex St, Salem",
@@ -1740,7 +1711,8 @@
     "name": "Count Orlok's Nightmare Gallery",
     "phoneNumber": "+1 (978) 740-0500",
     "placeId": "ID80BB505993BD726",
-    "website": "http://www.nightmaregallery.com"
+    "website": "http://www.nightmaregallery.com",
+    "description": "A horror museum of sixty-plus life-size movie monsters, from Dracula to The Exorcist, sculpted by Hollywood effects artists. Cameras stay in your pocket inside the gallery."
   },
   {
     "address": "19 1/2 Washington Sq N, Salem",
@@ -1755,7 +1727,8 @@
     "name": "Salem Witch Museum",
     "phoneNumber": "+1 (978) 744-1692",
     "placeId": "I899C041CF0C43934",
-    "website": "http://www.salemwitchmuseum.com"
+    "website": "http://www.salemwitchmuseum.com",
+    "description": "Salem's most-visited attraction, where a thirteen-scene narrated stage show inside a Gothic former church dramatizes the events of 1692. A second exhibit traces the changing face of the witch."
   },
   {
     "address": "161 Essex St, Salem",
@@ -1769,7 +1742,8 @@
     "name": "Peabody Essex Museum",
     "phoneNumber": "+1 (978) 745-9500",
     "placeId": "IAE033C2C51030B25",
-    "website": "http://www.pem.org"
+    "website": "http://www.pem.org",
+    "description": "Rooted in a 1799 sea-captains' society, the Peabody Essex is among America's oldest and finest museums, with world-class Asian and maritime art and a 200-year-old house brought whole from China."
   },
   {
     "address": "16 Lynde St, Salem",
@@ -1783,7 +1757,8 @@
     "name": "Witch Dungeon Museum",
     "phoneNumber": "+1 (978) 741-3570",
     "placeId": "I8FD8FBEEF490955B",
-    "website": "https://www.witchdungeon.com/witchdungeon.html"
+    "website": "https://www.witchdungeon.com/witchdungeon.html",
+    "description": "Actresses reenact a witch-trial scene drawn from the 1692 court records, after which a guide leads you through a recreated dungeon — a theatrical retelling of Salem's darkest year."
   },
   {
     "address": "30 Federal St, Salem",
@@ -1795,8 +1770,10 @@
       "longitude": -70.8956875
     },
     "name": "Salem Museum Of Torture",
+    "phoneNumber": "+1 (978) 210-8589",
     "placeId": "I34D238D7DC77DB88",
-    "website": "https://salemtorture.com"
+    "website": "https://salemtorture.com",
+    "description": "A walk-through gallery of historical punishment devices — the rack, the iron maiden, and more — with life-size displays detailing centuries of grim European justice."
   },
   {
     "address": "288 Derby St, Salem",
@@ -1810,7 +1787,8 @@
     "name": "Salem Wax Museum & Salem Witch Village",
     "phoneNumber": "+1 (978) 740-2929",
     "placeId": "ID3CD4F3924686000",
-    "website": "https://salemwaxmuseum.com"
+    "website": "https://salemwaxmuseum.com",
+    "description": "Two attractions in one: wax tableaux of Salem's witch-trial and seafaring history, plus a walk-through witch village, steps from the Witch Trials Memorial."
   },
   {
     "address": "186 Essex St, Salem",
@@ -1824,7 +1802,8 @@
     "name": "International Monster Museum",
     "phoneNumber": "+1 (978) 741-1111",
     "placeId": "I8FE365D63DD9BBDF",
-    "website": "https://www.internationalmonstermuseum.com"
+    "website": "https://www.internationalmonstermuseum.com",
+    "description": "A lantern-lit walk through the world's monsters, cryptids, and folklore creatures, built by international effects artists. Equal parts museum and jump-scare."
   },
   {
     "address": "310 1/2 Essex St, Salem",
@@ -1838,7 +1817,8 @@
     "name": "Witch House",
     "phoneNumber": "+1 (978) 744-8815",
     "placeId": "I305BB3973B551A2E",
-    "website": "https://www.thewitchhouse.org"
+    "website": "https://www.thewitchhouse.org",
+    "description": "The dark, gabled home of trial judge Jonathan Corwin, built around 1675 — the only structure still standing in Salem with direct ties to the 1692 witch trials, now a house museum."
   },
   {
     "address": "197-201 Essex Street, Salem",
@@ -1846,13 +1826,14 @@
       "museum"
     ],
     "coordinate": {
-      "latitude": 42.521447,
-      "longitude": -70.89402
+      "latitude": 42.521540339772024,
+      "longitude": -70.89406193040962
     },
     "name": "Witch History Museum",
     "phoneNumber": "+1 (978) 741-7770",
     "placeId": "IF86D6712C3A1F2F3",
-    "website": "http://witchhistorymuseum.com//witchhistory.html"
+    "website": "http://witchhistorymuseum.com//witchhistory.html",
+    "description": "A guided walk past fifteen life-size scenes recreating the 1692 hysteria, from Tituba's kitchen to the gallows. One of Salem's trio of narrated witch-history attractions."
   },
   {
     "address": "115 Derby St, Salem",
@@ -1866,7 +1847,8 @@
     "name": "The House Of The Seven Gables",
     "phoneNumber": "+1 (978) 744-0991",
     "placeId": "I2FF1B9D92569A9E8",
-    "website": "http://www.7gables.org"
+    "website": "http://www.7gables.org",
+    "description": "The 1668 seaside mansion that inspired Hawthorne's novel — among New England's oldest surviving wooden houses, with a secret staircase and the author's birthplace moved onto its grounds."
   },
   {
     "address": "7 Lynde St, Salem",
@@ -1880,7 +1862,8 @@
     "name": "The Lost Museum",
     "phoneNumber": "+1 (978) 825-0222",
     "placeId": "I7BA03938E3C5FAC3",
-    "website": "https://gallowshillsalem.com/the-lost-museum/?fbclid=IwAR39mOrZ8gDy2x-gG--F1ZRXL_ZAK4NkOo_MLL4RAy81DkUOFoZ3mDtvpBw"
+    "website": "https://gallowshillsalem.com/the-lost-museum/?fbclid=IwAR39mOrZ8gDy2x-gG--F1ZRXL_ZAK4NkOo_MLL4RAy81DkUOFoZ3mDtvpBw",
+    "description": "A theatrical walk through a 'cabinet of oddities' supposedly lost in Salem's great fire of 1914, with living portraits and special effects. A guided, October-only experience."
   },
   {
     "address": "7 Lynde St, Salem",
@@ -1894,7 +1877,8 @@
     "name": "Gallows Hill",
     "phoneNumber": "+1 (978) 825-0222",
     "placeId": "IABCF22FA0DD6875B",
-    "website": "http://www.gallowshillsalem.com"
+    "website": "http://www.gallowshillsalem.com",
+    "description": "The hill long assumed to be the witch-trial execution ground, though the hangings in fact took place downhill at Proctor's Ledge. Today it's a neighborhood park with views over the city."
   },
   {
     "address": "194 3/4 Essex Street, Salem",
@@ -1903,12 +1887,13 @@
       "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.521818,
-      "longitude": -70.8940853
+      "latitude": 42.52173939431439,
+      "longitude": -70.89388435097447
     },
     "name": "Professor Spindlewink's World of Wizardry",
     "placeId": "IE2EF79500F2EBAA9",
-    "website": "https://worldofwizardrysalem.com"
+    "website": "https://worldofwizardrysalem.com",
+    "description": "A family-friendly walk through six fantasy realms, from enchanted forest to dragon's lair, full of hidden, hands-on magic — a wizardly antidote to Salem's scarier stops."
   },
   {
     "address": "274 Derby St, Salem",
@@ -1922,7 +1907,8 @@
     "name": "New England Pirate Museum",
     "phoneNumber": "+1 (978) 741-2800",
     "placeId": "IBF0D49BDC3DF22B8",
-    "website": "http://www.piratemuseum.com/pirate.html"
+    "website": "http://www.piratemuseum.com/pirate.html",
+    "description": "A guided romp through a recreated colonial seaport, a boardable pirate ship, and an eighty-foot cave, telling the tales of New England's real buccaneers. Seasonal."
   },
   {
     "address": "127 Essex St, Salem",
@@ -1930,8 +1916,8 @@
       "museum"
     ],
     "coordinate": {
-      "latitude": 42.522193,
-      "longitude": -70.8908918
+      "latitude": 42.522286333263644,
+      "longitude": -70.8908901553656
     },
     "name": "Salem Witch Board Museum",
     "phoneNumber": "+1 (781) 552-0096",
@@ -1991,7 +1977,8 @@
     "name": "Real Pirates Salem",
     "phoneNumber": "+1 (978) 259-1717",
     "placeId": "IFDC9E8DDEFBE9B12",
-    "website": "http://www.realpiratessalem.com"
+    "website": "http://www.realpiratessalem.com",
+    "description": "A pirate museum built around real treasure from the Whydah, the wrecked ship of pirate 'Black Sam' Bellamy — the world's only authenticated pirate hoard."
   },
   {
     "address": "107 Boston St, Salem",
@@ -2023,16 +2010,17 @@
   {
     "address": "288 Derby St, Salem",
     "categories": [
-      "attraction"
+      "haunt"
     ],
     "coordinate": {
-      "latitude": 42.520455,
-      "longitude": -70.891696
+      "latitude": 42.52037535506286,
+      "longitude": -70.8915838050051
     },
     "name": "Frankenstein's Laboratory",
     "phoneNumber": "+1 (978) 740-2929",
     "placeId": "IBC46CC43FEE22308",
-    "website": "http://www.salemwaxmuseum.com"
+    "website": "http://www.salemwaxmuseum.com",
+    "description": "A mad-scientist haunt beneath the Salem Wax Museum, winding past live actors and animatronics. Its expanded 'Laboratory of Terror' wing adds a longer, more interactive descent."
   },
   {
     "address": "34 Chestnut St, Salem",
@@ -2060,7 +2048,8 @@
     "name": "Pioneer Village",
     "phoneNumber": "+1 (978) 744-8815",
     "placeId": "I637A6A755C546008",
-    "website": "https://www.pioneervillagesalem.org"
+    "website": "https://www.pioneervillagesalem.org",
+    "description": "America's first living-history museum, built in 1930 to recreate a 1630 Puritan settlement — thatched cottages, wigwams, and a blacksmith's forge — in Forest River Park. Seasonal and ticketed."
   },
   {
     "address": "27 Hardy St, Salem",
@@ -2088,7 +2077,8 @@
     "name": "Salem Common",
     "phoneNumber": "+1 (978) 744-0180",
     "placeId": "I22A6BB206D351EA4",
-    "website": "http://www.salemweb.com/guide/common/"
+    "website": "http://www.salemweb.com/guide/common/",
+    "description": "The roughly nine-acre green at the heart of the city, a designated militia training field since 1714 and now a tree-lined park ringed by historic homes and centered on its 1926 bandstand."
   },
   {
     "address": "237 Essex St, Salem",
@@ -2108,11 +2098,12 @@
       "park"
     ],
     "coordinate": {
-      "latitude": 42.5197909,
-      "longitude": -70.8918232
+      "latitude": 42.519929081665374,
+      "longitude": -70.89169821259017
     },
     "name": "Waterfront Park",
-    "placeId": "IC093D14914F3C494"
+    "placeId": "IC093D14914F3C494",
+    "description": "A small green space along Derby Street's harborfront, a quiet place to take in the boats and water between Salem's busier wharves."
   },
   {
     "address": "32-38 Clifton Ave, Salem",
@@ -2126,7 +2117,8 @@
     "name": "Forest River Park",
     "phoneNumber": "+1 (978) 744-0180",
     "placeId": "IF16A3F2560BF3653",
-    "website": "https://www.salem.org/listing/forest-river-park/"
+    "website": "https://www.salem.org/listing/forest-river-park/",
+    "description": "A waterfront park with two beaches, a community pool, and harbor-view picnic hills — also home to Pioneer Village, the recreated 1630 Puritan settlement."
   },
   {
     "address": "71 Commercial St, Salem",
@@ -2153,7 +2145,8 @@
     "name": "Winter Island Park",
     "phoneNumber": "+1 (978) 745-9430",
     "placeId": "I9B28D38F68FC3D28",
-    "website": "https://www.salem.com/winter-island-park"
+    "website": "https://www.salem.com/winter-island-park",
+    "description": "A 54-acre former military outpost on Salem Harbor with a beach, boat ramp, and campground, plus the 1871 Fort Pickering Lighthouse and the earthworks of a colonial-era fort."
   },
   {
     "address": "165 Ft Ave, Salem",
@@ -2167,7 +2160,8 @@
     "name": "Salem Willows Park",
     "phoneNumber": "+1 (978) 745-0251",
     "placeId": "ID690BF7871685631",
-    "website": "http://www.salemwillowspark.com"
+    "website": "http://www.salemwillowspark.com",
+    "description": "A breezy seaside park since 1858, named for its old willow trees, with vintage arcades, a band shell, harbor views, and the popcorn-and-chowder stands of a classic New England amusement grove."
   },
   {
     "address": "20 Franklin St, Salem",
@@ -2179,7 +2173,8 @@
       "longitude": -70.8976659
     },
     "name": "Furlong Park",
-    "placeId": "I4666CF5AD461EBDE"
+    "placeId": "I4666CF5AD461EBDE",
+    "description": "A tidy North Salem waterfront playground with a picnic pavilion, dog area, and water views where children can watch the commuter trains roll past across the cove."
   },
   {
     "address": "12-14 Langdon St, Salem",
@@ -2231,8 +2226,10 @@
       "longitude": -70.8893977
     },
     "name": "Palmer Cove Park",
+    "phoneNumber": "+1 (978) 542-1953",
     "placeId": "I2115CD0492323070",
-    "website": "https://www.salem.com/planning-and-community-development/pages/palmer-cove-park"
+    "website": "https://www.salem.com/planning-and-community-development/pages/palmer-cove-park",
+    "description": "A neighborhood park in The Point with ball courts, a playing field, community gardens, and waterfront paths — a recently revamped pocket of green beside the harbor."
   },
   {
     "address": "41 Northey St, Salem",
@@ -2395,8 +2392,8 @@
       "parking"
     ],
     "coordinate": {
-      "latitude": 42.5245973,
-      "longitude": -70.8962445
+      "latitude": 42.52503063183051,
+      "longitude": -70.89625765758157
     },
     "name": "MBTA Parking",
     "phoneNumber": "+1 (617) 222-3200",
@@ -2487,7 +2484,7 @@
     ],
     "coordinate": {
       "latitude": 42.522515,
-      "longitude": -70.8939632
+      "longitude": -70.89396320000003
     },
     "name": "parking",
     "phoneNumber": "+1 (978) 745-8120",
@@ -2555,6 +2552,7 @@
       "longitude": -70.8929461
     },
     "name": "Old Salem Jail Lot",
+    "phoneNumber": "+1 (978) 745-8120",
     "placeId": "IEC6C472DB9A20AF2"
   },
   {
@@ -2601,8 +2599,8 @@
       "pharmacy"
     ],
     "coordinate": {
-      "latitude": 42.52170242198726,
-      "longitude": -70.89432591285706
+      "latitude": 42.521683028044876,
+      "longitude": -70.89421819014909
     },
     "name": "CVS Pharmacy",
     "phoneNumber": "+1 (978) 744-2224",
@@ -2654,7 +2652,7 @@
   {
     "address": "2 Margin St, Salem",
     "categories": [
-      "postOffice"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5195671,
@@ -2678,12 +2676,14 @@
     "name": "Ledger Restaurant & Bar",
     "phoneNumber": "+1 (978) 594-1908",
     "placeId": "I41CF70168C9A846D",
-    "website": "http://www.ledgersalem.com"
+    "website": "http://www.ledgersalem.com",
+    "description": "Upscale progressive New England dining inside an 1818 bank, where the old vault is now a wine room and the teller windows survive as decor."
   },
   {
     "address": "231 Essex St, Salem",
     "categories": [
       "foodRestaurant",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2739,13 +2739,15 @@
     "name": "Turner's Seafood",
     "phoneNumber": "+1 (978) 745-7665",
     "placeId": "ID32BFFF11035E89B",
-    "website": "https://www.turners-seafood.com/salem-ma"
+    "website": "https://www.turners-seafood.com/salem-ma",
+    "description": "Fresh fish and a raw bar in historic Lyceum Hall — the very room where Alexander Graham Bell is said to have given one of his first public telephone demonstrations."
   },
   {
     "address": "87 Washington St, Salem",
     "categories": [
       "foodRestaurant",
       "bar",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2755,13 +2757,16 @@
     "name": "Dire Wolf Tavern",
     "phoneNumber": "+1 (978) 744-9600",
     "placeId": "I85E0BA98DED6E0F4",
-    "website": "https://www.direwolfsalem.com/"
+    "website": "https://www.direwolfsalem.com/",
+    "description": "A saloon-styled tavern on Washington Street serving elevated comfort food and award-winning sushi, with a hidden speakeasy, Hallowed Ground, tucked downstairs."
   },
   {
     "address": "155 Washington St, Salem",
     "categories": [
       "seafood",
-      "customerRestroom"
+      "unknown",
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.5203802,
@@ -2770,13 +2775,16 @@
     "name": "Adriatic Restaurant & Bar",
     "phoneNumber": "+1 (978) 594-1832",
     "placeId": "I1B87F2712C3ADBD8",
-    "website": "http://adriaticrestaurantandbar.com"
+    "website": "http://adriaticrestaurantandbar.com",
+    "description": "A modern Mediterranean restaurant in the old Salem News building, with house-made bread and pasta, brick-oven pizza, and flavors from the Adriatic coast."
   },
   {
     "address": "15 Central St, Salem",
     "categories": [
       "diner",
-      "customerRestroom"
+      "unknown",
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.521067325194515,
@@ -2785,13 +2793,16 @@
     "name": "Red's Sandwich Shop",
     "phoneNumber": "+1 (978) 745-3527",
     "placeId": "I99312DD225D9C478",
-    "website": "http://www.redssandwichshop.com"
+    "website": "http://www.redssandwichshop.com",
+    "description": "A Salem breakfast institution since 1945, serving classic diner fare from booths and a counter inside the historic London Coffee House, a Revolution-era meeting spot."
   },
   {
     "address": "41 Lafayette St, Salem",
     "categories": [
       "latinAmerican",
       "bar",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2808,6 +2819,7 @@
     "categories": [
       "eastAsian",
       "seafood",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2827,19 +2839,21 @@
       "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.520294,
-      "longitude": -70.894608
+      "latitude": 42.52023368516749,
+      "longitude": -70.8945802591568
     },
     "name": "The Lobster Shanty",
     "phoneNumber": "+1 (978) 745-5449",
     "placeId": "I63AF24E3CEE6A5A6",
-    "website": "http://lobstershantysalem.com"
+    "website": "http://lobstershantysalem.com",
+    "description": "A cheeky, colorful seafood joint on Artists' Row, famous for its Lobstertini and a no-pretense menu of New England classics, with live music. Open seasonally."
   },
   {
     "address": "283 Derby St, Salem",
     "categories": [
       "foodRestaurant",
       "bar",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2855,7 +2869,8 @@
     "address": "232 Essex St, Salem",
     "categories": [
       "diner",
-      "customerRestroom"
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.5214982,
@@ -2871,6 +2886,8 @@
     "categories": [
       "latinAmerican",
       "bar",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2880,12 +2897,14 @@
     "name": "Howling Wolf Taqueria",
     "phoneNumber": "+1 (978) 744-9653",
     "placeId": "I8EBD8CA5B34399E7",
-    "website": "https://howlingwolf.com/"
+    "website": "https://howlingwolf.com/",
+    "description": "A lively taqueria and cocktail bar on Lafayette Street, slinging tacos and margaritas, with plenty of vegan options, in a festive, colorful room."
   },
   {
     "address": "65 Washington St, Salem",
     "categories": [
       "foodRestaurant",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2900,7 +2919,9 @@
   {
     "address": "118 Washington St, Salem",
     "categories": [
-      "foodRestaurant",
+      "unknown",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -2910,12 +2931,14 @@
     "name": "Flying Saucer Pizza Company",
     "phoneNumber": "+1 (978) 594-8189",
     "placeId": "IA79B9702DE5061E8",
-    "website": "http://www.flyingsaucerpizzacompany.com"
+    "website": "http://www.flyingsaucerpizzacompany.com",
+    "description": "New York-style pizza in a sci-fi-themed parlor packed with Doctor Who and Star Wars decor, the dough made fresh in-house every day."
   },
   {
     "address": "7 Church St, Ste 139, Salem",
     "categories": [
-      "foodRestaurant"
+      "foodRestaurant",
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.522566965239974,
@@ -2929,12 +2952,13 @@
   {
     "address": "118 Washington St, Salem",
     "categories": [
-      "foodRestaurant",
+      "mediterranean",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.5211557,
-      "longitude": -70.8957983
+      "latitude": 42.52114357878672,
+      "longitude": -70.89610090770732
     },
     "name": "Blue Fez",
     "phoneNumber": "+1 (978) 744-2700",
@@ -2946,7 +2970,10 @@
     "categories": [
       "italian",
       "eastAsian",
-      "customerRestroom"
+      "unknown",
+      "unknown",
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.52022685945796,
@@ -2955,7 +2982,8 @@
     "name": "Bambolina",
     "phoneNumber": "+1 (978) 594-8709",
     "placeId": "I45FE8F7895F345C",
-    "website": "http://www.bambolinarestaurant.com"
+    "website": "http://www.bambolinarestaurant.com",
+    "description": "A wood-fired Neapolitan pizzeria on Derby Street that shares its kitchen with a ramen counter, so a blistered pie can come with a bowl of noodles on the side."
   },
   {
     "address": "209 Essex St, Salem",
@@ -2963,8 +2991,8 @@
       "foodRestaurant"
     ],
     "coordinate": {
-      "latitude": 42.5213076,
-      "longitude": -70.8942583
+      "latitude": 42.52150482629398,
+      "longitude": -70.89427763773226
     },
     "name": "Counter",
     "phoneNumber": "+1 (978) 451-4950",
@@ -2985,13 +3013,15 @@
     "name": "The Tavern",
     "phoneNumber": "+1 (978) 744-4080",
     "placeId": "I6A3B401B759491B1",
-    "website": "https://www.hawthornehotel.com/dining/the-tavern/"
+    "website": "https://www.hawthornehotel.com/dining/the-tavern/",
+    "description": "The cozy, oak-paneled tavern inside the historic 1925 Hawthorne Hotel, serving chowder, burgers, and local drafts within view of Salem Common."
   },
   {
     "address": "94 Lafayette St, Salem",
     "categories": [
       "eastAsian",
-      "customerRestroom"
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.5184013,
@@ -3014,16 +3044,18 @@
     "name": "Settler",
     "phoneNumber": "+1 (978) 744-2094",
     "placeId": "I1695D06642949D98",
-    "website": "http://www.settlersalem.com"
+    "website": "http://www.settlersalem.com",
+    "description": "An intimate, wine-forward small-plates spot with Mediterranean leanings — house sourdough, whipped ricotta, and crudo. Reservations are a good idea."
   },
   {
     "address": "2 Essex St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown",
+      "arcade"
     ],
     "coordinate": {
-      "latitude": 42.5219647,
-      "longitude": -70.8931553
+      "latitude": 42.522146517917264,
+      "longitude": -70.89325562233236
     },
     "name": "Essex's New York Pizza & Deli",
     "phoneNumber": "+1 (978) 741-1383",
@@ -3033,7 +3065,7 @@
   {
     "address": "14 New Derby St, Salem",
     "categories": [
-      "italian",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -3049,6 +3081,7 @@
     "address": "86 Wharf St, Salem",
     "categories": [
       "seafood",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -3058,7 +3091,8 @@
     "name": "Finz Seafood & Grill",
     "phoneNumber": "+1 (978) 744-8485",
     "placeId": "IEAF6BB9860BD0FEF",
-    "website": "http://www.hipfinz.com"
+    "website": "http://www.hipfinz.com",
+    "description": "A harborfront seafood restaurant and raw bar on Pickering Wharf, serving sustainably minded fish with wide-open views of Salem Harbor."
   },
   {
     "address": "94 Wharf St, Salem",
@@ -3073,7 +3107,8 @@
     "name": "Sea Level Oyster Bar",
     "phoneNumber": "+1 (978) 741-0555",
     "placeId": "I458C1A3463B642BE",
-    "website": "http://www.sealeveloysterbar.com"
+    "website": "http://www.sealeveloysterbar.com",
+    "description": "A two-story waterfront seafood spot on Pickering Wharf with a raw bar, harbor views, and a seasonal patio out over the marina."
   },
   {
     "address": "18 Washington Square W, Salem",
@@ -3092,8 +3127,9 @@
   {
     "address": "71 Lafayette St, Salem",
     "categories": [
-      "foodRestaurant",
-      "customerRestroom"
+      "unknown",
+      "customerRestroom",
+      "arcade"
     ],
     "coordinate": {
       "latitude": 42.5196921,
@@ -3103,20 +3139,6 @@
     "phoneNumber": "+1 (978) 745-1744",
     "placeId": "I18CE2F3E84044BB8",
     "website": "https://enginehousepizza.com"
-  },
-  {
-    "address": "90 Lafayette St, Salem",
-    "categories": [
-      "mediterranean"
-    ],
-    "coordinate": {
-      "latitude": 42.5185971,
-      "longitude": -70.8934125
-    },
-    "name": "Ray Adea's Mediterranean Kitchen",
-    "phoneNumber": "+1 (978) 594-4271",
-    "placeId": "I7C164A67ED921B68",
-    "website": "https://www.rayadeasmk.com"
   },
   {
     "address": "1 Water St, Beverly",
@@ -3179,8 +3201,7 @@
   {
     "address": "84 Derby St, Salem",
     "categories": [
-      "market",
-      "liquorStore"
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.5232983,
@@ -3224,7 +3245,8 @@
     "address": "96 North St, Salem",
     "categories": [
       "diner",
-      "customerRestroom"
+      "customerRestroom",
+      "foodRestaurant"
     ],
     "coordinate": {
       "latitude": 42.5261559,
@@ -3453,7 +3475,8 @@
     "address": "253 Essex St, Salem",
     "categories": [
       "clothingStore",
-      "coffeeChain"
+      "coffeeChain",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.521336656058935,
@@ -3481,6 +3504,7 @@
   {
     "address": "72 Washington St, Salem",
     "categories": [
+      "clothingStore",
       "shop"
     ],
     "coordinate": {
@@ -3496,7 +3520,8 @@
     "address": "173 Essex St, Salem",
     "categories": [
       "clothingStore",
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.522271,
@@ -3511,11 +3536,12 @@
     "address": "196 Essex St, Salem",
     "categories": [
       "clothingStore",
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5220359,
-      "longitude": -70.8942928
+      "latitude": 42.52172862652018,
+      "longitude": -70.89395893988896
     },
     "name": "Flying Monkey",
     "phoneNumber": "+1 (978) 745-7755",
@@ -3525,11 +3551,12 @@
   {
     "address": "3 Central St, Salem",
     "categories": [
-      "clothingStore"
+      "clothingStore",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5215147,
-      "longitude": -70.8935726
+      "latitude": 42.52146439694945,
+      "longitude": -70.89362029388008
     },
     "name": "Modern Millie",
     "phoneNumber": "+1 (978) 745-0231",
@@ -3539,7 +3566,9 @@
   {
     "address": "11 Dodge Street Ct, Salem",
     "categories": [
-      "shop"
+      "clothingStore",
+      "unknown",
+      "souvenierShop"
     ],
     "coordinate": {
       "latitude": 42.5182387,
@@ -3553,7 +3582,8 @@
   {
     "address": "6 Front St, Salem",
     "categories": [
-      "clothingStore"
+      "clothingStore",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.5206847,
@@ -3595,7 +3625,8 @@
   {
     "address": "17 Front St, Salem",
     "categories": [
-      "clothingStore"
+      "clothingStore",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.5204717,
@@ -3652,7 +3683,7 @@
   {
     "address": "47 Canal St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.51671,
@@ -3747,7 +3778,8 @@
   {
     "address": "186-3 Essex St, Salem",
     "categories": [
-      "tattooParlor"
+      "tattooParlor",
+      "spa"
     ],
     "coordinate": {
       "latitude": 42.5224312,
@@ -3820,8 +3852,8 @@
       "barber"
     ],
     "coordinate": {
-      "latitude": 42.5218738,
-      "longitude": -70.895884
+      "latitude": 42.5217664064418,
+      "longitude": -70.89589254755819
     },
     "name": "Badabing Barbershop and Shave Parlor",
     "phoneNumber": "+1 (978) 594-5948",
@@ -3954,7 +3986,8 @@
   {
     "address": "274 Essex St, Salem",
     "categories": [
-      "tattooParlor"
+      "tattooParlor",
+      "spa"
     ],
     "coordinate": {
       "latitude": 42.5215332,
@@ -4181,6 +4214,7 @@
       "latitude": 42.52097328077836,
       "longitude": -70.89460187180384
     },
+    "description": "Salem's oldest surviving public building (1816), presiding over Derby Square. Fans know it as the Hocus Pocus Halloween party hall, where the Sanderson sisters cast their spell on the crowd with 'I Put a Spell on You.'",
     "name": "Old Town Hall",
     "phoneNumber": "+1 (978) 619-5681",
     "placeId": "I9CDE8CA215B29E75",
@@ -4198,7 +4232,8 @@
     "name": "Salem Witch Trials Memorial",
     "phoneNumber": "+1 (978) 741-3252",
     "placeId": "I9EC383EA55A21695",
-    "website": "https://www.salem.org/listing/witch-trials-memorial/"
+    "website": "https://www.salem.org/listing/witch-trials-memorial/",
+    "description": "A solemn memorial dedicated in 1992 beside the old Charter Street cemetery, its low granite walls lined with benches naming each 1692 victim and inscribed with their pleas of innocence, cut off mid-sentence in stone."
   },
   {
     "address": "235 Essex St, Salem",
@@ -4212,7 +4247,8 @@
     "name": "Bewitched Statue of Elizabeth Montgomery",
     "phoneNumber": "+1 (978) 744-9904",
     "placeId": "I8B41EDCFB5F453CD",
-    "website": "https://www.atlasobscura.com/places/statue-elizabeth-montgomery-bewitched"
+    "website": "https://www.atlasobscura.com/places/statue-elizabeth-montgomery-bewitched",
+    "description": "A bronze of Elizabeth Montgomery as Samantha from the sitcom Bewitched, perched on her broom beneath a crescent moon. Unveiled by the TV Land network in 2005 in Lappin Park."
   },
   {
     "address": "318 Essex St, Salem",
@@ -4226,7 +4262,8 @@
     "name": "Ropes Mansion",
     "phoneNumber": "+1 (978) 745-9500",
     "placeId": "I80D74784769F5E6E",
-    "website": "http://www.pem.org/visit/historic-houses/mcintire-historic-district"
+    "website": "http://www.pem.org/visit/historic-houses/mcintire-historic-district",
+    "description": "A grand Georgian mansion of about 1727 on Essex Street, with a free formal garden, kept by the Peabody Essex Museum. Fans know its exterior as Allison's house in Hocus Pocus."
   },
   {
     "address": "9 Brown St, Salem",
@@ -4234,8 +4271,8 @@
       "historicalMarker"
     ],
     "coordinate": {
-      "latitude": 42.5229571,
-      "longitude": -70.891658
+      "latitude": 42.52301164543072,
+      "longitude": -70.89168924843598
     },
     "name": "John Ward House",
     "phoneNumber": "+1 (978) 745-9500",
@@ -4253,7 +4290,8 @@
     "name": "Roger Conant Statue",
     "phoneNumber": "+1 (978) 741-3252",
     "placeId": "I297FE5AB080A0B26",
-    "website": "https://www.salem.org/notable-locals/roger-conant"
+    "website": "https://www.salem.org/notable-locals/roger-conant",
+    "description": "A cloaked, broad-hatted bronze of Salem's Puritan founder, who led the 1626 settlement at Naumkeag. Brooding atop a boulder near the Common, it's often mistaken for a witch."
   },
   {
     "address": "178 Derby St, Salem",
@@ -4266,7 +4304,8 @@
     },
     "name": "Custom House",
     "phoneNumber": "+1 (978) 740-1650",
-    "placeId": "IC751C9255252DDA6"
+    "placeId": "IC751C9255252DDA6",
+    "description": "The stately 1819 Federal building where duties were levied at the height of Salem's shipping boom. Nathaniel Hawthorne worked here, and it opens the long introduction to his novel The Scarlet Letter."
   },
   {
     "address": "160 Derby St, Salem",
@@ -4280,7 +4319,8 @@
     "name": "Salem Maritime National Historic Site",
     "phoneNumber": "+1 (978) 740-1650",
     "placeId": "I3E65AD5D0332626D",
-    "website": "https://www.nps.gov/sama/"
+    "website": "https://www.nps.gov/sama/",
+    "description": "America's first National Historic Site (1938), preserving the wharves, Custom House, and tall ship that powered Salem's golden age of global sea trade. It was redesignated a National Historical Park in 2025."
   },
   {
     "address": "Essex St, Salem",
@@ -4292,7 +4332,8 @@
       "longitude": -70.9013365
     },
     "name": "McIntire Historic District",
-    "placeId": "IB4E2508DC2B05E88"
+    "placeId": "IB4E2508DC2B05E88",
+    "description": "A leafy district of Federal-era mansions named for Salem's own woodcarver and architect Samuel McIntire, with Chestnut Street long counted among the most beautiful streets in America."
   },
   {
     "address": "20 Hawthorne Blvd, Salem",
@@ -4304,7 +4345,8 @@
       "longitude": -70.89025955318736
     },
     "name": "Nathaniel Hawthorne Statue",
-    "placeId": "IE032A444E7DE4E9F"
+    "placeId": "IE032A444E7DE4E9F",
+    "description": "A seated bronze of Salem's most famous author, sculpted by Bela Lyon Pratt and dedicated in 1925 on Hawthorne Boulevard, near the streets that shaped his dark New England tales."
   },
   {
     "address": "1 Sewall St, Salem",
@@ -4329,7 +4371,8 @@
     },
     "name": "Proctor's Ledge Memorial",
     "placeId": "IE685E6D95F822FE6",
-    "website": "https://salemwitchmuseum.com/locations/proctors-ledge-memorial/"
+    "website": "https://salemwitchmuseum.com/locations/proctors-ledge-memorial/",
+    "description": "A quiet semicircular memorial at the foot of Gallows Hill marking the spot, confirmed by researchers in 2016, where nineteen people were hanged in 1692. Each victim's name is carved in stone."
   },
   {
     "address": "35 Daniels St, Salem",
@@ -4349,8 +4392,8 @@
       "historicalMarker"
     ],
     "coordinate": {
-      "latitude": 42.5225337,
-      "longitude": -70.8910022
+      "latitude": 42.522446427211754,
+      "longitude": -70.89095861695046
     },
     "name": "Gardner-Pingree House",
     "phoneNumber": "+1 (978) 745-9500",
@@ -4359,7 +4402,7 @@
   {
     "address": "92 Wharf St, Salem",
     "categories": [
-      "pointOfInterest"
+      "marina"
     ],
     "coordinate": {
       "latitude": 42.5195311,
@@ -4367,7 +4410,8 @@
     },
     "name": "Central Wharf",
     "placeId": "IA42BA5CAA0AFCA71",
-    "website": "https://npplan.com/parks-by-state/massachusetts-national-parks/salem-maritime-national-historic-site/salem-maritime-national-historic-site-historical-wharves/"
+    "website": "https://npplan.com/parks-by-state/massachusetts-national-parks/salem-maritime-national-historic-site/salem-maritime-national-historic-site-historical-wharves/",
+    "description": "An 1780s Salem Maritime wharf once among the port's largest, its vanished warehouse footprint outlined in stone and its surviving brick store now serving as a park information center."
   },
   {
     "address": "164 Derby St, Salem",
@@ -4379,7 +4423,8 @@
       "longitude": -70.8866786
     },
     "name": "Derby House",
-    "placeId": "I396F936F3E7171E4"
+    "placeId": "I396F936F3E7171E4",
+    "description": "Salem's oldest brick house, built in 1762 by Captain Richard Derby for his son Elias, who would become one of America's first millionaires through the sea trade."
   },
   {
     "address": "7 Orange St, Salem",
@@ -4404,12 +4449,13 @@
     },
     "name": "Leslie's Retreat Monument",
     "phoneNumber": "+1 (978) 745-0883",
-    "placeId": "I11FEDC5B3D0007EF"
+    "placeId": "I11FEDC5B3D0007EF",
+    "description": "Marks the North Bridge site of 1775's 'Leslie's Retreat,' a bloodless standoff where townsfolk turned back British troops hunting hidden cannon, weeks before the shots at Lexington."
   },
   {
     "address": "302 Essex St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.521451,
@@ -4422,7 +4468,7 @@
   {
     "address": "256 Essex St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.521495,
@@ -4435,7 +4481,7 @@
   {
     "address": "2 Margin St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.519565,
@@ -4448,7 +4494,7 @@
   {
     "address": "215 Derby St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.52004,
@@ -4461,7 +4507,7 @@
   {
     "address": "212 Washington St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.518806,
@@ -4474,7 +4520,7 @@
   {
     "address": "126 Essex St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.522532,
@@ -4487,7 +4533,7 @@
   {
     "address": "2 Forrester St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.523595,
@@ -4500,7 +4546,7 @@
   {
     "address": "189 Jefferson Ave, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.509477,
@@ -4513,7 +4559,7 @@
   {
     "address": "125 Canal St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.509741,
@@ -4526,7 +4572,7 @@
   {
     "address": "380 Lafayette St, Salem",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.503369,
@@ -4539,7 +4585,7 @@
   {
     "address": "88 Cabot St, Beverly",
     "categories": [
-      "mailbox"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.544774,
@@ -4663,22 +4709,24 @@
       "paganStore"
     ],
     "coordinate": {
-      "latitude": 42.5215244,
-      "longitude": -70.8962104
+      "latitude": 42.521520763636225,
+      "longitude": -70.89627042851356
     },
     "name": "Vampfangs",
     "phoneNumber": "+1 (978) 594-0973",
     "placeId": "IBB03884A3D2186B9",
-    "website": "https://vampfangs.com"
+    "website": "https://vampfangs.com",
+    "description": "The only dedicated vampire shop in New England, fitting Salem with custom fangs since 1993 alongside gothic fashion, fragrance, and a curated shelf of metaphysical goods."
   },
   {
     "address": "213 Essex St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.52148115924964,
-      "longitude": -70.89448924130744
+      "latitude": 42.521482477150535,
+      "longitude": -70.89445839591991
     },
     "name": "Magic Parlor",
     "phoneNumber": "+1 (978) 740-3866",
@@ -4688,11 +4736,12 @@
   {
     "address": "191 Essex St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5214072,
-      "longitude": -70.8939064
+      "latitude": 42.5215519229831,
+      "longitude": -70.89391942177328
     },
     "name": "The Trolley Depot",
     "phoneNumber": "+1 (800) 821-8179",
@@ -4705,8 +4754,8 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.5213822,
-      "longitude": -70.8938539
+      "latitude": 42.5213813763106,
+      "longitude": -70.89379466791517
     },
     "name": "Emporium 32",
     "placeId": "IA264643A03AEC0C4",
@@ -4718,8 +4767,8 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.521807171174856,
-      "longitude": -70.89362077972126
+      "latitude": 42.52177989844162,
+      "longitude": -70.8936158458485
     },
     "name": "Village Silversmith",
     "phoneNumber": "+1 (978) 594-1347",
@@ -4741,27 +4790,13 @@
     "website": "https://www.hiveandforge.com"
   },
   {
-    "address": "180 Essex St, Salem",
-    "categories": [
-      "souvenierShop"
-    ],
-    "coordinate": {
-      "latitude": 42.5218651,
-      "longitude": -70.8934025
-    },
-    "name": "Bewitched In Salem",
-    "phoneNumber": "+1 (978) 744-9904",
-    "placeId": "IF2A021A2A9E4BDE5",
-    "website": "http://www.bewitchedafterdark.com/"
-  },
-  {
     "address": "24 Front St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
-      "latitude": 42.5206839,
-      "longitude": -70.8944083
+      "latitude": 42.52063299088838,
+      "longitude": -70.89438774256648
     },
     "name": "Jenni Stuart Fine Jewelry",
     "phoneNumber": "+1 (978) 414-5798",
@@ -4774,8 +4809,8 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.5215816,
-      "longitude": -70.8954798
+      "latitude": 42.521500993887415,
+      "longitude": -70.89542141604979
     },
     "name": "Tibet Arts & Healing",
     "phoneNumber": "+1 (978) 594-6559",
@@ -4785,7 +4820,7 @@
   {
     "address": "63A Wharf St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5198222,
@@ -4799,11 +4834,11 @@
   {
     "address": "142 Washington St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
-      "latitude": 42.5206123,
-      "longitude": -70.8956882
+      "latitude": 42.520612299999996,
+      "longitude": -70.89571204659559
     },
     "name": "Tobie's Jewelry",
     "phoneNumber": "+1 (978) 745-7880",
@@ -4824,7 +4859,7 @@
   {
     "address": "63 Wharf St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.520232,
@@ -4838,13 +4873,12 @@
   {
     "address": "120 Washington St, Salem",
     "categories": [
-      "foodRestaurant",
       "pub",
       "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.5208419,
-      "longitude": -70.8957034
+      "latitude": 42.52093038478581,
+      "longitude": -70.89575602716303
     },
     "name": "O'Neill's",
     "phoneNumber": "+1 (978) 740-8811",
@@ -4908,7 +4942,8 @@
     "name": "Mercy Tavern",
     "phoneNumber": "+1 (978) 741-4436",
     "placeId": "I8E24D7FE0B982929",
-    "website": "https://www.mercysalem.com/pub/"
+    "website": "https://www.mercysalem.com/pub/",
+    "description": "A lively Derby Street gastropub with globe-spanning comfort food and the longest live-music tradition in Salem, with a kitchen that runs late."
   },
   {
     "address": "225 Derby St, Salem",
@@ -4928,7 +4963,7 @@
   {
     "address": "20 Cabot St, Beverly",
     "categories": [
-      "foodRestaurant",
+      "pub",
       "bar",
       "customerRestroom"
     ],
@@ -4988,47 +5023,19 @@
     "website": "http://pzagrille.com"
   },
   {
-    "address": "102 Cabot St, Beverly",
-    "categories": [
-      "pub",
-      "customerRestroom"
-    ],
-    "coordinate": {
-      "latitude": 42.5455061,
-      "longitude": -70.8806438
-    },
-    "name": "Fibber McGee's",
-    "phoneNumber": "+1 (978) 232-0180",
-    "placeId": "I5689DE6A74221E7D",
-    "website": "http://fibbersbeverly.com/"
-  },
-  {
-    "address": "206 Cabot St, Beverly",
-    "categories": [
-      "foodRestaurant"
-    ],
-    "coordinate": {
-      "latitude": 42.548203,
-      "longitude": -70.879036
-    },
-    "name": "A&B Burgers",
-    "phoneNumber": "+1 (978) 993-7394",
-    "placeId": "I5C2D41035114FC78",
-    "website": "http://anbburgers.com"
-  },
-  {
     "address": "186-1 Essex St, Salem",
     "categories": [
       "haunt"
     ],
     "coordinate": {
-      "latitude": 42.5218254,
-      "longitude": -70.8936818
+      "latitude": 42.521792672722746,
+      "longitude": -70.89354776307687
     },
     "name": "Witch Mansion",
     "phoneNumber": "+1 (978) 825-1300",
     "placeId": "I673E600BBFCD7749",
-    "website": "http://www.witchmansion.com"
+    "website": "http://www.witchmansion.com",
+    "description": "An indoor haunted house on Essex Street full of animatronics and illusions, where visitors choose their own scare level. Open select days, and daily through October."
   },
   {
     "address": "109 Lafayette St, Salem",
@@ -5061,11 +5068,12 @@
   {
     "address": "226 Essex St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5216496,
-      "longitude": -70.8952938
+      "latitude": 42.52152838776126,
+      "longitude": -70.89528886613971
     },
     "name": "Moons Gift Shop",
     "phoneNumber": "+1 (978) 744-5884",
@@ -5075,7 +5083,8 @@
   {
     "address": "221 Essex St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.5213242,
@@ -5088,15 +5097,17 @@
   {
     "address": "18 Front St, Salem",
     "categories": [
-      "paganStore"
+      "paganStore",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5206902,
-      "longitude": -70.894277
+      "latitude": 42.52064353331587,
+      "longitude": -70.89422026147764
     },
     "name": "Nocturne",
     "placeId": "IC762FF8FA2083D4",
-    "website": "https://nocturnesalem.com"
+    "website": "https://nocturnesalem.com",
+    "description": "A 'dark romantic' boutique and independent bookstore opened in 2022, with curated books, artisan perfume, jewelry, and antiques arranged across a warren of atmospheric rooms."
   },
   {
     "address": "2 North St, Salem",
@@ -5129,11 +5140,12 @@
   {
     "address": "282 Derby St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
-      "latitude": 42.5205832,
-      "longitude": -70.8912826
+      "latitude": 42.52045096974644,
+      "longitude": -70.89141161053615
     },
     "name": "The Lost Library",
     "phoneNumber": "+1 (978) 740-2992",
@@ -5146,8 +5158,8 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.5222921,
-      "longitude": -70.8909415
+      "latitude": 42.52227755454378,
+      "longitude": -70.8909316321778
     },
     "name": "Wynott Wands",
     "phoneNumber": "+1 (978) 741-1170",
@@ -5159,7 +5171,8 @@
     "categories": [
       "paganStore",
       "psychicReading",
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.52230788343867,
@@ -5168,21 +5181,8 @@
     "name": "Crow Haven Corner",
     "phoneNumber": "+1 (978) 745-8763",
     "placeId": "IEBA9A5C7A624D7D8",
-    "website": "http://www.crowhavencorner.com"
-  },
-  {
-    "address": "10 Derby Square, Salem",
-    "categories": [
-      "clothingStore"
-    ],
-    "coordinate": {
-      "latitude": 42.521091,
-      "longitude": -70.894899
-    },
-    "name": "A Beautiful Corset",
-    "phoneNumber": "+1 (978) 740-2922",
-    "placeId": "I588B0A010D212922",
-    "website": "http://www.abeautifulcorset.com"
+    "website": "http://www.crowhavencorner.com",
+    "description": "Salem's oldest witch shop, opened in 1971 by the city's famous witch Laurie Cabot. Behind its black-and-purple storefront wait spell kits, tarot, crystals, and psychic readings."
   },
   {
     "address": "40 Front St, Salem",
@@ -5201,7 +5201,8 @@
   {
     "address": "155 Derby St, Salem",
     "categories": [
-      "souvenierShop"
+      "souvenierShop",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.5217372,
@@ -5243,7 +5244,7 @@
   {
     "address": "214 Derby St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5208462,
@@ -5253,21 +5254,6 @@
     "phoneNumber": "+1 (978) 745-7171",
     "placeId": "I5DAA3849AD78E5E9",
     "website": "https://www.facebook.com/Pyramid-Books-290521906538/"
-  },
-  {
-    "address": "131 Essex St, Salem",
-    "categories": [
-      "paganStore",
-      "souvenierShop"
-    ],
-    "coordinate": {
-      "latitude": 42.5221433,
-      "longitude": -70.8914259
-    },
-    "name": "New England Magic",
-    "phoneNumber": "+1 (978) 825-9913",
-    "placeId": "I3384D7BB5C6D1B39",
-    "website": "http://newenglandmagic.net"
   },
   {
     "address": "98 Wharf St, Salem",
@@ -5304,8 +5290,8 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.5206997,
-      "longitude": -70.8940918
+      "latitude": 42.52065848786519,
+      "longitude": -70.8941296256873
     },
     "name": "Biss",
     "phoneNumber": "+1 (508) 844-1049",
@@ -5416,8 +5402,8 @@
       "transport"
     ],
     "coordinate": {
-      "latitude": 42.5251302,
-      "longitude": -70.8956798
+      "latitude": 42.523971436121094,
+      "longitude": -70.89622261884927
     },
     "name": "Salem Station",
     "placeId": "I566C60524F748909"
@@ -5428,13 +5414,14 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.52181208722108,
-      "longitude": -70.89346397223103
+      "latitude": 42.521791481157095,
+      "longitude": -70.89345986067009
     },
     "name": "Hex Old World Witchery",
     "phoneNumber": "+1 (978) 666-0765",
     "placeId": "I6058CB769F3C4E59",
-    "website": "https://www.hexwitch.com"
+    "website": "https://www.hexwitch.com",
+    "description": "Salem's largest witchcraft shop, dealing in 'Old World' herbs, potions, brooms, and candles. Founded by warlock Christian Day, it draws famously long lines come October."
   },
   {
     "address": "184 Essex St, Salem",
@@ -5443,8 +5430,8 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.521839330662544,
-      "longitude": -70.89356292250538
+      "latitude": 42.52192054273098,
+      "longitude": -70.89358594725674
     },
     "name": "Omen - Psychic Parlor and Witchcraft",
     "phoneNumber": "+1 (978) 666-0763",
@@ -5462,12 +5449,14 @@
     },
     "name": "Fatima's Psychic Studio",
     "phoneNumber": "+1 (978) 740-9820",
-    "placeId": "ID11C4D5B2897DD89"
+    "placeId": "ID11C4D5B2897DD89",
+    "website": "https://www.yelp.com/biz/fatimas-psychic-studio-salem"
   },
   {
     "address": "65 Wharf St, Salem",
     "categories": [
-      "paganStore"
+      "paganStore",
+      "shop"
     ],
     "coordinate": {
       "latitude": 42.5199349,
@@ -5476,7 +5465,8 @@
     "name": "The Cauldron Black",
     "phoneNumber": "+1 (978) 744-2492",
     "placeId": "I15C66BADCE4C2499",
-    "website": "http://www.thecauldronblack.com"
+    "website": "http://www.thecauldronblack.com",
+    "description": "A serious traditional occult shop near the Common, lined with candles, herbs, and rare spellbooks, with a roster of readers. A favorite of practitioners over souvenir-seekers."
   },
   {
     "address": "272 Essex St, Salem",
@@ -5504,7 +5494,8 @@
     },
     "name": "Modern Magic",
     "placeId": "I369AFB5D457446CE",
-    "website": "https://www.modernmagicsalem.com/"
+    "website": "https://www.modernmagicsalem.com/",
+    "description": "A witch-owned shop and teaching studio that pairs magical tools and apparel with classes in the Craft — a place to buy your supplies and learn to use them."
   },
   {
     "address": "5 Washington St, Beverly",
@@ -5539,8 +5530,8 @@
       "paganStore"
     ],
     "coordinate": {
-      "latitude": 42.521804,
-      "longitude": -70.8938047
+      "latitude": 42.52187551511059,
+      "longitude": -70.89373973734526
     },
     "name": "Practical Magic",
     "phoneNumber": "+1 (978) 745-8883",
@@ -5607,8 +5598,8 @@
       "placeOfWorship"
     ],
     "coordinate": {
-      "latitude": 42.5213479,
-      "longitude": -70.8896899
+      "latitude": 42.521333419712185,
+      "longitude": -70.88992343492721
     },
     "name": "Immaculate Conception Church - Mary Queen of the Apostles Parish",
     "phoneNumber": "+1 (978) 745-9060",
@@ -5635,8 +5626,8 @@
       "placeOfWorship"
     ],
     "coordinate": {
-      "latitude": 42.5227884,
-      "longitude": -70.8965086
+      "latitude": 42.522798703029444,
+      "longitude": -70.89603650748592
     },
     "name": "Tabernacle Congregational Church",
     "phoneNumber": "+1 (978) 744-3164",
@@ -5728,18 +5719,6 @@
     "website": "https://www.stthomaspeabody.org"
   },
   {
-    "address": "24 St Peter St, Salem",
-    "categories": [
-      "placeOfWorship"
-    ],
-    "coordinate": {
-      "latitude": 42.52291,
-      "longitude": -70.892946
-    },
-    "name": "Saint Peters Church Cemetery",
-    "placeId": "I49B03B9C91C45999"
-  },
-  {
     "address": "290 Jefferson Ave, Salem",
     "categories": [
       "placeOfWorship"
@@ -5771,6 +5750,7 @@
   {
     "address": "1 Daniels St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -5785,6 +5765,7 @@
   {
     "address": "19 Washington Square N, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -5799,6 +5780,7 @@
   {
     "address": "30 Northey St, Salem",
     "categories": [
+      "unknown",
       "hotel"
     ],
     "coordinate": {
@@ -5822,7 +5804,8 @@
     "name": "Derby Wharf Light Station",
     "phoneNumber": "+1 (978) 740-1650",
     "placeId": "I8B2847AFD8948C7E",
-    "website": "https://www.nps.gov/places/derby-light.htm"
+    "website": "https://www.nps.gov/places/derby-light.htm",
+    "description": "A small square brick lighthouse from 1871 at the end of half-mile-long Derby Wharf, still flashing over Salem Harbor. The walk out to it is one of the city's finest waterfront strolls."
   },
   {
     "address": "50 Winter Island Rd, Salem",
@@ -5835,12 +5818,13 @@
     },
     "name": "Fort Pickering Lighthouse",
     "placeId": "I94F6728ADDD3FCDA",
-    "website": "https://www.nelights.com/exploring/Massachusetts/fort_pickering_light.html"
+    "website": "https://www.nelights.com/exploring/Massachusetts/fort_pickering_light.html",
+    "description": "An 1871 cast-iron lighthouse on Winter Island beside an old harbor fort. Dark for years, it was relit in 1983 and can be reached on foot through the park."
   },
   {
     "address": "59 Wharf St, Salem",
     "categories": [
-      "attraction"
+      "haunt"
     ],
     "coordinate": {
       "latitude": 42.5203391,
@@ -5849,21 +5833,8 @@
     "name": "Chambers of Terror",
     "phoneNumber": "+1 (978) 741-0002",
     "placeId": "IF57435859E621591",
-    "website": "http://www.chambersofterror.net"
-  },
-  {
-    "address": "176 Essex St, Salem",
-    "categories": [
-      "market"
-    ],
-    "coordinate": {
-      "latitude": 42.521895,
-      "longitude": -70.8932261
-    },
-    "name": "Polonus European Deli & Ice Cream",
-    "phoneNumber": "+1 (978) 740-3203",
-    "placeId": "I3BA18189A906A9C8",
-    "website": "http://www.polonusdeli.com"
+    "website": "http://www.chambersofterror.net",
+    "description": "Salem's longest-running haunted house, founded in 1993, offering a live 'ghoulish guide,' a vampire-led ghost walk, and fireside ghost stories, with frights you can dial up or down."
   },
   {
     "address": "48 Congress St, Salem",
@@ -5932,12 +5903,13 @@
     "name": "Artist's Row",
     "phoneNumber": "+1 (978) 619-5685",
     "placeId": "I99E16618F734B250",
-    "website": "http://artistsrowsalem.com"
+    "website": "http://artistsrowsalem.com",
+    "description": "A small brick pedestrian plaza off Derby Square where local artisans sell jewelry, ceramics, and crafts from seasonal stalls, with a bite to eat and public restrooms close at hand."
   },
   {
     "address": "64 Bridge St, Salem",
     "categories": [
-      "attraction"
+      "museum"
     ],
     "coordinate": {
       "latitude": 42.5313173,
@@ -5961,34 +5933,6 @@
     "phoneNumber": "+1 (978) 594-1488",
     "placeId": "I4B8FCFE18EF3A12F",
     "website": "https://www.9threalmgallery.com"
-  },
-  {
-    "address": "186 Cabot St, Beverly",
-    "categories": [
-      "attraction"
-    ],
-    "coordinate": {
-      "latitude": 42.5474745,
-      "longitude": -70.8793875
-    },
-    "name": "Clay Dreaming Pottery Studio",
-    "phoneNumber": "+1 (978) 712-2292",
-    "placeId": "I7888F9DA22EE3BBD",
-    "website": "http://www.claydreaming.com"
-  },
-  {
-    "address": "135 Essex St, Salem",
-    "categories": [
-      "attraction"
-    ],
-    "coordinate": {
-      "latitude": 42.521939,
-      "longitude": -70.891792
-    },
-    "name": "Marine Art Gallery",
-    "phoneNumber": "+1 (978) 745-5000",
-    "placeId": "ID73E2A20493966B8",
-    "website": "http://marineartsgallery.com"
   },
   {
     "address": "104 Wharf St, Salem",
@@ -6121,7 +6065,7 @@
   {
     "address": "28 Norman St Rte 114, Salem",
     "categories": [
-      "italian"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5203311,
@@ -6135,7 +6079,7 @@
   {
     "address": "4 Canal St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5178226,
@@ -6145,20 +6089,6 @@
     "phoneNumber": "+1 (978) 744-4040",
     "placeId": "IABBC46F0ADE24ED2",
     "website": "https://pizza.dominos.com/massachusetts/salem/4-canal-st/"
-  },
-  {
-    "address": "119-125 Canal St, Suite A-8, Salem",
-    "categories": [
-      "foodRestaurant"
-    ],
-    "coordinate": {
-      "latitude": 42.5100897,
-      "longitude": -70.895267
-    },
-    "name": "Subway",
-    "phoneNumber": "+1 (978) 744-7827",
-    "placeId": "IC207242006672028",
-    "website": "https://restaurants.subway.com/united-states/ma/salem/119-125-canal-st"
   },
   {
     "address": "4 Boston St, Salem",
@@ -6208,8 +6138,8 @@
       "souvenierShop"
     ],
     "coordinate": {
-      "latitude": 42.521564,
-      "longitude": -70.895953
+      "latitude": 42.52155066666528,
+      "longitude": -70.89587323603422
     },
     "name": "The Black Cat Curiosity Shoppe",
     "phoneNumber": "+1 (978) 239-9145",
@@ -6233,7 +6163,7 @@
   {
     "address": "30 Church St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.522644126871995,
@@ -6247,7 +6177,7 @@
   {
     "address": "1 Hawthorne Blvd, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5223637,
@@ -6274,7 +6204,7 @@
   {
     "address": "98 Wharf St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5204543,
@@ -6466,8 +6396,8 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.52142140209376,
-      "longitude": -70.89361744784473
+      "latitude": 42.52138867481248,
+      "longitude": -70.89359277863325
     },
     "name": "New England Dog Biscuit Company",
     "phoneNumber": "+1 (978) 539-8187",
@@ -6475,34 +6405,23 @@
     "website": "https://nedogbiscuit.com"
   },
   {
-    "address": "226 Essex St, Salem",
-    "categories": [
-      "shop"
-    ],
-    "coordinate": {
-      "latitude": 42.52153837619919,
-      "longitude": -70.89523730903576
-    },
-    "name": "Penelope's Pet Boutique",
-    "phoneNumber": "+1 (978) 744-5884",
-    "placeId": "I80291A1E45690BDA",
-    "website": "http://www.coonscardandgiftshop.com"
-  },
-  {
     "address": "168 Essex St, Salem",
     "categories": [
       "foodRestaurant",
       "bar",
-      "customerRestroom"
+      "customerRestroom",
+      "unknown",
+      "arcade"
     ],
     "coordinate": {
-      "latitude": 42.5222375,
-      "longitude": -70.8927584
+      "latitude": 42.52215143933463,
+      "longitude": -70.89274030900862
     },
     "name": "Village Tavern",
     "phoneNumber": "+1 (978) 744-2858",
     "placeId": "I9EF18D5B416D3955",
-    "website": "https://www.villagetavernsalem.com"
+    "website": "https://www.villagetavernsalem.com",
+    "description": "An upbeat American tavern across from the Peabody Essex, with three bars, a deep craft-beer list, locally loved burgers, and a patio."
   },
   {
     "address": "278 Derby St, Salem",
@@ -6510,6 +6429,8 @@
       "arcade",
       "bar",
       "foodRestaurant",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -6519,7 +6440,8 @@
     "name": "Bit Bar Salem",
     "phoneNumber": "+1 (978) 594-4838",
     "placeId": "I461E9DCBC54E1098",
-    "website": "https://bitbarsalem.com"
+    "website": "https://bitbarsalem.com",
+    "description": "A retro arcade bar on Derby Street pairing classic cabinets and pinball with craft beer and kitchen fare. Twenty-one-plus after dark, and closed Mondays."
   },
   {
     "address": "105 Canal St, Salem",
@@ -6540,7 +6462,7 @@
   {
     "address": "1 Kosciusko St, Salem",
     "categories": [
-      "attraction"
+      "pointOfInterest"
     ],
     "coordinate": {
       "latitude": 42.5201855,
@@ -6549,12 +6471,13 @@
     "name": "Friendship Of Salem",
     "phoneNumber": "+1 (978) 740-1650",
     "placeId": "IE1E6C01431270E6B",
-    "website": "https://www.nps.gov/sama/"
+    "website": "https://www.nps.gov/sama/",
+    "description": "A 171-foot replica of the 1797 East Indiaman Friendship, berthed at Derby Wharf. The three-masted tall ship recalls the world-spanning voyages that made Salem one of America's richest ports."
   },
   {
     "address": "1 Kosciusko St, Salem",
     "categories": [
-      "pointOfInterest"
+      "marina"
     ],
     "coordinate": {
       "latitude": 42.5208754,
@@ -6573,8 +6496,10 @@
       "longitude": -70.8964842
     },
     "name": "Blackcraft Coffee",
+    "phoneNumber": "+1 (714) 603-7101",
     "placeId": "IE931FA5B0DAA68DA",
-    "website": "https://blackcraftsalem.com"
+    "website": "https://blackcraftsalem.com",
+    "description": "A goth-branded coffee bar tucked inside the Blackcraft apparel shop, serving Salem-themed specialty drinks amid the alt-fashion racks."
   },
   {
     "address": "48 Broadway, Salem",
@@ -6666,8 +6591,8 @@
       "gasStation"
     ],
     "coordinate": {
-      "latitude": 42.5259448,
-      "longitude": -70.8996414
+      "latitude": 42.525841769612015,
+      "longitude": -70.89966607099764
     },
     "name": "Speedway",
     "phoneNumber": "+1 (978) 744-1941",
@@ -6677,7 +6602,7 @@
   {
     "address": "62 Wharf St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5199983,
@@ -6691,7 +6616,7 @@
   {
     "address": "84 Highland Ave, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5122313,
@@ -6705,7 +6630,7 @@
   {
     "address": "140 Canal St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5089185,
@@ -6719,7 +6644,7 @@
   {
     "address": "239 Lafayette St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5112742,
@@ -6747,7 +6672,8 @@
   {
     "address": "145 North St, Salem",
     "categories": [
-      "foodRestaurant"
+      "foodRestaurant",
+      "seafood"
     ],
     "coordinate": {
       "latitude": 42.5288176,
@@ -6761,7 +6687,7 @@
   {
     "address": "408 Essex St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5180015,
@@ -6775,7 +6701,7 @@
   {
     "address": "134 North St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5277338,
@@ -6789,7 +6715,7 @@
   {
     "address": "44 Jefferson Ave, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5136937,
@@ -6803,7 +6729,7 @@
   {
     "address": "23 Endicott St, Salem",
     "categories": [
-      "foodRestaurant"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5177119,
@@ -6815,37 +6741,9 @@
     "website": "http://salemhousema.com"
   },
   {
-    "address": "90 Rantoul St, Beverly",
-    "categories": [
-      "foodRestaurant"
-    ],
-    "coordinate": {
-      "latitude": 42.5450981,
-      "longitude": -70.8849896
-    },
-    "name": "Toscana Bar Italiano",
-    "phoneNumber": "+1 (978) 969-0165",
-    "placeId": "I392CF05EFCA54BCF",
-    "website": "http://www.toscanabaritaliano.com"
-  },
-  {
-    "address": "131 Essex St, Salem",
-    "categories": [
-      "shop"
-    ],
-    "coordinate": {
-      "latitude": 42.5220224,
-      "longitude": -70.8914015
-    },
-    "name": "Bewitched In Salem",
-    "phoneNumber": "+1 (978) 498-4061",
-    "placeId": "IF9B1DA2F9EE77D20",
-    "website": "http://www.bewitchedafterdark.com/"
-  },
-  {
     "address": "11 Central St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5212591,
@@ -6859,7 +6757,7 @@
   {
     "address": "252 Essex St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5215284,
@@ -6876,13 +6774,14 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.5205784,
-      "longitude": -70.895683
+      "latitude": 42.520549915145004,
+      "longitude": -70.89569944591915
     },
     "name": "Hauswitch",
     "phoneNumber": "+1 (978) 594-8950",
     "placeId": "IAD07FA02BA7C0606",
-    "website": "https://hauswitchstore.com"
+    "website": "https://hauswitchstore.com",
+    "description": "A bright, modern take on the witch shop, stocking candles, crystals, and home goods from independent makers, plus workshops and readings — witchcraft by way of contemporary design."
   },
   {
     "address": "282 Derby St, Salem",
@@ -6890,18 +6789,19 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.5206833,
-      "longitude": -70.8914983
+      "latitude": 42.52059817210114,
+      "longitude": -70.89145272995191
     },
     "name": "Pentagram: Witchcraft & Magick Shoppe",
     "phoneNumber": "+1 (978) 224-2925",
     "placeId": "I5FAB0FA8269D96D3",
-    "website": "http://pentagramsalem.com"
+    "website": "http://pentagramsalem.com",
+    "description": "A witch-run shop across from the Witch Trials Memorial, stocked with handmade tools, candles, oils, and jewelry crafted by local witches, with psychic and medium readings on offer."
   },
   {
     "address": "1 E India Square Mall, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5225024,
@@ -6929,7 +6829,7 @@
   {
     "address": "260 Essex St, Salem",
     "categories": [
-      "shop"
+      "unknown"
     ],
     "coordinate": {
       "latitude": 42.5215813,
@@ -6946,8 +6846,8 @@
       "shop"
     ],
     "coordinate": {
-      "latitude": 42.5215902,
-      "longitude": -70.8963701
+      "latitude": 42.52152050299139,
+      "longitude": -70.89619165888818
     },
     "name": "Witch City Broom",
     "phoneNumber": "+1 (781) 608-6986",
@@ -6987,6 +6887,8 @@
     "categories": [
       "bar",
       "foodRestaurant",
+      "unknown",
+      "unknown",
       "customerRestroom"
     ],
     "coordinate": {
@@ -6996,7 +6898,8 @@
     "name": "All Souls Lounge",
     "phoneNumber": "+1 (978) 306-7906",
     "placeId": "I7ACF25D9CAB134EB",
-    "website": "https://allsoulssalem.com"
+    "website": "https://allsoulssalem.com",
+    "description": "A laid-back cocktail lounge known for vintage drinks, gourmet grilled cheese, and what may be the last standing CD jukebox in Salem."
   },
   {
     "address": "87 Washington St, Salem",
@@ -7036,26 +6939,13 @@
       "pointOfInterest"
     ],
     "coordinate": {
-      "latitude": 42.521811,
-      "longitude": -70.895506
+      "latitude": 42.52181645454524,
+      "longitude": -70.89558494196896
     },
     "name": "Salem City Hall",
     "phoneNumber": "+1 (978) 745-9595",
     "placeId": "I281697F8D1D63711",
     "website": "https://www.salem.com"
-  },
-  {
-    "address": "178 Essex St, Salem",
-    "categories": [
-      "shop"
-    ],
-    "coordinate": {
-      "latitude": 42.5218874,
-      "longitude": -70.8932894
-    },
-    "name": "Salem Oriental Gallery",
-    "phoneNumber": "+1 (978) 744-8746",
-    "placeId": "I452B0511C7F8D125"
   },
   {
     "address": "264 Washington St, Salem",
@@ -7092,13 +6982,14 @@
       "customerRestroom"
     ],
     "coordinate": {
-      "latitude": 42.5213479,
-      "longitude": -70.8941746
+      "latitude": 42.521367175941094,
+      "longitude": -70.89428643863077
     },
     "name": "The Roof",
     "phoneNumber": "+1 (978) 451-4950",
     "placeId": "IABA0D76D868DCA95",
-    "website": "https://www.theroofsalem.com"
+    "website": "https://www.theroofsalem.com",
+    "description": "Salem's only open-air rooftop bar, atop the boutique Hotel Salem, with cocktails, tacos, and views over downtown. Open seasonally."
   },
   {
     "address": "221 Washington St, Salem",
@@ -7115,5 +7006,612 @@
     "phoneNumber": "+1 (978) 594-0075",
     "placeId": "I3BFD7064D8339C33",
     "website": "https://www.tipsysalem.com"
+  },
+  {
+    "address": "130 North St, Salem",
+    "categories": [
+      "coffeeLocals"
+    ],
+    "coordinate": {
+      "latitude": 42.52753972423112,
+      "longitude": -70.90198614776158
+    },
+    "name": "Konna Café and Things",
+    "phoneNumber": "+1 (562) 284-9333",
+    "placeId": "IF53D736C705FA361",
+    "website": "https://www.konnacafe.com"
+  },
+  {
+    "address": "317 Jefferson Ave, Salem",
+    "categories": [
+      "seafood"
+    ],
+    "coordinate": {
+      "latitude": 42.5023075,
+      "longitude": -70.8992326
+    },
+    "name": "Dube's Seafood Restaurant",
+    "phoneNumber": "+1 (978) 744-9531",
+    "placeId": "I7B3A41767ED86B9F",
+    "website": "http://dubesseafood.com/"
+  },
+  {
+    "address": "189 Washington St, Salem",
+    "categories": [
+      "foodRestaurant",
+      "bar",
+      "unknown",
+      "customerRestroom"
+    ],
+    "coordinate": {
+      "latitude": 42.5200716,
+      "longitude": -70.8948945
+    },
+    "name": "The Neighborhood Tavern",
+    "phoneNumber": "+1 (978) 306-7618",
+    "placeId": "IC6A630929C80A1D9",
+    "website": "https://theneighborhoodtavern.com/northborough-the-neighborhood-tavern-the-neighborhood-tavern-locations"
+  },
+  {
+    "address": "75 Canal St, Salem",
+    "categories": [
+      "unknown"
+    ],
+    "coordinate": {
+      "latitude": 42.5133776,
+      "longitude": -70.8958443
+    },
+    "name": "Deacon Giles Distillery",
+    "phoneNumber": "+1 (978) 306-6675",
+    "placeId": "I75EFE7BF5C4A27CC",
+    "website": "http://www.deacongiles.com"
+  },
+  {
+    "address": "201 Washington St, Salem",
+    "categories": [
+      "hotel"
+    ],
+    "coordinate": {
+      "latitude": 42.519312,
+      "longitude": -70.894908
+    },
+    "name": "The Courier Hotel",
+    "phoneNumber": "+1 (978) 915-8351",
+    "placeId": "IE6A21D16D6721C38",
+    "website": "https://www.booking.com/hotel/us/the-courier.html?aid=356118"
+  },
+  {
+    "address": "31 Grove St, Salem",
+    "categories": [
+      "park"
+    ],
+    "coordinate": {
+      "latitude": 42.5239157,
+      "longitude": -70.9096728
+    },
+    "name": "Mack Park",
+    "placeId": "I6C7CBEC07B40C901",
+    "website": "https://www.facebook.com/MackParkFarm/",
+    "phoneNumber": "+1 (978) 744-0496"
+  },
+  {
+    "address": "121 Loring Ave, Salem",
+    "categories": [
+      "unknown"
+    ],
+    "coordinate": {
+      "latitude": 42.4995223,
+      "longitude": -70.8943967
+    },
+    "name": "Salem State University Bookstore",
+    "phoneNumber": "+1 (978) 542-3808",
+    "placeId": "IC22CCD300EC8C148",
+    "website": "https://www.bkstr.com/salemstatestore/home"
+  },
+  {
+    "address": "82 Wharf St, Salem",
+    "categories": [
+      "shop"
+    ],
+    "coordinate": {
+      "latitude": 42.5196454,
+      "longitude": -70.8881088
+    },
+    "name": "Partridge In A Bear Tree",
+    "phoneNumber": "+1 (978) 744-0548",
+    "placeId": "I46E5EF42DB73649D",
+    "website": "https://www.salem.org/venue/partridge-in-a-bear-tree"
+  },
+  {
+    "address": "301 Essex St, Salem",
+    "categories": [
+      "shop"
+    ],
+    "coordinate": {
+      "latitude": 42.5212429,
+      "longitude": -70.8983707
+    },
+    "name": "Legion",
+    "placeId": "I2151098A37FAAA1E",
+    "website": "https://www.yelp.com/biz/legion-salem"
+  },
+  {
+    "address": "10 Front St, Salem",
+    "categories": [
+      "shop"
+    ],
+    "coordinate": {
+      "latitude": 42.520670815145024,
+      "longitude": -70.89406165608276
+    },
+    "name": "Orchid Boutique",
+    "phoneNumber": "+1 (978) 594-1422",
+    "placeId": "IEE9D39B4FB0F5076",
+    "website": "https://www.facebook.com/Orchidsalem/"
+  },
+  {
+    "address": "300 Canal St, Salem",
+    "categories": [
+      "pharmacy"
+    ],
+    "coordinate": {
+      "latitude": 42.5009937,
+      "longitude": -70.8965706
+    },
+    "name": "CVS Pharmacy",
+    "phoneNumber": "+1 (978) 740-2912",
+    "placeId": "ICAC4E002670B8861",
+    "website": "https://www.cvs.com/store-locator/cvs-pharmacy-address/map/300+Canal+Street-Salem-MA-01970/storeid=7109"
+  },
+  {
+    "address": "3 Dove Ave, Salem",
+    "categories": [
+      "hospital"
+    ],
+    "coordinate": {
+      "latitude": 42.5112037,
+      "longitude": -70.9055117
+    },
+    "name": "NSMC Salem Hospital - Emergency Department",
+    "phoneNumber": "+1 (978) 741-1200",
+    "placeId": "I27F1B8CBBF65FB7F",
+    "website": "https://nsmc.partners.org/emergency_medicine"
+  },
+  {
+    "address": "43 College Dr, Salem",
+    "categories": [
+      "parking"
+    ],
+    "coordinate": {
+      "latitude": 42.5008308,
+      "longitude": -70.8908104
+    },
+    "name": "North Campus Parking Garage",
+    "placeId": "I86666FBAD4C6C9EC",
+    "website": "https://www.salemstate.edu/community/campus-map/parking"
+  },
+  {
+    "address": "37 Tremont St, Peabody",
+    "categories": [
+      "bank"
+    ],
+    "coordinate": {
+      "latitude": 42.5298883,
+      "longitude": -70.9230548
+    },
+    "name": "Luso-American Credit Union",
+    "phoneNumber": "+1 (978) 531-5767",
+    "placeId": "I62E2372C0A87A962",
+    "website": "http://www.luso-american.com"
+  },
+  {
+    "address": "175 Lafayette St, Salem",
+    "categories": [
+      "gasStation"
+    ],
+    "coordinate": {
+      "latitude": 42.5153505,
+      "longitude": -70.8923681
+    },
+    "name": "AL Prime Energy",
+    "phoneNumber": "+1 (978) 740-9718",
+    "placeId": "I48358D30F1F65807",
+    "website": "https://alprimeenergy.com"
+  },
+  {
+    "address": "61 Cabot St, Beverly",
+    "categories": [
+      "gasStation"
+    ],
+    "coordinate": {
+      "latitude": 42.5436508,
+      "longitude": -70.8821744
+    },
+    "name": "Super Petroleum",
+    "phoneNumber": "+1 (978) 232-3924",
+    "placeId": "IC1E364CB7FA6C62F",
+    "website": "https://www.superpetroleum.com"
+  },
+  {
+    "address": "290 Canal St, Salem",
+    "categories": [
+      "gasStation"
+    ],
+    "coordinate": {
+      "latitude": 42.5017186,
+      "longitude": -70.8961648
+    },
+    "name": "University Fuel",
+    "phoneNumber": "+1 (978) 740-5115",
+    "placeId": "I897E50A2F0ADFFD2",
+    "website": "https://www.yelp.com/biz/university-fuel-salem"
+  },
+  {
+    "address": "44 Margin St, Peabody",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.5355945,
+      "longitude": -70.9170686
+    },
+    "name": "Gardner Park Variety",
+    "phoneNumber": "+1 (978) 531-0038",
+    "placeId": "I7F15FD06845DB9D",
+    "website": "https://www.yelp.com/biz/gardner-park-variety-peabody-4"
+  },
+  {
+    "address": "72 Loring Ave, Salem",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.5005714,
+      "longitude": -70.8964232
+    },
+    "name": "Big Apple Food Shops",
+    "placeId": "IC9A221F460C1D034"
+  },
+  {
+    "address": "146 Boston St, Salem",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.5223202,
+      "longitude": -70.9154143
+    },
+    "name": "Nouria",
+    "phoneNumber": "+1 (978) 744-9723",
+    "placeId": "I4A3C2653F42B80D8",
+    "website": "https://nouria.com/locations/MA/Salem-MA-1293/"
+  },
+  {
+    "address": "316 Derby St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.51977511210914,
+      "longitude": -70.89289502397354
+    },
+    "name": "Jolie Tea Company",
+    "phoneNumber": "+1 (978) 745-5654",
+    "placeId": "IC36455E6D324450F",
+    "website": "https://www.istheteainyou.com"
+  },
+  {
+    "address": "282 Derby St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5203377,
+      "longitude": -70.8913546
+    },
+    "name": "Sweet Boba",
+    "phoneNumber": "+1 (978) 594-0033",
+    "placeId": "I9E38BEC8932C16F8",
+    "website": "https://www.facebook.com/sweetbobatea/"
+  },
+  {
+    "address": "197 Derby St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.520781,
+      "longitude": -70.888161
+    },
+    "name": "Milkboy Boba",
+    "phoneNumber": "+1 (978) 744-4300",
+    "placeId": "I8489485AC018BC0F",
+    "website": "https://www.yelp.com/biz/milkboy-boba-salem"
+  },
+  {
+    "address": "282 Derby St, Salem",
+    "categories": [
+      "coffeeLocals"
+    ],
+    "coordinate": {
+      "latitude": 42.520395088921376,
+      "longitude": -70.89122270087448
+    },
+    "name": "Funhouse Donuts",
+    "phoneNumber": "+1 (978) 893-8497",
+    "placeId": "ID83F6FA9015FAD2F",
+    "website": "http://www.funhousedonuts.com"
+  },
+  {
+    "address": "2 Essex St, Salem",
+    "categories": [
+      "coffeeLocals"
+    ],
+    "coordinate": {
+      "latitude": 42.5257835,
+      "longitude": -70.8844329
+    },
+    "name": "Ziggys and Sons Donuts",
+    "phoneNumber": "+1 (978) 744-9605",
+    "placeId": "I978DA19D8C1E3B48",
+    "website": "https://www.facebook.com/ZiggysDonuts/"
+  },
+  {
+    "address": "60 Washington St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.522433,
+      "longitude": -70.8959698
+    },
+    "name": "Melt Ice Cream",
+    "phoneNumber": "+1 (978) 826-5703",
+    "placeId": "I37BEEC18537AFDC6",
+    "website": "https://meltsalem.com"
+  },
+  {
+    "address": "84 Wharf St, Salem",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.5196441,
+      "longitude": -70.8879999
+    },
+    "name": "POPPED! Gourmet Popcorn",
+    "phoneNumber": "+1 (978) 594-0609",
+    "placeId": "I2C33E5C11FAABD22",
+    "website": "http://www.poppedstores.com"
+  },
+  {
+    "address": "46 Margin St, Peabody",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.535726,
+      "longitude": -70.9173348
+    },
+    "name": "Treadwell’s",
+    "phoneNumber": "+1 (978) 531-7010",
+    "placeId": "I564B2A0B1B9304DF",
+    "website": "http://www.mytreadwells.com"
+  },
+  {
+    "address": "181 Fort Ave, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5351822,
+      "longitude": -70.8690714
+    },
+    "name": "Holy Cow Ice Cream Cafe",
+    "phoneNumber": "+1 (978) 498-4387",
+    "placeId": "I8A9C8834F126DE20",
+    "website": "http://holycowicecreamcafe.com"
+  },
+  {
+    "address": "207 Fort Ave, Salem",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.535833,
+      "longitude": -70.8683415
+    },
+    "name": "E.W. Hobbs",
+    "phoneNumber": "+1 (978) 745-7691",
+    "placeId": "I417D87D6B5D58982",
+    "website": "https://www.facebook.com/EW-Hobbs-114487188598913/"
+  },
+  {
+    "address": "24 Cabot St, Beverly",
+    "categories": [
+      "pointOfInterest"
+    ],
+    "coordinate": {
+      "latitude": 42.5415592,
+      "longitude": -70.8855969
+    },
+    "name": "Beverly House of Pizza",
+    "phoneNumber": "+1 (978) 922-8400",
+    "placeId": "I650267A6D7B92BCB",
+    "website": "https://beverlypizza.net"
+  },
+  {
+    "address": "105 Lafayette St, Salem",
+    "categories": [
+      "latinAmerican"
+    ],
+    "coordinate": {
+      "latitude": 42.5183546,
+      "longitude": -70.8929274
+    },
+    "name": "El Poblano Taqueria",
+    "phoneNumber": "+1 (978) 306-7247",
+    "placeId": "I6A731BC7D3E4D0CE",
+    "website": "https://elpoblanotaqueria.com"
+  },
+  {
+    "address": "97 Bridge St, Salem",
+    "categories": [
+      "latinAmerican"
+    ],
+    "coordinate": {
+      "latitude": 42.5292532,
+      "longitude": -70.8896377
+    },
+    "name": "Burrito Spice",
+    "phoneNumber": "+1 (978) 306-6678",
+    "placeId": "I813AB9CAA20C5D6C",
+    "website": "https://www.burritospice.com"
+  },
+  {
+    "address": "75 Congress St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5168111,
+      "longitude": -70.8892027
+    },
+    "name": "La Delicia",
+    "phoneNumber": "+1 (978) 594-4275",
+    "placeId": "IF7E1AAC697CB94E9",
+    "website": "https://www.yelp.com/biz/la-delicia-salem"
+  },
+  {
+    "address": "101 Loring Ave, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.4996028,
+      "longitude": -70.8954136
+    },
+    "name": "Crusttown Salem",
+    "phoneNumber": "+1 (978) 224-8900",
+    "placeId": "ID0021BF6CB630995",
+    "website": "https://www.crusttownsalem.com/"
+  },
+  {
+    "address": "282 Derby St, Unit 2, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5206955,
+      "longitude": -70.8915059
+    },
+    "name": "Paprika Grill",
+    "phoneNumber": "+1 (978) 551-8186",
+    "placeId": "IB3AADFBC46159346",
+    "website": "https://www.paprikagrillma.com"
+  },
+  {
+    "address": "157 Washington St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5202162,
+      "longitude": -70.8951668
+    },
+    "name": "Passage to India",
+    "phoneNumber": "+1 (978) 832-2200",
+    "placeId": "ICEA5ADA8063BD6EA",
+    "website": "http://www.passagetoindiasalem.com"
+  },
+  {
+    "address": "225 Derby St, Salem",
+    "categories": [
+      "unknown"
+    ],
+    "coordinate": {
+      "latitude": 42.5203134,
+      "longitude": -70.889368
+    },
+    "name": "Mainstay Social",
+    "phoneNumber": "+1 (978) 619-1160",
+    "placeId": "I3F853A8D90EEA6BB",
+    "website": "https://www.yelp.com/biz/mainstay-social-salem"
+  },
+  {
+    "address": "83 Washington St, Salem",
+    "categories": [
+      "foodRestaurant"
+    ],
+    "coordinate": {
+      "latitude": 42.5220689,
+      "longitude": -70.8956352
+    },
+    "name": "The Juicery",
+    "phoneNumber": "+1 (978) 224-2120",
+    "placeId": "I37C9344DC2F1D9A3",
+    "website": "https://juicery.com/locations-and-menus/salem/"
+  },
+  {
+    "address": "140 Rantoul St, Ste 4, Beverly",
+    "categories": [
+      "market"
+    ],
+    "coordinate": {
+      "latitude": 42.5463753,
+      "longitude": -70.8846614
+    },
+    "name": "Harbor Sweets",
+    "phoneNumber": "+1 (978) 969-2779",
+    "placeId": "I5E30D76F04517B0A",
+    "website": "https://www.harborsweets.com"
+  },
+  {
+    "address": "Salem",
+    "categories": [
+      "transport"
+    ],
+    "coordinate": {
+      "latitude": 42.5194549,
+      "longitude": -70.8941886
+    },
+    "name": "New Derby St &Klop Alley Stop",
+    "placeId": "IC0ED5E7902BED527"
+  },
+  {
+    "address": "Salem",
+    "categories": [
+      "transport"
+    ],
+    "coordinate": {
+      "latitude": 42.53075,
+      "longitude": -70.908772
+    },
+    "name": "North St & Nursery St Stop",
+    "placeId": "IB5C1D50F8855E8EC"
+  },
+  {
+    "address": "Salem",
+    "categories": [
+      "transport"
+    ],
+    "coordinate": {
+      "latitude": 42.5133163,
+      "longitude": -70.9074352
+    },
+    "name": "Highland Ave & Proctor St Stop",
+    "placeId": "I2B5018AE487808D1"
+  },
+  {
+    "address": "Salem",
+    "categories": [
+      "transport"
+    ],
+    "coordinate": {
+      "latitude": 42.5218429,
+      "longitude": -70.8804624
+    },
+    "name": "Salem Terminal",
+    "placeId": "I2EE22A84B4A31A9E"
   }
 ]
