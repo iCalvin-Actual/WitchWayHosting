@@ -297,7 +297,7 @@
       "title" : "After Dark"
     }
   ],
-  "minClient" : 3,
+  "minClient" : 4,
   "places" : [
     {
       "address" : "203 Canal St, Salem",
