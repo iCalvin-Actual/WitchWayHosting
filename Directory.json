@@ -1,5 +1,5 @@
 {
-  "dataVersion" : 6,
+  "dataVersion" : 7,
   "places" : [
     {
       "uuid" : "00d7d407-0c83-4a1f-870d-6a518f0c1bd9",
@@ -17,7 +17,7 @@
       "phoneNumber" : "+1 (978) 741-5225",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "noon"
+        "openThrough" : "afternoon"
       },
       "address" : "203 Canal St, Salem"
     },
@@ -57,7 +57,7 @@
       "phoneNumber" : "+1 (978) 744-4221",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "5 Gedney St, Salem"
     },
@@ -77,8 +77,30 @@
       ],
       "phoneNumber" : "+1 (978) 744-8815",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "afternoon",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 1
+            },
+            "start" : {
+              "month" : 6,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 1
+          },
+          "start" : {
+            "month" : 6,
+            "day" : 1
+          }
+        }
       },
       "address" : "98 West Ave, Salem"
     },
@@ -167,7 +189,7 @@
       "phoneNumber" : "+1 (978) 745-7665",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "43 Church St, Salem"
     },
@@ -177,15 +199,15 @@
         "longitude" : -70.8893367,
         "latitude" : 42.5202093
       },
-      "website" : "http:\/\/www.salemwaterfronthotel.com\/dining\/regatta-pub-restaurant\/",
+      "website" : "https:\/\/salemwaterfronthotel.com\/dining\/",
       "neighborhood" : "derbyWaterfront",
       "placeId" : "IDB2147AC3F46C779",
-      "name" : "Regatta Pub",
+      "name" : "Mainstay Social",
       "categories" : [
         "pub",
         "customerRestroom"
       ],
-      "phoneNumber" : "+1 (978) 740-8788",
+      "phoneNumber" : "+1 (978) 619-1160",
       "availability" : {
         "openFrom" : "afternoon",
         "openThrough" : "lastCall"
@@ -243,7 +265,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-7648",
       "availability" : {
-        "openFrom" : "earlyMorning",
+        "openFrom" : "morning",
         "openThrough" : "afternoon"
       },
       "address" : "85 Leavitt St, Salem"
@@ -264,7 +286,7 @@
       "phoneNumber" : "+1 (978) 745-2021",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "172 Essex St, Salem"
     },
@@ -285,7 +307,7 @@
       "phoneNumber" : "+1 (978) 744-0860",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "370 Essex St, Salem"
     },
@@ -308,7 +330,7 @@
       "phoneNumber" : "+1 (978) 744-4080",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "18 Washington Square W, Salem"
     },
@@ -329,7 +351,7 @@
       "phoneNumber" : "+1 (978) 594-0832",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "94 Lafayette St, Salem"
     },
@@ -444,8 +466,8 @@
       ],
       "name" : "Big Apple Food Shops",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "72 Loring Ave, Salem"
     },
@@ -463,10 +485,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-3164",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "50 Washington St, Salem"
     },
     {
@@ -515,15 +533,11 @@
       "website" : "http:\/\/www.salemcatholiccommunity.org",
       "neighborhood" : "downtown",
       "placeId" : "I423657D589AC24F6",
-      "name" : "Saint John The Baptist Church",
+      "name" : "St. John Paul II Shrine of Divine Mercy",
       "categories" : [
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-1278",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "28 St Peter St, Salem"
     },
     {
@@ -625,7 +639,7 @@
       "phoneNumber" : "+1 (978) 744-0991",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "115 Derby St, Salem"
     },
@@ -644,7 +658,7 @@
       "phoneNumber" : "+1 (978) 524-2060",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "175 Cabot St, Beverly"
     },
@@ -664,7 +678,7 @@
       "phoneNumber" : "+1 (781) 586-0086",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "45 Congress St, Ste 160, Salem"
     },
@@ -698,10 +712,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 745-2291",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "24 St Peter St, Salem"
     },
     {
@@ -739,8 +749,8 @@
       ],
       "phoneNumber" : "+1 (978) 740-8800",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "28 Norman St, Salem"
     },
@@ -760,30 +770,30 @@
       ],
       "phoneNumber" : "+1 (978) 825-1300",
       "availability" : {
+        "openFrom" : "noon",
+        "openThrough" : "evening",
         "seasons" : [
           {
             "end" : {
-              "month" : 11,
-              "day" : 5
+              "month" : 10,
+              "day" : 31
             },
             "start" : {
-              "month" : 9,
+              "month" : 5,
               "day" : 1
             }
           }
         ],
-        "openFrom" : "evening",
         "season" : {
           "end" : {
-            "month" : 11,
-            "day" : 5
+            "month" : 10,
+            "day" : 31
           },
           "start" : {
-            "month" : 9,
+            "month" : 5,
             "day" : 1
           }
-        },
-        "openThrough" : "lastCall"
+        }
       },
       "address" : "186-1 Essex St, Salem"
     },
@@ -805,7 +815,7 @@
       "phoneNumber" : "+1 (978) 594-4743",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "57 Loring Ave, Salem"
     },
@@ -824,26 +834,6 @@
       ],
       "phoneNumber" : "+1 (888) 758-4389",
       "address" : "1 Salem St, Salem"
-    },
-    {
-      "uuid" : "1472ba00-3529-439c-aecd-46455a59c18d",
-      "coordinate" : {
-        "longitude" : -70.9172693,
-        "latitude" : 42.5234862
-      },
-      "website" : "https:\/\/locations.citizensbank.com\/ma\/peabody\/19-howley-st.html",
-      "neighborhood" : "gallowsHill",
-      "placeId" : "I799EB19E61E9EFB5",
-      "name" : "Citizens",
-      "categories" : [
-        "bank"
-      ],
-      "phoneNumber" : "+1 (978) 977-0134",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
-      "address" : "19 Howley St, Salem"
     },
     {
       "uuid" : "14ce0c09-dccb-4844-97b9-d0f85d824a57",
@@ -885,8 +875,8 @@
       ],
       "phoneNumber" : "+1 (978) 740-8882",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "247 Essex St, Salem"
     },
@@ -905,8 +895,8 @@
       ],
       "phoneNumber" : "+1 (978) 607-4273",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "207 Washington St, Salem"
     },
@@ -944,7 +934,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-0120",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "116 North St, Salem"
@@ -964,7 +954,7 @@
       ],
       "phoneNumber" : "+1 (978) 741-1170",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "127 Essex St, Salem"
@@ -984,7 +974,7 @@
       ],
       "phoneNumber" : "+1 (978) 224-2706",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "9 Church St, Salem"
@@ -1021,7 +1011,7 @@
       "phoneNumber" : "+1 (978) 740-8999",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "15 Bridge St, Salem"
     },
@@ -1056,7 +1046,7 @@
       ],
       "phoneNumber" : "+1 (617) 987-5224",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "272 Essex St, Salem"
@@ -1121,7 +1111,7 @@
       "phoneNumber" : "+1 (978) 745-6400",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "408 Essex St, Salem"
     },
@@ -1162,7 +1152,29 @@
       "phoneNumber" : "+1 (978) 741-2800",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "afternoon",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 10,
+              "day" : 31
+            },
+            "start" : {
+              "month" : 5,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 10,
+            "day" : 31
+          },
+          "start" : {
+            "month" : 5,
+            "day" : 1
+          }
+        }
       },
       "address" : "274 Derby St, Salem"
     },
@@ -1239,7 +1251,7 @@
       "phoneNumber" : "+1 (978) 744-7007",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "17 Front St, Salem"
     },
@@ -1265,26 +1277,6 @@
       "address" : "131 Essex St, Salem"
     },
     {
-      "uuid" : "213eb030-756e-4b42-a346-8f62f38f304b",
-      "coordinate" : {
-        "longitude" : -70.8941296256873,
-        "latitude" : 42.52065848786519
-      },
-      "website" : "https:\/\/www.facebook.com\/shopatbiss\/",
-      "neighborhood" : "downtown",
-      "placeId" : "I3854006D98984D3E",
-      "name" : "Biss",
-      "categories" : [
-        "shop"
-      ],
-      "phoneNumber" : "+1 (508) 844-1049",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "12 Front St, Salem"
-    },
-    {
       "uuid" : "21468dfa-1a17-4e82-8013-55d0fc96ea9c",
       "coordinate" : {
         "longitude" : -70.8881024,
@@ -1300,7 +1292,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-2856",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "98 Wharf St, Salem"
@@ -1336,29 +1328,10 @@
       ],
       "phoneNumber" : "+1 (978) 594-0642",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "1 Derby Square, Salem"
-    },
-    {
-      "uuid" : "2199bf1d-99d0-44ff-9952-20e4f78bdedf",
-      "coordinate" : {
-        "longitude" : -70.8940857,
-        "latitude" : 42.5175842
-      },
-      "neighborhood" : "point",
-      "placeId" : "I2F84C763B6C88F10",
-      "name" : "The Art Corner",
-      "categories" : [
-        "shop"
-      ],
-      "phoneNumber" : "+1 (978) 745-9524",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "264 Washington St, Salem"
     },
     {
       "uuid" : "22f2877b-829a-4af3-bc0b-6a5028ce559c",
@@ -1398,7 +1371,7 @@
       "phoneNumber" : "+1 (978) 744-8485",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "86 Wharf St, Salem"
     },
@@ -1420,8 +1393,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-2235",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "evening"
       },
       "address" : "188 Essex St, Salem"
     },
@@ -1488,26 +1461,6 @@
       "address" : "178 Derby St, Salem"
     },
     {
-      "uuid" : "268348a7-23ba-412b-9426-8ce70375292d",
-      "coordinate" : {
-        "longitude" : -70.8889784,
-        "latitude" : 42.5208462
-      },
-      "website" : "https:\/\/www.facebook.com\/Pyramid-Books-290521906538\/",
-      "neighborhood" : "derbyWaterfront",
-      "placeId" : "I5DAA3849AD78E5E9",
-      "name" : "Pyramid Books",
-      "categories" : [
-        "bookstore"
-      ],
-      "phoneNumber" : "+1 (978) 745-7171",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "214 Derby St, Salem"
-    },
-    {
       "uuid" : "26dd5ddc-1b3e-4e81-9bcc-db53cd2d520c",
       "coordinate" : {
         "longitude" : -70.8906824,
@@ -1540,7 +1493,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-4580",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "73 Harbor St, Salem"
@@ -1632,7 +1585,7 @@
       "phoneNumber" : "+1 (978) 594-5771",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "14 New Derby St, Salem"
     },
@@ -1649,10 +1602,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "2 Forrester St, Salem"
     },
     {
@@ -1672,7 +1621,7 @@
       "phoneNumber" : "+1 (978) 306-7281",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "140 Canal St, Salem"
     },
@@ -1742,10 +1691,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "256 Essex St, Salem"
     },
     {
@@ -1780,30 +1725,30 @@
       ],
       "phoneNumber" : "+1 (978) 741-0002",
       "availability" : {
+        "openFrom" : "evening",
+        "openThrough" : "evening",
         "seasons" : [
           {
             "end" : {
-              "month" : 11,
-              "day" : 5
+              "month" : 10,
+              "day" : 31
             },
             "start" : {
               "month" : 9,
-              "day" : 1
+              "day" : 15
             }
           }
         ],
-        "openFrom" : "evening",
         "season" : {
           "end" : {
-            "month" : 11,
-            "day" : 5
+            "month" : 10,
+            "day" : 31
           },
           "start" : {
             "month" : 9,
-            "day" : 1
+            "day" : 15
           }
-        },
-        "openThrough" : "lastCall"
+        }
       },
       "address" : "59 Wharf St, Salem"
     },
@@ -1855,8 +1800,8 @@
       ],
       "phoneNumber" : "+1 (978) 745-8260",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "51 Harbor St, Salem"
     },
@@ -1875,7 +1820,7 @@
       "phoneNumber" : "+1 (978) 745-7880",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "142 Washington St, Salem"
     },
@@ -1914,7 +1859,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-4644",
       "availability" : {
-        "openFrom" : "noon",
+        "openFrom" : "morning",
         "openThrough" : "evening"
       },
       "address" : "281 Essex St, Salem"
@@ -1935,7 +1880,7 @@
       "phoneNumber" : "+1 (978) 744-0017",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "23 Endicott St, Salem"
     },
@@ -2048,7 +1993,7 @@
       "phoneNumber" : "+1 (978) 594-0490",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "331 Lafayette St, Salem"
     },
@@ -2068,30 +2013,10 @@
       ],
       "phoneNumber" : "+1 (978) 744-4080",
       "availability" : {
-        "openFrom" : "noon",
+        "openFrom" : "earlyMorning",
         "openThrough" : "evening"
       },
       "address" : "18 Washington Square W, Salem"
-    },
-    {
-      "uuid" : "31274162-2475-489c-b126-f875a43594d4",
-      "coordinate" : {
-        "longitude" : -70.8882142,
-        "latitude" : 42.5207043
-      },
-      "website" : "https:\/\/fishedimpressions.com",
-      "neighborhood" : "derbyWaterfront",
-      "placeId" : "IBE3F3E40DFA067C8",
-      "name" : "Joe's Fresh Fish Prints",
-      "categories" : [
-        "souvenierShop"
-      ],
-      "phoneNumber" : "+1 (978) 944-1709",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "104 Wharf St, Salem"
     },
     {
       "uuid" : "31ab767c-398f-47da-a50b-68a12c15c2d3",
@@ -2109,7 +2034,7 @@
       ],
       "phoneNumber" : "+1 (978) 740-2992",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "282 Derby St, Salem"
@@ -2128,10 +2053,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 531-0224",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "1 Margin St, Peabody"
     },
     {
@@ -2151,7 +2072,7 @@
       "phoneNumber" : "+1 (978) 740-0033",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "134 North St, Salem"
     },
@@ -2170,7 +2091,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-0440",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "afternoon"
       },
       "address" : "21 High St, Salem"
@@ -2194,7 +2115,7 @@
       "phoneNumber" : "+1 (978) 306-7618",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "189 Washington St, Salem"
     },
@@ -2250,7 +2171,7 @@
       "phoneNumber" : "+1 (978) 740-2800",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "28 Norman St Rte 114, Salem"
     },
@@ -2269,7 +2190,7 @@
       "phoneNumber" : "+1 (978) 744-2335",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "125 Canal St, Salem"
     },
@@ -2309,7 +2230,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-1553",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "140 Washington St, Salem"
@@ -2329,7 +2250,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-9904",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "180 Essex St, Salem"
@@ -2350,7 +2271,7 @@
       "phoneNumber" : "+1 (978) 825-0824",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "211 Washington St, Salem"
     },
@@ -2402,7 +2323,7 @@
       ],
       "phoneNumber" : "+1 (978) 278-5711",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "150 Main St, Peabody"
@@ -2445,7 +2366,7 @@
       "phoneNumber" : "+1 (978) 674-5387",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "139 Boston St, Salem"
     },
@@ -2464,7 +2385,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-1166",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "63 Wharf St, Salem"
@@ -2485,7 +2406,7 @@
       "phoneNumber" : "+1 (978) 531-0846",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "62 Walnut St, Peabody"
     },
@@ -2505,8 +2426,8 @@
       ],
       "phoneNumber" : "+1 (978) 741-1111",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "186 Essex St, Salem"
     },
@@ -2560,7 +2481,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-6559",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "230 Essex St, Salem"
@@ -2580,7 +2501,7 @@
       ],
       "phoneNumber" : "+1 (978) 224-2988",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "302A Essex St, Salem"
@@ -2650,7 +2571,7 @@
       },
       "neighborhood" : "derbyWaterfront",
       "placeId" : "I60310CDFBA4525FA",
-      "name" : "Crotchet Box Country Store",
+      "name" : "100 Derby Country Store",
       "categories" : [
         "shop"
       ],
@@ -2725,26 +2646,10 @@
       ],
       "phoneNumber" : "+1 (978) 666-0931",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "149 Cabot St, Beverly"
-    },
-    {
-      "uuid" : "41FB22F0-6746-4E07-879A-D44CD91457FA",
-      "coordinate" : {
-        "longitude" : -70.889368,
-        "latitude" : 42.5203134
-      },
-      "website" : "https:\/\/www.yelp.com\/biz\/mainstay-social-salem",
-      "neighborhood" : "derbyWaterfront",
-      "placeId" : "I3F853A8D90EEA6BB",
-      "name" : "Mainstay Social",
-      "categories" : [
-        "unknown"
-      ],
-      "phoneNumber" : "+1 (978) 619-1160",
-      "address" : "225 Derby St, Salem"
     },
     {
       "uuid" : "41da9c67-a044-43d6-96ff-98cdf6e6f072",
@@ -2761,7 +2666,7 @@
       "phoneNumber" : "+1 (978) 744-1480",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "128 North St, Salem"
     },
@@ -2798,7 +2703,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-8763",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "125 Essex St, Salem"
@@ -2817,10 +2722,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-1551",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "316 Essex St, Salem"
     },
     {
@@ -2926,7 +2827,7 @@
       ],
       "phoneNumber" : "+1 (508) 517-7946",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "11 Dodge Street Ct, Salem"
@@ -2948,7 +2849,7 @@
       ],
       "phoneNumber" : "+1 (978) 740-9500",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "173 Essex St, Salem"
@@ -2969,7 +2870,7 @@
       "phoneNumber" : "+1 (978) 977-6085",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "193 Washington St, Salem"
     },
@@ -2987,7 +2888,7 @@
       ],
       "phoneNumber" : "+1 (978) 607-0144",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "98 Wharf St, Salem"
@@ -3101,7 +3002,7 @@
       "phoneNumber" : "+1 (978) 741-8658",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "68 Boston St, Salem"
     },
@@ -3118,10 +3019,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "2 Margin St, Salem"
     },
     {
@@ -3184,9 +3081,9 @@
       "phoneNumber" : "+1 (978) 745-6659",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
-      "address" : "72 Wharf St, Salem"
+      "address" : "76 Wharf St, Salem"
     },
     {
       "uuid" : "4ac04365-023f-4211-8fd3-2bde7be1dcc1",
@@ -3205,7 +3102,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-2094",
       "availability" : {
-        "openFrom" : "noon",
+        "openFrom" : "afternoon",
         "openThrough" : "evening"
       },
       "address" : "2 Lynde St, Salem"
@@ -3228,7 +3125,7 @@
       "phoneNumber" : "+1 (978) 744-1692",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "19 1\/2 Washington Sq N, Salem"
     },
@@ -3279,8 +3176,8 @@
       ],
       "phoneNumber" : "+1 (978) 741-1170",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "131 Essex St, Salem"
     },
@@ -3299,7 +3196,7 @@
       ],
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "211 Bridge St, Salem"
     },
@@ -3320,7 +3217,7 @@
       "phoneNumber" : "+1 (978) 825-0222",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "7 Lynde St, Salem"
     },
@@ -3376,7 +3273,7 @@
       "phoneNumber" : "+1 (978) 744-2251",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "204 Derby St, Salem"
     },
@@ -3466,7 +3363,29 @@
       "phoneNumber" : "+1 (978) 451-4950",
       "availability" : {
         "openFrom" : "afternoon",
-        "openThrough" : "lastCall"
+        "openThrough" : "lastCall",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 10
+            },
+            "start" : {
+              "month" : 5,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 10
+          },
+          "start" : {
+            "month" : 5,
+            "day" : 1
+          }
+        }
       },
       "address" : "209 Essex St, Salem"
     },
@@ -3506,7 +3425,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-0231",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "3 Central St, Salem"
@@ -3526,8 +3445,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-7442",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "29 New Derby St, Salem"
     },
@@ -3576,8 +3495,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-2858",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "168 Essex St, Salem"
     },
@@ -3716,10 +3635,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 745-9060",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "15 Hawthorne Blvd, Salem"
     },
     {
@@ -3738,7 +3653,7 @@
       "phoneNumber" : "+1 (978) 741-0786",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "252 Essex St, Salem"
     },
@@ -3757,8 +3672,8 @@
       ],
       "phoneNumber" : "+1 (323) 605-1446",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "11 Central St, Salem"
     },
@@ -3828,7 +3743,7 @@
       "phoneNumber" : "+1 (978) 745-2348",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "4 Boston St, Salem"
     },
@@ -3849,8 +3764,8 @@
       ],
       "phoneNumber" : "+1 (978) 594-1908",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "afternoon",
+        "openThrough" : "lastCall"
       },
       "address" : "125 Washington St, Salem"
     },
@@ -3885,7 +3800,7 @@
         "souvenierShop"
       ],
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "6 Central St, Salem"
@@ -3982,7 +3897,29 @@
       "phoneNumber" : "+1 (978) 741-2526",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 10,
+              "day" : 15
+            },
+            "start" : {
+              "month" : 5,
+              "day" : 15
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 10,
+            "day" : 15
+          },
+          "start" : {
+            "month" : 5,
+            "day" : 15
+          }
+        }
       },
       "address" : "200 Ft Ave, Salem"
     },
@@ -4025,7 +3962,7 @@
       "phoneNumber" : "+1 (978) 740-8727",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "28 Norman St, #2, Salem"
     },
@@ -4065,8 +4002,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-1229",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "135 Canal St, Salem"
     },
@@ -4087,7 +4024,7 @@
       ],
       "phoneNumber" : "+1 (978) 224-2976",
       "availability" : {
-        "openFrom" : "noon",
+        "openFrom" : "afternoon",
         "openThrough" : "evening"
       },
       "address" : "65 Washington St, Salem"
@@ -4148,26 +4085,6 @@
       "address" : "17 May St, Salem"
     },
     {
-      "uuid" : "64a58d46-c971-4991-b59b-09d69bc0c33f",
-      "coordinate" : {
-        "longitude" : -70.8895212,
-        "latitude" : 42.517931
-      },
-      "website" : "http:\/\/www.lildevilsdeli.com",
-      "neighborhood" : "point",
-      "placeId" : "I85EEFD5FD7C96F5D",
-      "name" : "Lil’ Devil’s",
-      "categories" : [
-        "foodRestaurant"
-      ],
-      "phoneNumber" : "+1 (978) 745-5900",
-      "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
-      },
-      "address" : "48 Congress St, Salem"
-    },
-    {
       "uuid" : "651025e0-3861-4c85-a5cb-9a7436e9c252",
       "coordinate" : {
         "longitude" : -70.89560803335328,
@@ -4187,7 +4104,7 @@
       "phoneNumber" : "+1 (978) 744-9600",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "87 Washington St, Salem"
     },
@@ -4207,8 +4124,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-9730",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "noon"
       },
       "address" : "112 North St, Salem"
     },
@@ -4227,7 +4144,7 @@
       ],
       "phoneNumber" : "+1 (857) 523-2200",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "afternoon"
       },
       "address" : "64 Bridge St, Salem"
@@ -4249,7 +4166,7 @@
       "phoneNumber" : "+1 (978) 224-2472",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "4 Boston Street, Salem"
     },
@@ -4286,8 +4203,8 @@
       ],
       "phoneNumber" : "+1 (978) 720-8333",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "1 Water St, Beverly"
     },
@@ -4450,10 +4367,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-3113",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "8 North St, Salem"
     },
     {
@@ -4545,8 +4458,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-9835",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "9 Bridge St, Salem"
     },
@@ -4604,7 +4517,29 @@
             "day" : 1
           }
         },
-        "openThrough" : "evening"
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 10,
+              "day" : 31
+            },
+            "start" : {
+              "month" : 5,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 10,
+            "day" : 31
+          },
+          "start" : {
+            "month" : 5,
+            "day" : 1
+          }
+        }
       },
       "address" : "24 Congress St, Salem"
     },
@@ -4684,7 +4619,7 @@
       "phoneNumber" : "+1 (978) 594-8189",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "118 Washington St, Salem"
     },
@@ -4760,7 +4695,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-3976",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "55 Lafayette St, Salem"
@@ -4908,7 +4843,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-5500",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "35 Congress St, Ste 248, Salem"
@@ -4929,8 +4864,8 @@
       ],
       "phoneNumber" : "+1 (714) 603-7101",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "evening"
       },
       "address" : "253 Essex St, Salem"
     },
@@ -5015,7 +4950,7 @@
       "website" : "http:\/\/www.gingerseafood.com",
       "neighborhood" : "downtown",
       "placeId" : "I21027373019B34E3",
-      "name" : "Ginger Seafood",
+      "name" : "Ginger Cajun Seafood",
       "categories" : [
         "eastAsian",
         "seafood",
@@ -5025,7 +4960,7 @@
       "phoneNumber" : "+1 (978) 594-5558",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "118 Washington St, Salem"
     },
@@ -5066,7 +5001,7 @@
       "phoneNumber" : "+1 (978) 744-2224",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "200 Essex St, Salem"
     },
@@ -5141,7 +5076,7 @@
       ],
       "phoneNumber" : "+1 (978) 414-5798",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "24 Front St, Salem"
@@ -5179,8 +5114,8 @@
       ],
       "phoneNumber" : "+1 (978) 745-7779",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "145 North St, Salem"
     },
@@ -5249,7 +5184,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-5937",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "27 Congress St, Bldg 1, Salem"
@@ -5288,7 +5223,7 @@
         "openFrom" : "morning",
         "openThrough" : "evening"
       },
-      "address" : "109 Lafayette St, Salem"
+      "address" : "64 Ward St, Salem"
     },
     {
       "uuid" : "85011f15-7725-4472-9051-84ef12d84b26",
@@ -5298,13 +5233,13 @@
       },
       "neighborhood" : "downtown",
       "placeId" : "IE5D0EDF01C000272",
-      "name" : "Practical Magic",
+      "name" : "The Coven's Cottage",
       "categories" : [
         "paganStore"
       ],
       "phoneNumber" : "+1 (978) 745-8883",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "190 Essex St, Salem"
@@ -5340,7 +5275,7 @@
       ],
       "phoneNumber" : "+1 (978) 969-0741",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "137 Boston St, Salem"
@@ -5410,7 +5345,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-1488",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "172 Lafayette St, Salem"
@@ -5429,10 +5364,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 531-0777",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "5 Paleologos St, Peabody"
     },
     {
@@ -5449,8 +5380,8 @@
       ],
       "phoneNumber" : "+1 (978) 740-5600",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "31 Bridge St, Salem"
     },
@@ -5538,8 +5469,8 @@
       ],
       "phoneNumber" : "+1 (978) 219-4664",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "noon",
+        "openThrough" : "lastCall"
       },
       "address" : "29 Congress St, Salem"
     },
@@ -5558,7 +5489,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-9642",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "earlyMorning",
         "openThrough" : "evening"
       },
       "address" : "29 Bridge St, Salem"
@@ -5579,7 +5510,7 @@
       "phoneNumber" : "+1 (978) 979-7667",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "48 Broadway, Salem"
     },
@@ -5600,7 +5531,29 @@
       "phoneNumber" : "+1 (978) 825-0222",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 30
+            },
+            "start" : {
+              "month" : 4,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 30
+          },
+          "start" : {
+            "month" : 4,
+            "day" : 1
+          }
+        }
       },
       "address" : "7 Lynde St, Salem"
     },
@@ -5618,8 +5571,8 @@
         "museum"
       ],
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "107 Boston St, Salem"
     },
@@ -5638,7 +5591,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-4393",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "266 Essex St, Salem"
@@ -5658,8 +5611,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-1100",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "noon",
+        "openThrough" : "afternoon"
       },
       "address" : "10 Jefferson Ave, Salem"
     },
@@ -5701,7 +5654,7 @@
       "phoneNumber" : "+1 (978) 594-4531",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "285 Derby St, Salem"
     },
@@ -5732,7 +5685,7 @@
             }
           }
         ],
-        "openFrom" : "morning",
+        "openFrom" : "afternoon",
         "season" : {
           "end" : {
             "month" : 10,
@@ -5836,7 +5789,7 @@
       "phoneNumber" : "+1 (978) 744-2700",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "118 Washington St, Salem"
     },
@@ -5857,8 +5810,8 @@
       ],
       "phoneNumber" : "+1 (978) 745-7755",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "noon",
+        "openThrough" : "afternoon"
       },
       "address" : "196 Essex St, Salem"
     },
@@ -5928,30 +5881,30 @@
       ],
       "phoneNumber" : "+1 (978) 740-2929",
       "availability" : {
+        "openFrom" : "noon",
+        "openThrough" : "afternoon",
         "seasons" : [
           {
             "end" : {
-              "month" : 11,
-              "day" : 5
+              "month" : 10,
+              "day" : 31
             },
             "start" : {
-              "month" : 9,
+              "month" : 6,
               "day" : 1
             }
           }
         ],
-        "openFrom" : "evening",
         "season" : {
           "end" : {
-            "month" : 11,
-            "day" : 5
+            "month" : 10,
+            "day" : 31
           },
           "start" : {
-            "month" : 9,
+            "month" : 6,
             "day" : 1
           }
-        },
-        "openThrough" : "lastCall"
+        }
       },
       "address" : "288 Derby St, Salem"
     },
@@ -5973,7 +5926,7 @@
       "phoneNumber" : "+1 (339) 245-2939",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "30 Church St, Salem"
     },
@@ -6038,7 +5991,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-2492",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "65 Wharf St, Salem"
@@ -6092,8 +6045,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-4040",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "4 Canal St, Salem"
     },
@@ -6113,8 +6066,8 @@
       ],
       "phoneNumber" : "+1 (781) 552-0096",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "127 Essex St, Salem"
     },
@@ -6234,10 +6187,6 @@
         "market"
       ],
       "phoneNumber" : "+1 (978) 744-9723",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "146 Boston St, Salem"
     },
     {
@@ -6288,7 +6237,7 @@
       "phoneNumber" : "+1 (978) 922-0032",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "53 Cabot St, Beverly"
     },
@@ -6371,7 +6320,7 @@
       "website" : "https:\/\/www.historicnewengland.org\/property\/phillips-house\/",
       "neighborhood" : "mcentyre",
       "placeId" : "I9B1E5449B56D201C",
-      "name" : "Cogswell's Grant",
+      "name" : "Phillips House",
       "categories" : [
         "museum"
       ],
@@ -6398,7 +6347,7 @@
       ],
       "phoneNumber" : "+1 (978) 219-9501",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "72 Washington St, Salem"
@@ -6597,7 +6546,7 @@
       "phoneNumber" : "+1 (978) 745-1744",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "71 Lafayette St, Salem"
     },
@@ -6630,8 +6579,8 @@
       ],
       "phoneNumber" : "+1 (978) 977-3900",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "19 Howley St, Salem"
     },
@@ -6649,10 +6598,6 @@
         "museum"
       ],
       "phoneNumber" : "+1 (978) 745-8071",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "96 Lafayette St, Salem"
     },
     {
@@ -6670,7 +6615,7 @@
       "phoneNumber" : "+1 (978) 745-9524",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "10 Colonial Rd, Unit 14, Salem"
     },
@@ -6691,7 +6636,7 @@
       "phoneNumber" : "+1 (562) 284-9333",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "130 North St, Salem"
     },
@@ -6732,7 +6677,7 @@
       "phoneNumber" : "+1 (978) 745-2411",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "231 Essex St, Salem"
     },
@@ -6781,10 +6726,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-1930",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "290 Jefferson Ave, Salem"
     },
     {
@@ -6802,7 +6743,7 @@
       "phoneNumber" : "+1 (978) 531-5767",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "37 Tremont St, Peabody"
     },
@@ -6838,27 +6779,9 @@
       "phoneNumber" : "+1 (978) 594-0110",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "102 Wharf St, Salem"
-    },
-    {
-      "uuid" : "aa966f11-312e-4614-bd2e-030ba5124bdf",
-      "coordinate" : {
-        "latitude" : 42.521306,
-        "longitude" : -70.8954518
-      },
-      "neighborhood" : "downtown",
-      "placeId" : "I8DA432435236210A",
-      "categories" : [
-        "shop"
-      ],
-      "name" : "Daniel Low & Co.",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "231 Essex St, Salem"
     },
     {
       "uuid" : "aad7db48-4bf0-47f0-99d6-e39bdb6c7d20",
@@ -6875,7 +6798,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-9393",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "186-3 Essex St, Salem"
@@ -6895,8 +6818,8 @@
       ],
       "phoneNumber" : "+1 (978) 239-9145",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "noon",
+        "openThrough" : "lastCall"
       },
       "address" : "234 Essex St, Salem"
     },
@@ -6919,7 +6842,7 @@
       "phoneNumber" : "+1 (978) 741-4436",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "148 Derby St, Salem"
     },
@@ -6938,7 +6861,7 @@
       ],
       "phoneNumber" : "+1 (978) 710-0735",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "30 Church St, Salem"
@@ -6971,10 +6894,6 @@
         "placeOfWorship"
       ],
       "phoneNumber" : "+1 (978) 744-5869",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "64 Forrester St, Salem"
     },
     {
@@ -7007,10 +6926,6 @@
         "venue"
       ],
       "phoneNumber" : "+1 (978) 740-9622",
-      "availability" : {
-        "openFrom" : "afternoon",
-        "openThrough" : "lastCall"
-      },
       "address" : "290 Essex St, Salem"
     },
     {
@@ -7165,8 +7080,8 @@
       ],
       "phoneNumber" : "+1 (978) 825-9911",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "afternoon",
+        "openThrough" : "lastCall"
       },
       "address" : "107 Essex St, Salem"
     },
@@ -7202,8 +7117,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-8364",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "109 Bridge St, Salem"
     },
@@ -7221,7 +7136,7 @@
         "tattooParlor"
       ],
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "99 Bridge St, Salem"
@@ -7242,7 +7157,7 @@
       ],
       "phoneNumber" : "+1 (978) 666-0763",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "184 Essex St, Salem"
@@ -7268,7 +7183,7 @@
       "phoneNumber" : "+1 (978) 745-3527",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "noon"
       },
       "address" : "15 Central St, Salem"
     },
@@ -7285,10 +7200,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "189 Jefferson Ave, Salem"
     },
     {
@@ -7347,7 +7258,7 @@
       "phoneNumber" : "+1 (978) 594-8854",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "41 Lafayette St, Salem"
     },
@@ -7386,7 +7297,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-5486",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "201 Derby St, Salem"
@@ -7426,10 +7337,6 @@
         "paganStore",
         "clothingStore"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
       "address" : "8 Front St, #216, Salem"
     },
     {
@@ -7502,8 +7409,8 @@
       ],
       "phoneNumber" : "+1 (978) 594-0244",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "evening"
       },
       "address" : "281 Essex St, Salem"
     },
@@ -7537,7 +7444,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-4220",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "earlyMorning",
         "openThrough" : "evening"
       },
       "address" : "36 Margin St, Salem"
@@ -7573,7 +7480,7 @@
       "phoneNumber" : "+1 (978) 594-8197",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "99 Washington St, Salem"
     },
@@ -7591,7 +7498,7 @@
       ],
       "phoneNumber" : "+1 (617) 522-2820",
       "availability" : {
-        "openFrom" : "earlyMorning",
+        "openFrom" : "morning",
         "openThrough" : "afternoon"
       },
       "address" : "135 Essex St, Salem"
@@ -7613,8 +7520,8 @@
       ],
       "phoneNumber" : "+1 (978) 224-2362",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "noon"
       },
       "address" : "101 Lafayette St, Salem"
     },
@@ -7650,7 +7557,7 @@
       ],
       "phoneNumber" : "+1 (978) 224-2925",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "282 Derby St, Salem"
@@ -7671,8 +7578,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-0693",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openFrom" : "noon",
+        "openThrough" : "afternoon"
       },
       "address" : "64 Bridge St, Salem"
     },
@@ -7694,8 +7601,8 @@
       ],
       "phoneNumber" : "+1 (978) 741-4648",
       "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openFrom" : "earlyMorning",
+        "openThrough" : "lastCall"
       },
       "address" : "283 Derby St, Salem"
     },
@@ -7737,7 +7644,7 @@
       "phoneNumber" : "+1 (978) 594-8490",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "215 Derby St, Salem"
     },
@@ -7778,7 +7685,7 @@
       "phoneNumber" : "+1 (978) 744-0995",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "lastCall"
       },
       "address" : "96 Bridge St, Salem"
     },
@@ -7799,7 +7706,7 @@
       "phoneNumber" : "+1 (978) 740-2929",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "288 Derby St, Salem"
     },
@@ -7834,7 +7741,7 @@
         "shop"
       ],
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "18 Front St, Salem"
@@ -7855,7 +7762,7 @@
       "phoneNumber" : "+1 (978) 594-0453",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "1 Boston St, Salem"
     },
@@ -7876,7 +7783,7 @@
       "phoneNumber" : "+1 (978) 210-8589",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "30 Federal St, Salem"
     },
@@ -7898,7 +7805,7 @@
       "phoneNumber" : "+1 (978) 744-4300",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "lastCall"
       },
       "address" : "197 Derby St, Salem"
     },
@@ -7940,7 +7847,7 @@
       "phoneNumber" : "+1 (978) 594-1485",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "lastCall"
       },
       "address" : "130 Canal St, Salem"
     },
@@ -7958,7 +7865,7 @@
       ],
       "phoneNumber" : "+1 (978) 744-2367",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "28 Norman St, Salem"
@@ -7995,7 +7902,7 @@
       "phoneNumber" : "+1 (978) 594-1938",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "260 Essex St, Salem"
     },
@@ -8020,7 +7927,7 @@
       "phoneNumber" : "+1 (978) 744-9653",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "76 Lafayette St, Salem"
     },
@@ -8058,7 +7965,7 @@
       "phoneNumber" : "+1 (978) 219-2210",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "268 Washington St, Salem"
     },
@@ -8147,7 +8054,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-3571",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "earlyMorning",
         "openThrough" : "evening"
       },
       "address" : "125 Canal St, Salem"
@@ -8167,7 +8074,7 @@
       ],
       "phoneNumber" : "+1 (978) 726-7749",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "30 Church St, Salem"
@@ -8207,7 +8114,7 @@
       ],
       "phoneNumber" : "+1 (978) 745-8282",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "94 Boston St, Salem"
@@ -8251,27 +8158,27 @@
         "seasons" : [
           {
             "end" : {
-              "month" : 10,
-              "day" : 31
+              "month" : 11,
+              "day" : 7
             },
             "start" : {
-              "month" : 8,
-              "day" : 1
+              "month" : 9,
+              "day" : 21
             }
           }
         ],
-        "openFrom" : "afternoon",
+        "openFrom" : "noon",
         "season" : {
           "end" : {
-            "month" : 10,
-            "day" : 31
+            "month" : 11,
+            "day" : 7
           },
           "start" : {
-            "month" : 8,
-            "day" : 1
+            "month" : 9,
+            "day" : 21
           }
         },
-        "openThrough" : "lastCall"
+        "openThrough" : "noon"
       },
       "address" : "32 Derby Square, Salem"
     },
@@ -8343,7 +8250,7 @@
       "phoneNumber" : "+1 (978) 740-0500",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "217 Essex St, Salem"
     },
@@ -8416,7 +8323,7 @@
       ],
       "phoneNumber" : "+1 (802) 261-5551",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "281 Essex St, Unit C3, Salem"
@@ -8453,7 +8360,7 @@
       "phoneNumber" : "+1 (978) 745-5247",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "424 Essex St, Salem"
     },
@@ -8493,7 +8400,7 @@
       "phoneNumber" : "+1 (978) 662-0191",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "2 Bridge St, Salem"
     },
@@ -8628,7 +8535,7 @@
       ],
       "phoneNumber" : "+1 (978) 594-5003",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "274 Essex St, Salem"
@@ -8665,7 +8572,7 @@
       "phoneNumber" : "+1 (978) 741-0555",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "94 Wharf St, Salem"
     },
@@ -8686,7 +8593,7 @@
       "phoneNumber" : "+1 (978) 745-2744",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "122 Derby St, Salem"
     },
@@ -8722,7 +8629,7 @@
       "phoneNumber" : "+1 (978) 744-4000",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "26 Bridge St, Salem"
     },
@@ -8741,48 +8648,6 @@
       ],
       "phoneNumber" : "+1 (978) 740-1280",
       "address" : "10 Skerry St, Salem"
-    },
-    {
-      "uuid" : "dd8af002-8933-4179-a2a1-7392458a25c7",
-      "coordinate" : {
-        "longitude" : -70.8876411,
-        "latitude" : 42.5196408
-      },
-      "website" : "http:\/\/www.schoonerfame.com",
-      "neighborhood" : "derbyWaterfront",
-      "placeId" : "IC80E1931F28874E7",
-      "name" : "Schooner FAME of Salem",
-      "categories" : [
-        "marina"
-      ],
-      "phoneNumber" : "+1 (978) 729-7600",
-      "availability" : {
-        "seasons" : [
-          {
-            "end" : {
-              "month" : 10,
-              "day" : 31
-            },
-            "start" : {
-              "month" : 5,
-              "day" : 1
-            }
-          }
-        ],
-        "openFrom" : "morning",
-        "season" : {
-          "end" : {
-            "month" : 10,
-            "day" : 31
-          },
-          "start" : {
-            "month" : 5,
-            "day" : 1
-          }
-        },
-        "openThrough" : "evening"
-      },
-      "address" : "86 Wharf St, Salem"
     },
     {
       "uuid" : "ddb54d01-2248-4e21-bc25-e9a08cd0ff16",
@@ -8815,7 +8680,7 @@
       ],
       "phoneNumber" : "+1 (978) 451-4950",
       "availability" : {
-        "openFrom" : "noon",
+        "openFrom" : "morning",
         "openThrough" : "evening"
       },
       "address" : "209 Essex St, Salem"
@@ -8837,29 +8702,9 @@
       ],
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "156 Derby St, Salem"
-    },
-    {
-      "uuid" : "df25429a-d2ba-49a0-bcf9-9e76841af7cf",
-      "coordinate" : {
-        "longitude" : -70.9109853,
-        "latitude" : 42.522396
-      },
-      "website" : "http:\/\/www.eb-skinstudio.com",
-      "neighborhood" : "northSalem",
-      "placeId" : "IF10164A55ACAE03D",
-      "name" : "EB Skin Studio",
-      "categories" : [
-        "spa"
-      ],
-      "phoneNumber" : "+1 (978) 333-2300",
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "evening"
-      },
-      "address" : "50 Grove St, Salem"
     },
     {
       "uuid" : "e0b6801f-92d4-4001-9efb-cfe7d0ee6c61",
@@ -8916,26 +8761,6 @@
       "address" : "172 Lafayette St, Salem"
     },
     {
-      "uuid" : "e25c8a25-4a23-401a-8ea9-24729ef29d22",
-      "coordinate" : {
-        "longitude" : -70.8960529,
-        "latitude" : 42.522486
-      },
-      "website" : "http:\/\/www.augratinsalem.com",
-      "neighborhood" : "downtown",
-      "placeId" : "I1ED9E70B2CA639CD",
-      "name" : "Au Gratin",
-      "categories" : [
-        "foodRestaurant"
-      ],
-      "phoneNumber" : "+1 (978) 306-7140",
-      "availability" : {
-        "openFrom" : "noon",
-        "openThrough" : "evening"
-      },
-      "address" : "60 Washington St, Salem"
-    },
-    {
       "uuid" : "e28a050a-12ac-4d24-a743-9a330f3b4374",
       "coordinate" : {
         "longitude" : -70.8999668,
@@ -8968,10 +8793,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "125 Canal St, Salem"
     },
     {
@@ -9007,7 +8828,7 @@
       "phoneNumber" : "+1 (978) 740-2912",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "300 Canal St, Salem"
     },
@@ -9148,10 +8969,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "215 Derby St, Salem"
     },
     {
@@ -9169,7 +8986,7 @@
       ],
       "phoneNumber" : "+1 (978) 741-9463",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "32 Church St, Salem"
@@ -9189,7 +9006,29 @@
       "phoneNumber" : "+1 (978) 825-0222",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 30
+            },
+            "start" : {
+              "month" : 4,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 30
+          },
+          "start" : {
+            "month" : 4,
+            "day" : 1
+          }
+        }
       },
       "address" : "7 Lynde St, Salem"
     },
@@ -9242,10 +9081,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "212 Washington St, Salem"
     },
     {
@@ -9264,7 +9099,7 @@
       "phoneNumber" : "+1 (978) 744-0700",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "239 Lafayette St, Salem"
     },
@@ -9283,8 +9118,8 @@
       ],
       "phoneNumber" : "+1 (978) 744-2540",
       "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "337 Essex St, Salem"
     },
@@ -9319,10 +9154,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "302 Essex St, Salem"
     },
     {
@@ -9374,8 +9205,8 @@
       ],
       "phoneNumber" : "+1 (617) 548-4567",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "noon",
+        "openThrough" : "evening"
       },
       "address" : "173 Essex St, Salem"
     },
@@ -9413,8 +9244,8 @@
       ],
       "phoneNumber" : "+1 (978) 745-6844",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "noon"
       },
       "address" : "122 Washington St, Salem"
     },
@@ -9434,7 +9265,7 @@
       ],
       "phoneNumber" : "+1 (978) 741-9297",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "231 Essex St, Salem"
@@ -9455,7 +9286,7 @@
       ],
       "phoneNumber" : "+1 (978) 224-2706",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "77 Wharf St, Salem"
@@ -9477,7 +9308,7 @@
       "phoneNumber" : "+1 (978) 595-0025",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "144 Canal St, Salem"
     },
@@ -9498,8 +9329,8 @@
       ],
       "phoneNumber" : "+1 (978) 532-1530",
       "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openFrom" : "morning",
+        "openThrough" : "lastCall"
       },
       "address" : "72 Walnut St, Peabody"
     },
@@ -9560,7 +9391,7 @@
       "phoneNumber" : "+1 (978) 744-9111",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "44 Jefferson Ave, Salem"
     },
@@ -9582,7 +9413,7 @@
       ],
       "phoneNumber" : "+1 (978) 825-9111",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "26 Front St, Salem"
@@ -9606,7 +9437,29 @@
       "phoneNumber" : "+1 (978) 745-5449",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 1,
+              "day" : 15
+            },
+            "start" : {
+              "month" : 4,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 1,
+            "day" : 15
+          },
+          "start" : {
+            "month" : 4,
+            "day" : 1
+          }
+        }
       },
       "address" : "25 Front St, Salem"
     },
@@ -9655,10 +9508,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "126 Essex St, Salem"
     },
     {
@@ -9677,7 +9526,7 @@
       "phoneNumber" : "+1 (978) 744-9888",
       "availability" : {
         "openFrom" : "earlyMorning",
-        "openThrough" : "afternoon"
+        "openThrough" : "evening"
       },
       "address" : "152 Washington St, Salem"
     },
@@ -9696,10 +9545,6 @@
         "publicRestroom"
       ],
       "phoneNumber" : "+1 (978) 745-8120",
-      "availability" : {
-        "openFrom" : "earlyMorning",
-        "openThrough" : "evening"
-      },
       "address" : "10 Congress St, Salem"
     },
     {
@@ -9740,7 +9585,7 @@
       "phoneNumber" : "+1 (978) 594-1832",
       "availability" : {
         "openFrom" : "noon",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "155 Washington St, Salem"
     },
@@ -9871,10 +9716,6 @@
       "categories" : [
         "usps"
       ],
-      "availability" : {
-        "openFrom" : "morning",
-        "openThrough" : "afternoon"
-      },
       "address" : "380 Lafayette St, Salem"
     },
     {
@@ -9935,7 +9776,7 @@
       "phoneNumber" : "+1 (978) 594-4026",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "2 North St, Salem"
     },
@@ -9989,7 +9830,7 @@
       "phoneNumber" : "+1 (978) 219-2470",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "138 Canal St, Salem"
     },
@@ -10008,7 +9849,7 @@
       "phoneNumber" : "+1 (978) 744-1761",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "lastCall"
       },
       "address" : "18 Boston St, Salem"
     },
@@ -10027,7 +9868,7 @@
       ],
       "phoneNumber" : "+1 (978) 498-4252",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "13 Gedney St, Salem"
@@ -10048,7 +9889,7 @@
       "phoneNumber" : "+1 (978) 745-2459",
       "availability" : {
         "openFrom" : "morning",
-        "openThrough" : "evening"
+        "openThrough" : "afternoon"
       },
       "address" : "47 Canal St, Salem"
     },
@@ -10103,10 +9944,56 @@
       ],
       "phoneNumber" : "+1 (978) 740-3866",
       "availability" : {
-        "openFrom" : "morning",
+        "openFrom" : "noon",
         "openThrough" : "evening"
       },
       "address" : "213 Essex St, Salem"
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000001",
+      "name" : "Charter Street Cemetery",
+      "coordinate" : {
+        "latitude" : 42.5204623,
+        "longitude" : -70.8922487
+      },
+      "categories" : [
+        "historicalMarker"
+      ],
+      "description" : "One of the country's oldest burying grounds (1637) and the resting place of witch-trial judge John Hathorne, right beside the Witch Trials Memorial off Charter Street.",
+      "address" : "51 Charter St, Salem",
+      "phoneNumber" : "+1 (978) 777-0407",
+      "website" : "https:\/\/www.charterstreetcemetery.com\/cemetery",
+      "placeId" : "I2C008B3267BA88BB"
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000002",
+      "name" : "Howard Street Cemetery",
+      "coordinate" : {
+        "latitude" : 42.5243798,
+        "longitude" : -70.8924848
+      },
+      "categories" : [
+        "historicalMarker"
+      ],
+      "description" : "Historic burying ground beside the site of the old Salem jail, tied to Giles Corey, who was pressed to death nearby during the 1692 witch trials.",
+      "address" : "29 Howard St, Salem",
+      "placeId" : "I55A3D637977D008E"
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000003",
+      "name" : "Thai Place",
+      "coordinate" : {
+        "latitude" : 42.5226101,
+        "longitude" : -70.893337
+      },
+      "categories" : [
+        "eastAsian"
+      ],
+      "description" : "Longstanding downtown Thai restaurant on Central Street, a local Salem favorite well off the tourist strip.",
+      "address" : "13 Central St, Salem",
+      "phoneNumber" : "+1 (978) 741-8008",
+      "website" : "http:\/\/www.thaiplace.net\/",
+      "placeId" : "IA58817AD997FD70D"
     }
   ],
   "lists" : [
@@ -10116,23 +10003,28 @@
       "title" : "Free Sights",
       "icon" : "dollarsign.circle",
       "places" : [
-        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
-        "7ef07631-fc90-4a83-b044-73f778193796",
-        "0b977349-1940-4280-ac5d-bc5c3b7cd4ea",
-        "e34ae0dc-9403-466a-887f-19f2252c67a0",
-        "b098192b-6778-4ada-b1a0-f241158a4a38",
-        "2648a92a-9511-45da-90d4-2a14207c9b19",
         "d353e87b-2e3d-4670-9833-ecfd6111e510",
+        "b098192b-6778-4ada-b1a0-f241158a4a38",
+        "e34ae0dc-9403-466a-887f-19f2252c67a0",
+        "2648a92a-9511-45da-90d4-2a14207c9b19",
         "6a439a34-09c6-41ba-a952-137bb3ce2f66",
-        "98099dd1-7872-467e-99d3-5073c632b108",
-        "77773c7c-b610-4e4e-bbfd-e2c237be7b83",
-        "4eb32019-ffb9-493c-807f-183c606c2e9f",
+        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
+        "a2df2482-b5c2-4bca-964f-0480924178df",
         "0aa9ed4a-8ba0-495a-b8bd-4cfcb0183c29",
+        "8ed0a1cb-a544-486f-83dc-77e379dbfd6d",
+        "77773c7c-b610-4e4e-bbfd-e2c237be7b83",
+        "0b977349-1940-4280-ac5d-bc5c3b7cd4ea",
+        "4eb32019-ffb9-493c-807f-183c606c2e9f",
+        "e99726f5-498d-49cf-8295-211f34463ebe",
         "42eea525-6858-4590-ba7f-813113313e2b",
+        "06c24255-5036-4e85-885d-c4290768a802",
         "830a61a8-0a29-4690-866e-8e45b93d7382",
-        "fc0ada57-40d6-4c3a-a8f0-0aa26a9d4d18",
         "937b668d-4eb4-4bfd-bdb0-0e595e343df6",
-        "06c24255-5036-4e85-885d-c4290768a802"
+        "98099dd1-7872-467e-99d3-5073c632b108",
+        "7ef07631-fc90-4a83-b044-73f778193796",
+        "fc0ada57-40d6-4c3a-a8f0-0aa26a9d4d18",
+        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
+        "7922aa78-2319-43f3-8625-e94fcda40a77"
       ]
     },
     {
@@ -10141,15 +10033,18 @@
       "title" : "Witch History",
       "icon" : "flame",
       "places" : [
-        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
-        "4d4afaf9-dce1-485f-9766-4bc110ee6bea",
-        "731c4ef9-5a37-4815-87c7-71d0466c8e9d",
-        "8c0a4de6-8ee9-4c26-b968-222400d280ee",
+        "b1c1a5d0-4e2f-4a10-9c33-000000000002",
         "4b156cb3-a70f-43b8-a085-980804d2f5fd",
-        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
-        "d8187696-653d-40e6-b428-8f12cd87b413",
+        "98099dd1-7872-467e-99d3-5073c632b108",
+        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
         "c1f9ef97-f9a1-4548-8a79-a3759d94784b",
-        "77773c7c-b610-4e4e-bbfd-e2c237be7b83"
+        "b1c1a5d0-4e2f-4a10-9c33-000000000001",
+        "d8187696-653d-40e6-b428-8f12cd87b413",
+        "77773c7c-b610-4e4e-bbfd-e2c237be7b83",
+        "8c0a4de6-8ee9-4c26-b968-222400d280ee",
+        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
+        "4d4afaf9-dce1-485f-9766-4bc110ee6bea",
+        "731c4ef9-5a37-4815-87c7-71d0466c8e9d"
       ]
     },
     {
@@ -10158,10 +10053,10 @@
       "title" : "Hocus Pocus Locations",
       "icon" : "sparkles",
       "places" : [
-        "02469ac6-2924-42b4-a24a-1a565f8488ab",
         "4eb32019-ffb9-493c-807f-183c606c2e9f",
+        "77773c7c-b610-4e4e-bbfd-e2c237be7b83",
         "7ef07631-fc90-4a83-b044-73f778193796",
-        "77773c7c-b610-4e4e-bbfd-e2c237be7b83"
+        "02469ac6-2924-42b4-a24a-1a565f8488ab"
       ]
     },
     {
@@ -10170,15 +10065,26 @@
       "title" : "Witch Shops & Magick",
       "icon" : "wand.and.stars",
       "places" : [
-        "42335363-f82c-45da-9493-bb0bac7250bf",
-        "933573f0-6fde-427c-a117-74bd5eaea084",
-        "1f88746b-a6be-4e2f-a383-1234ce1d4305",
-        "9421fbd0-be2b-42a7-ac21-174c81c32242",
+        "f85afa3a-0ec1-4648-bc3b-e6b23e90fb8d",
+        "1bafb636-4593-4851-ad45-a857f6c16687",
+        "2ecd0fe0-8654-44d0-b41e-912395523fbf",
         "47338a28-6106-4917-94f5-f43fa1742880",
+        "ed436a9d-540f-4dee-a375-8c75e44f769e",
+        "933573f0-6fde-427c-a117-74bd5eaea084",
         "c393e26e-5fd9-4302-8380-40e1f300bff6",
+        "b52c5b00-c1e5-42a4-9b35-21493edd79ff",
+        "5ad866d8-925f-4075-b3e8-0989a38ac571",
+        "b24deb14-3980-4b85-9747-eaadf92c0b10",
+        "1f88746b-a6be-4e2f-a383-1234ce1d4305",
         "baafef0c-0c3c-4952-a28a-d1de4a4fcadc",
-        "2c1bfb1d-6742-4739-85e3-c3f85e782028",
-        "b52c5b00-c1e5-42a4-9b35-21493edd79ff"
+        "3d8b5420-5251-484b-bd05-200c3d4eaca2",
+        "42335363-f82c-45da-9493-bb0bac7250bf",
+        "cda72a92-6803-47ad-83b1-e5d4e6a44640",
+        "268348a7-23ba-412b-9426-8ce70375292d",
+        "21468dfa-1a17-4e82-8013-55d0fc96ea9c",
+        "1532528d-5f36-474b-b24e-a2c1f2672f5a",
+        "9421fbd0-be2b-42a7-ac21-174c81c32242",
+        "398c17ad-ead7-4993-9f07-b63a735f332d"
       ]
     },
     {
@@ -10187,16 +10093,19 @@
       "title" : "Spooky & Haunted",
       "icon" : "theatermasks",
       "places" : [
-        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
-        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
-        "1335f93c-b0c1-42b0-898e-fb993d7b4674",
-        "2b3cb3e4-8d42-497e-8311-77b221e3f88d",
-        "92d84a60-a108-4712-964f-52b2dde1361f",
-        "3a649ea8-7607-45e6-935b-06e79bb3e8c4",
         "c417afa5-28e0-437f-b153-95ebf879103a",
+        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
         "4cd3b468-4668-4040-b188-80843f9fd3a0",
+        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
+        "d8187696-653d-40e6-b428-8f12cd87b413",
+        "3a649ea8-7607-45e6-935b-06e79bb3e8c4",
+        "1335f93c-b0c1-42b0-898e-fb993d7b4674",
         "4c3911ed-10ae-47b3-aaeb-2b426c59fe99",
-        "d8187696-653d-40e6-b428-8f12cd87b413"
+        "9690206b-f8de-4718-b38e-91cd3f2de5cd",
+        "92d84a60-a108-4712-964f-52b2dde1361f",
+        "c1f9ef97-f9a1-4548-8a79-a3759d94784b",
+        "2b3cb3e4-8d42-497e-8311-77b221e3f88d",
+        "ed935f7b-2cb5-417b-b816-97e23599840c"
       ]
     },
     {
@@ -10205,20 +10114,25 @@
       "title" : "Photo Spots",
       "icon" : "camera",
       "places" : [
-        "7ef07631-fc90-4a83-b044-73f778193796",
+        "4eb32019-ffb9-493c-807f-183c606c2e9f",
         "4d4afaf9-dce1-485f-9766-4bc110ee6bea",
         "0b977349-1940-4280-ac5d-bc5c3b7cd4ea",
-        "4b156cb3-a70f-43b8-a085-980804d2f5fd",
         "77773c7c-b610-4e4e-bbfd-e2c237be7b83",
+        "0aa9ed4a-8ba0-495a-b8bd-4cfcb0183c29",
+        "b1c1a5d0-4e2f-4a10-9c33-000000000001",
+        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
+        "08413c62-567d-4606-a8fb-bda7f4e32b83",
         "98099dd1-7872-467e-99d3-5073c632b108",
-        "2648a92a-9511-45da-90d4-2a14207c9b19",
+        "4b156cb3-a70f-43b8-a085-980804d2f5fd",
+        "7ef07631-fc90-4a83-b044-73f778193796",
+        "5a897645-d201-4d55-8ccf-8f2da2748e4a",
         "b098192b-6778-4ada-b1a0-f241158a4a38",
+        "2648a92a-9511-45da-90d4-2a14207c9b19",
         "e34ae0dc-9403-466a-887f-19f2252c67a0",
         "0ef0937a-d60a-4b95-bee4-675c45797400",
-        "08413c62-567d-4606-a8fb-bda7f4e32b83",
-        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
         "d353e87b-2e3d-4670-9833-ecfd6111e510",
-        "555fd998-62f0-45d6-9cfc-b3ba17be8b62"
+        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
+        "ec1affc4-b0b5-42fb-bd88-6298f065a779"
       ]
     },
     {
@@ -10227,12 +10141,12 @@
       "title" : "Statues & Monuments",
       "icon" : "figure.stand",
       "places" : [
-        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
-        "0b977349-1940-4280-ac5d-bc5c3b7cd4ea",
         "98099dd1-7872-467e-99d3-5073c632b108",
         "6a439a34-09c6-41ba-a952-137bb3ce2f66",
-        "731c4ef9-5a37-4815-87c7-71d0466c8e9d",
-        "830a61a8-0a29-4690-866e-8e45b93d7382"
+        "37ff53c2-eb64-406f-aded-e0b8080a3bfb",
+        "0b977349-1940-4280-ac5d-bc5c3b7cd4ea",
+        "830a61a8-0a29-4690-866e-8e45b93d7382",
+        "731c4ef9-5a37-4815-87c7-71d0466c8e9d"
       ]
     },
     {
@@ -10241,17 +10155,21 @@
       "title" : "Good for Kids",
       "icon" : "figure.2.and.child.holdinghands",
       "places" : [
-        "7922aa78-2319-43f3-8625-e94fcda40a77",
-        "0a3eae00-b9d1-4fad-b766-8ed359f752e2",
         "481e383a-97f3-4069-8698-c63c798e4de5",
-        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
-        "7ef07631-fc90-4a83-b044-73f778193796",
-        "d2b34fca-feb8-4cf4-aa58-37e610aefacf",
-        "1f697b97-6e8c-44a5-8b31-33e70c8ae1eb",
         "76de92b5-be98-4f99-810b-a7e317948da3",
+        "c1f9ef97-f9a1-4548-8a79-a3759d94784b",
+        "4f5712a2-c6ea-4d6b-8967-53e7b6281ee3",
+        "1f697b97-6e8c-44a5-8b31-33e70c8ae1eb",
         "08413c62-567d-4606-a8fb-bda7f4e32b83",
+        "d2b34fca-feb8-4cf4-aa58-37e610aefacf",
         "4b156cb3-a70f-43b8-a085-980804d2f5fd",
-        "c1f9ef97-f9a1-4548-8a79-a3759d94784b"
+        "7ef07631-fc90-4a83-b044-73f778193796",
+        "fc0ada57-40d6-4c3a-a8f0-0aa26a9d4d18",
+        "dce82262-4750-43ad-adf1-eeda17524c5e",
+        "0ef0937a-d60a-4b95-bee4-675c45797400",
+        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
+        "7922aa78-2319-43f3-8625-e94fcda40a77",
+        "0a3eae00-b9d1-4fad-b766-8ed359f752e2"
       ]
     },
     {
@@ -10260,15 +10178,18 @@
       "title" : "Maritime Salem",
       "icon" : "sailboat",
       "places" : [
-        "e34ae0dc-9403-466a-887f-19f2252c67a0",
-        "b098192b-6778-4ada-b1a0-f241158a4a38",
-        "2648a92a-9511-45da-90d4-2a14207c9b19",
-        "e4744582-66f0-4f8f-b53c-c2cc94ab6422",
         "d353e87b-2e3d-4670-9833-ecfd6111e510",
         "0c8effb7-c475-497a-b368-6328ada84fd1",
-        "ec1affc4-b0b5-42fb-bd88-6298f065a779",
         "5a897645-d201-4d55-8ccf-8f2da2748e4a",
-        "0ef0937a-d60a-4b95-bee4-675c45797400"
+        "b098192b-6778-4ada-b1a0-f241158a4a38",
+        "f757262e-b9a1-4230-95bb-96d0dbc2b73b",
+        "2648a92a-9511-45da-90d4-2a14207c9b19",
+        "e4744582-66f0-4f8f-b53c-c2cc94ab6422",
+        "e34ae0dc-9403-466a-887f-19f2252c67a0",
+        "0ef0937a-d60a-4b95-bee4-675c45797400",
+        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
+        "ec1affc4-b0b5-42fb-bd88-6298f065a779",
+        "7922aa78-2319-43f3-8625-e94fcda40a77"
       ]
     },
     {
@@ -10277,16 +10198,22 @@
       "title" : "Parks & Beaches",
       "icon" : "tree",
       "places" : [
-        "7ef07631-fc90-4a83-b044-73f778193796",
-        "7922aa78-2319-43f3-8625-e94fcda40a77",
-        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
-        "481e383a-97f3-4069-8698-c63c798e4de5",
-        "77a942ef-b041-4465-a295-875e19e7bda7",
+        "afdfe8a5-a507-49f6-a664-d9661f1f5608",
+        "6313991c-351d-42e2-8b3b-36cb77c7a85a",
+        "9f5fbba9-88a1-485a-a503-69788fc16dd3",
         "3f6cab72-70c2-4646-8190-33318a8bc838",
-        "9bf90a60-1726-4e88-b125-cb5ce2648c04",
-        "0a3eae00-b9d1-4fad-b766-8ed359f752e2",
         "fc0ada57-40d6-4c3a-a8f0-0aa26a9d4d18",
-        "f51f5d27-d973-409c-863f-1d23273d9bbf"
+        "7ef07631-fc90-4a83-b044-73f778193796",
+        "77a942ef-b041-4465-a295-875e19e7bda7",
+        "984268fb-a0fb-4818-ae64-b041a56f588f",
+        "9bf90a60-1726-4e88-b125-cb5ce2648c04",
+        "481e383a-97f3-4069-8698-c63c798e4de5",
+        "91c1e706-7cc4-4491-b93d-5aa83626cd61",
+        "555fd998-62f0-45d6-9cfc-b3ba17be8b62",
+        "74e49d13-4dc3-414b-808e-4de2410c6cd0",
+        "f51f5d27-d973-409c-863f-1d23273d9bbf",
+        "0a3eae00-b9d1-4fad-b766-8ed359f752e2",
+        "7922aa78-2319-43f3-8625-e94fcda40a77"
       ]
     },
     {
@@ -10295,15 +10222,22 @@
       "title" : "Rainy Day",
       "icon" : "cloud.rain",
       "places" : [
-        "08413c62-567d-4606-a8fb-bda7f4e32b83",
-        "4b156cb3-a70f-43b8-a085-980804d2f5fd",
-        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
-        "d2b34fca-feb8-4cf4-aa58-37e610aefacf",
-        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
-        "c1f9ef97-f9a1-4548-8a79-a3759d94784b",
-        "1f697b97-6e8c-44a5-8b31-33e70c8ae1eb",
+        "0ef0937a-d60a-4b95-bee4-675c45797400",
         "76de92b5-be98-4f99-810b-a7e317948da3",
+        "c1f9ef97-f9a1-4548-8a79-a3759d94784b",
         "4f5712a2-c6ea-4d6b-8967-53e7b6281ee3",
+        "1f697b97-6e8c-44a5-8b31-33e70c8ae1eb",
+        "9690206b-f8de-4718-b38e-91cd3f2de5cd",
+        "4b156cb3-a70f-43b8-a085-980804d2f5fd",
+        "08413c62-567d-4606-a8fb-bda7f4e32b83",
+        "5b7b2d54-722b-4d62-a309-c45be50a54dd",
+        "3a649ea8-7607-45e6-935b-06e79bb3e8c4",
+        "d2b34fca-feb8-4cf4-aa58-37e610aefacf",
+        "d8187696-653d-40e6-b428-8f12cd87b413",
+        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
+        "57b47dd4-0df1-4378-b8c1-2c79b4fdcbec",
+        "4cd3b468-4668-4040-b188-80843f9fd3a0",
+        "431f94ce-2c97-4fc2-981a-1c241e5eaec9",
         "06c24255-5036-4e85-885d-c4290768a802"
       ]
     },
@@ -10313,16 +10247,22 @@
       "title" : "Coffee & Cafés",
       "icon" : "cup.and.saucer",
       "places" : [
-        "13814d19-c239-4e9d-a141-b043339d69b8",
+        "6e31e772-47b1-4a36-9e5a-ad2561fa5acb",
+        "8e942f02-855a-4857-a179-9b417bb15be6",
+        "20b212ee-1a80-426b-ab0f-da0a55ac7c0b",
+        "ec2e3a30-142a-4a83-95ce-f46b0aea5b2d",
+        "241878ec-2d7e-427f-b1d1-a87b26288299",
+        "7b0d1d13-f082-4ad2-a84b-6cc4323c4205",
+        "5e6f907b-62e5-4793-b530-98bcfe2d4198",
+        "2ce035c2-c38b-4666-8af6-87bb8705d915",
+        "7a09e518-7e57-41e2-ac6c-7260371f3b94",
         "14d95ac7-3315-44b8-bad2-70c59318f91c",
         "efea4baa-8b11-40b5-a828-c061b50a0269",
-        "5e6f907b-62e5-4793-b530-98bcfe2d4198",
-        "6e31e772-47b1-4a36-9e5a-ad2561fa5acb",
-        "20b212ee-1a80-426b-ab0f-da0a55ac7c0b",
-        "2ce035c2-c38b-4666-8af6-87bb8705d915",
-        "ec2e3a30-142a-4a83-95ce-f46b0aea5b2d",
-        "7a09e518-7e57-41e2-ac6c-7260371f3b94",
-        "241878ec-2d7e-427f-b1d1-a87b26288299"
+        "578A0DAA-BB4A-4FD8-9192-0299A61EE2CB",
+        "b990c57b-4548-4437-b60a-4835f9ec12f8",
+        "e28a050a-12ac-4d24-a743-9a330f3b4374",
+        "287e6abd-1512-405d-a39c-c7b5d83e6a3a",
+        "13814d19-c239-4e9d-a141-b043339d69b8"
       ]
     },
     {
@@ -10331,22 +10271,31 @@
       "title" : "Local Eats",
       "icon" : "fork.knife",
       "places" : [
-        "b2515a46-5f3c-44ed-9acd-3299b3c0c760",
-        "f16873ec-469e-43d7-aff9-abed9a4eab35",
-        "14d95ac7-3315-44b8-bad2-70c59318f91c",
-        "5a502ca9-05fc-43ce-ba30-0864e8530d5c",
-        "dc2de854-46f5-4bd6-a6d8-95a239e7ece3",
-        "03a8cc6b-4afa-4eeb-b00e-da6537640244",
-        "23f45884-91aa-42b8-9746-0d1987c8fb9b",
+        "725b1f56-7be4-4ec3-a555-1e62f0edc000",
+        "30dff1fd-1933-4446-99e9-fff106abb59a",
+        "b03323f8-0d7f-4c9e-b4c5-12515bebd189",
         "ac2f848a-d28e-42a2-8165-220b0ca53659",
-        "f4b3cdfe-7ac9-49fe-a2f4-c26202c1c4cd",
-        "4ac04365-023f-4211-8fd3-2bde7be1dcc1",
-        "52c1d75e-83ea-47ae-9653-5baeba7151b8",
-        "c6ff7a0e-4cc7-472f-aac9-aede4b3a52f4",
-        "754543d2-3c62-4773-968a-f2299290545f",
+        "dc2de854-46f5-4bd6-a6d8-95a239e7ece3",
+        "23f45884-91aa-42b8-9746-0d1987c8fb9b",
         "4a3087ee-7529-4687-88b9-160c809b0ddb",
+        "52c1d75e-83ea-47ae-9653-5baeba7151b8",
+        "b41db250-0a28-40e1-b4f3-48b54e5df840",
+        "c6ff7a0e-4cc7-472f-aac9-aede4b3a52f4",
+        "f16873ec-469e-43d7-aff9-abed9a4eab35",
+        "F3713465-922B-41C6-A53F-687BE5261BBD",
+        "f4b3cdfe-7ac9-49fe-a2f4-c26202c1c4cd",
+        "ecd75293-2849-4920-981d-00f1f05343fa",
+        "754543d2-3c62-4773-968a-f2299290545f",
+        "14d95ac7-3315-44b8-bad2-70c59318f91c",
+        "a6acb9ee-8f39-461a-999d-547994228fad",
+        "5a502ca9-05fc-43ce-ba30-0864e8530d5c",
+        "b2515a46-5f3c-44ed-9acd-3299b3c0c760",
+        "b1c1a5d0-4e2f-4a10-9c33-000000000003",
+        "03a8cc6b-4afa-4eeb-b00e-da6537640244",
+        "4ac04365-023f-4211-8fd3-2bde7be1dcc1",
+        "2ce035c2-c38b-4666-8af6-87bb8705d915",
         "395b33bb-e665-44ea-98d3-5d53224f2a60",
-        "2ce035c2-c38b-4666-8af6-87bb8705d915"
+        "01088864-dc08-475e-8a70-859fb35332dd"
       ]
     },
     {
@@ -10355,17 +10304,26 @@
       "title" : "After Dark",
       "icon" : "moon.stars",
       "places" : [
-        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
-        "4a3087ee-7529-4687-88b9-160c809b0ddb",
+        "5b3b9536-7c0f-4ae5-aa70-94db310a2731",
         "e56aa501-f553-475d-95ff-fc4a2d625c98",
+        "af8f9034-0522-47b2-ba60-0baa1b0aa0c2",
+        "d80bb606-317c-4e7b-bb44-ffea410caa93",
+        "a6acb9ee-8f39-461a-999d-547994228fad",
+        "69f9af26-e080-4690-b7f8-ca00c0a1e1e7",
+        "651025e0-3861-4c85-a5cb-9a7436e9c252",
+        "9300ea09-86bb-47d2-b458-701536eab9d9",
+        "d25ff8ab-80a1-4f98-9f21-8f8cdd4908ca",
+        "51662fe1-331d-4170-ab82-8926a3c37d9d",
+        "52ffa18b-742b-4fdf-b48a-ec99d5e0535b",
+        "06f10090-22c7-4b29-91e4-3078d689a0f4",
+        "4f5712a2-c6ea-4d6b-8967-53e7b6281ee3",
+        "f5504751-33bd-4c55-acdc-c4b6e328d00f",
+        "4a3087ee-7529-4687-88b9-160c809b0ddb",
+        "41FB22F0-6746-4E07-879A-D44CD91457FA",
+        "bdd27f9e-1a1a-4d42-81de-15b6ae9e93cf",
         "dc2de854-46f5-4bd6-a6d8-95a239e7ece3",
         "ac2f848a-d28e-42a2-8165-220b0ca53659",
-        "651025e0-3861-4c85-a5cb-9a7436e9c252",
-        "51662fe1-331d-4170-ab82-8926a3c37d9d",
-        "f5504751-33bd-4c55-acdc-c4b6e328d00f",
-        "4f5712a2-c6ea-4d6b-8967-53e7b6281ee3",
-        "52ffa18b-742b-4fdf-b48a-ec99d5e0535b",
-        "06f10090-22c7-4b29-91e4-3078d689a0f4"
+        "30923423-0a25-49c5-9632-bb2573d7c7fe"
       ]
     }
   ],
@@ -10484,6 +10442,11 @@
       "latitude" : 42.522513042382585,
       "longitude" : -70.89251295277977,
       "name" : "Parking"
+    },
+    {
+      "latitude" : 42.5196408,
+      "longitude" : -70.8876411,
+      "name" : "Schooner FAME of Salem"
     }
   ],
   "minClient" : 4
