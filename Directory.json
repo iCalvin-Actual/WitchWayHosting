@@ -1,5 +1,5 @@
 {
-  "dataVersion" : 7,
+  "dataVersion" : 8,
   "places" : [
     {
       "uuid" : "00d7d407-0c83-4a1f-870d-6a518f0c1bd9",
@@ -9994,6 +9994,348 @@
       "phoneNumber" : "+1 (978) 741-8008",
       "website" : "http:\/\/www.thaiplace.net\/",
       "placeId" : "IA58817AD997FD70D"
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000004",
+      "name" : "Visitor Center Potties",
+      "coordinate" : {
+        "latitude" : 42.52261,
+        "longitude" : -70.89217
+      },
+      "neighborhood" : "downtown",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000005",
+      "name" : "Salem Common Potties",
+      "coordinate" : {
+        "latitude" : 42.523853204050646,
+        "longitude" : -70.89037532105283
+      },
+      "neighborhood" : "commons",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000006",
+      "name" : "Lynde Street Lot Potties",
+      "coordinate" : {
+        "latitude" : 42.52226,
+        "longitude" : -70.89768
+      },
+      "neighborhood" : "downtown",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000007",
+      "name" : "Essex Street Potties",
+      "coordinate" : {
+        "latitude" : 42.521747599936845,
+        "longitude" : -70.89493835368893
+      },
+      "neighborhood" : "downtown",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000008",
+      "name" : "Derby Street Potties",
+      "coordinate" : {
+        "latitude" : 42.52005136420707,
+        "longitude" : -70.89197276001057
+      },
+      "neighborhood" : "derbyWaterfront",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000009",
+      "name" : "Washington Street Potties",
+      "coordinate" : {
+        "latitude" : 42.52224523381499,
+        "longitude" : -70.89567999707653
+      },
+      "neighborhood" : "commons",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000010",
+      "name" : "Hawthorne Potties",
+      "coordinate" : {
+        "latitude" : 42.520985500915636,
+        "longitude" : -70.89002375732267
+      },
+      "neighborhood" : "derbyWaterfront",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000011",
+      "name" : "MBTA Lot Potties",
+      "coordinate" : {
+        "latitude" : 42.52421006069155,
+        "longitude" : -70.89828066591643
+      },
+      "neighborhood" : "downtown",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
+    },
+    {
+      "uuid" : "b1c1a5d0-4e2f-4a10-9c33-000000000012",
+      "name" : "Klop Potties",
+      "coordinate" : {
+        "latitude" : 42.520325195962535,
+        "longitude" : -70.89404580540786
+      },
+      "neighborhood" : "downtown",
+      "categories" : [
+        "portAPotty"
+      ],
+      "availability" : {
+        "openFrom" : "morning",
+        "openThrough" : "evening",
+        "seasons" : [
+          {
+            "end" : {
+              "month" : 11,
+              "day" : 2
+            },
+            "start" : {
+              "month" : 10,
+              "day" : 1
+            }
+          }
+        ],
+        "season" : {
+          "end" : {
+            "month" : 11,
+            "day" : 2
+          },
+          "start" : {
+            "month" : 10,
+            "day" : 1
+          }
+        }
+      }
     }
   ],
   "lists" : [
